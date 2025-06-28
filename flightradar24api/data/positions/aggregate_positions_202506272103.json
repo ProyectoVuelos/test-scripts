@@ -1,0 +1,26 @@
+[
+  {
+    "fr24_id": "333ca4a2",
+    "flight": "SK7679",
+    "callsign": "SAS7679",
+    "lat": 35.34722,
+    "lon": -7.90277,
+    "track": 219,
+    "alt": 37000,
+    "gspeed": 440,
+    "vspeed": 64,
+    "squawk": "0734",
+    "timestamp": "2023-12-15T13:42:21Z",
+    "source": "ADSB",
+    "hex": "4CAD41",
+    "type": "A20N",
+    "reg": "EI-SIN",
+    "painted_as": "SAS",
+    "operating_as": "SL",
+    "orig_iata": "ARN",
+    "orig_icao": "ESSA",
+    "dest_iata": "FUE",
+    "dest_icao": "GCFV",
+    "eta": "2023-12-15T14:47:28Z"
+  }
+]

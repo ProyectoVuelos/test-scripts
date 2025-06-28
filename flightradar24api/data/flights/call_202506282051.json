@@ -1,0 +1,29 @@
+[
+  {
+    "fr24_id": "380ce8ef",
+    "flight": "SK1415",
+    "callsign": "SAS1415",
+    "operating_as": "SAS",
+    "painted_as": "SAS",
+    "type": "A20N",
+    "reg": "SE-DOY",
+    "orig_icao": "ESSA",
+    "orig_iata": "ARN",
+    "datetime_takeoff": "2023-01-27T05:15:22",
+    "dest_icao": "EKCH",
+    "dest_iata": "CPH",
+    "dest_icao_actual": "EPWA",
+    "dest_iata_actual": "WAW",
+    "datetime_landed": "2023-01-27T06:15:10",
+    "flight_time": 3600,
+    "actual_distance": 1007.74,
+    "runway_landed": "27L",
+    "runway_takeoff": "12R",
+    "circle_distance": 6245,
+    "category": "Passenger",
+    "hex": "4A91F9",
+    "first_seen": "2023-01-27T05:06:22",
+    "last_seen": "2023-01-27T06:18:10",
+    "flight_ended": "false"
+  }
+]
