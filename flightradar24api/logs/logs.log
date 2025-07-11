@@ -1726,4 +1726,498 @@
 2025-07-04 16:04:09,903 [INFO] ✅ Obtenidos 1 resúmenes para el lote 'VOI7854...'. Total acumulado: 1588 resúmenes.
 2025-07-04 16:04:11,242 [WARNING] ⚠️ Demasiadas solicitudes (429) en el intento 1/5 para lote de resúmenes 'VOI7854...'. Esperando 5.0 segundos antes de reintentar...
 2025-07-04 16:04:16,703 [WARNING] ⚠️ Demasiadas solicitudes (429) en el intento 2/5 para lote de resúmenes 'VOI7854...'. Esperando 10.0 segundos antes de reintentar...
-2025-07-04 16:04:27,045 [WARNING] ⚠️ Demasiadas solicitudes (429) en el intento 3/5 para lote de resúmenes 'VOI7854...'. Esperando 20.0 segundos antes de reintentar...
+2025-07-04 16:04:27,045 [WARNING] ⚠️ Demasiadas solicitudes (429) en el intento 3/5 para lote de resúmenes 'VOI7854...'. Esperando 20.0 segundos antes de reintentar...2025-07-11 10:32:49,301 [INFO] Directorio de salida configurado en: data/flights
+2025-07-11 10:32:49,302 [INFO] Iniciando el script de recolección y procesamiento de datos de FlightRadar24.
+2025-07-11 10:32:49,302 [INFO] 
+--- 📅 Iniciando procesamiento para el día: 2025-07-10 ---
+2025-07-11 10:32:49,302 [INFO] Comenzando el procesamiento de datos para el día: 2025-07-10
+2025-07-11 10:32:49,302 [INFO] Comenzando la recolección de IDs, callsigns/flight numbers y posiciones detalladas para el día: 2025-07-10 en la región de EE.UU.
+2025-07-11 10:32:49,302 [INFO] Directorio para datos raw del día 2025-07-10: data/flights/raw_snapshots/20250710
+2025-07-11 10:32:49,302 [INFO] 🛰 Solicitando instantánea en 2025-07-10 05:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 10:32:50,761 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 10:32:51,766 [INFO] 🛰 Solicitando instantánea en 2025-07-10 09:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 10:32:52,431 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 10:32:53,436 [INFO] 🛰 Solicitando instantánea en 2025-07-10 13:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 10:32:54,669 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 10:32:55,670 [INFO] 🛰 Solicitando instantánea en 2025-07-10 17:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 10:32:56,241 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 10:32:57,245 [INFO] 🛰 Solicitando instantánea en 2025-07-10 21:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 10:32:57,917 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 10:32:58,923 [INFO] 🛰 Solicitando instantánea en 2025-07-11 01:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 10:33:00,302 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 10:33:01,308 [INFO] Se recolectaron un total de 1785 IDs únicos y se acumularon 1800 puntos de posición.
+2025-07-11 10:33:01,309 [INFO] Después de filtrar, 1469 vuelos tienen callsign/flight y serán considerados para resumen.
+2025-07-11 10:33:01,311 [INFO] Se encontraron 1469 IDs de vuelo con datos y callsigns/flight numbers en las instantáneas para el día 20250710.
+2025-07-11 10:33:01,311 [INFO] 🚀 Iniciando obtención de resúmenes para 1469 vuelos en 98 lotes concurrentes (hasta 10 hilos).
+2025-07-11 10:33:01,654 [INFO] ✅ Éxito en lote 'UAL2482...'. Obtenidos 0 resúmenes.
+2025-07-11 10:33:01,670 [INFO] ✅ Éxito en lote 'SCX3080...'. Obtenidos 5 resúmenes.
+2025-07-11 10:33:01,675 [INFO] ✅ Éxito en lote 'UAL2413...'. Obtenidos 0 resúmenes.
+2025-07-11 10:33:02,002 [INFO] ✅ Éxito en lote 'SWA1182...'. Obtenidos 0 resúmenes.
+2025-07-11 10:33:02,081 [INFO] ✅ Éxito en lote 'WJA584...'. Obtenidos 2 resúmenes.
+2025-07-11 10:33:02,083 [INFO] ✅ Éxito en lote 'FFT3163...'. Obtenidos 0 resúmenes.
+2025-07-11 10:33:02,089 [INFO] ✅ Éxito en lote 'FFT1752...'. Obtenidos 0 resúmenes.
+2025-07-11 10:33:02,090 [INFO] ✅ Éxito en lote 'SWA1347...'. Obtenidos 8 resúmenes.
+2025-07-11 10:33:02,167 [ERROR] ❌ Error HTTP 400 en lote 'XAASP,UAL262,UAL203,SWA2444,CFG2087,SWA1445,LXJ514,TAP204A,UAL1074,BAW29C,AMX184,AMX698,AAL1721,WJA1791,SWA3761' (Intento 1/5): {"message":"Validation failed","details":"The provided flight number 'XAASP' is not a valid IATA flight number"}
+2025-07-11 10:33:02,167 [ERROR] Error 400 Bad Request para el lote. Este lote fallará.
+2025-07-11 10:33:02,167 [ERROR] ❌ Fallaron todos los intentos para el lote con callsigns: XAASP,UAL262,UAL203,SWA2444,CFG2087,SWA1445,LXJ514,TAP204A,UAL1074,BAW29C,AMX184,AMX698,AAL1721,WJA1791,SWA3761. Marcando IDs como fallidos.
+2025-07-11 10:33:02,191 [INFO] ✅ Éxito en lote 'DAL2854...'. Obtenidos 0 resúmenes.
+2025-07-11 10:33:02,211 [INFO] ✅ Éxito en lote 'SWA2914...'. Obtenidos 14 resúmenes.
+2025-07-11 10:33:02,323 [INFO] ✅ Éxito en lote 'AAL343...'. Obtenidos 0 resúmenes.
+2025-07-11 10:33:02,398 [INFO] ✅ Éxito en lote 'N400KP...'. Obtenidos 0 resúmenes.
+2025-07-11 10:33:02,401 [INFO] ✅ Éxito en lote 'JBU88...'. Obtenidos 0 resúmenes.
+2025-07-11 10:33:02,416 [INFO] ✅ Éxito en lote 'ASA462...'. Obtenidos 0 resúmenes.
+2025-07-11 10:33:02,428 [INFO] ✅ Éxito en lote 'VOI5543...'. Obtenidos 0 resúmenes.
+2025-07-11 10:33:02,434 [INFO] ✅ Éxito en lote 'SWA1131...'. Obtenidos 0 resúmenes.
+2025-07-11 10:33:02,496 [INFO] ✅ Éxito en lote 'UAL2198...'. Obtenidos 0 resúmenes.
+2025-07-11 10:33:02,720 [INFO] ✅ Éxito en lote 'BWA602...'. Obtenidos 4 resúmenes.
+2025-07-11 10:33:02,731 [INFO] ✅ Éxito en lote 'FDX1747...'. Obtenidos 0 resúmenes.
+2025-07-11 10:33:02,731 [INFO] ✅ Éxito en lote 'DLH521...'. Obtenidos 0 resúmenes.
+2025-07-11 10:33:02,745 [INFO] ✅ Éxito en lote 'AMX171...'. Obtenidos 0 resúmenes.
+2025-07-11 10:33:02,754 [INFO] ✅ Éxito en lote 'FDX1514...'. Obtenidos 0 resúmenes.
+2025-07-11 10:33:02,776 [INFO] ✅ Éxito en lote 'SCX3006...'. Obtenidos 5 resúmenes.
+2025-07-11 10:33:02,814 [INFO] ✅ Éxito en lote 'SWA3840...'. Obtenidos 0 resúmenes.
+2025-07-11 10:33:02,816 [INFO] ✅ Éxito en lote 'NBT51Z...'. Obtenidos 0 resúmenes.
+2025-07-11 10:33:02,934 [INFO] ✅ Éxito en lote 'UAL1076...'. Obtenidos 3 resúmenes.
+2025-07-11 10:33:03,014 [INFO] ✅ Éxito en lote 'DAL319...'. Obtenidos 3 resúmenes.
+2025-07-11 10:33:03,046 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UAL2070...'. Esperando 5.0s.
+2025-07-11 10:33:03,052 [INFO] ✅ Éxito en lote 'UAL2017...'. Obtenidos 4 resúmenes.
+2025-07-11 10:33:03,052 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1748...'. Esperando 5.0s.
+2025-07-11 10:33:03,063 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UAL2437...'. Esperando 5.0s.
+2025-07-11 10:33:03,065 [INFO] ✅ Éxito en lote 'AMX689...'. Obtenidos 0 resúmenes.
+2025-07-11 10:33:03,101 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1710...'. Esperando 5.0s.
+2025-07-11 10:33:03,102 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'AAL2453...'. Esperando 5.0s.
+2025-07-11 10:33:03,211 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1406...'. Esperando 5.0s.
+2025-07-11 10:33:03,311 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'JBU594...'. Esperando 5.0s.
+2025-07-11 10:33:03,339 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1431...'. Esperando 5.0s.
+2025-07-11 10:33:03,368 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA615...'. Esperando 5.0s.
+2025-07-11 10:33:03,412 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'DAL915...'. Esperando 5.0s.
+2025-07-11 10:33:08,351 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1748...'. Esperando 10.0s.
+2025-07-11 10:33:08,381 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'AAL2453...'. Esperando 10.0s.
+2025-07-11 10:33:08,383 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UAL2437...'. Esperando 10.0s.
+2025-07-11 10:33:08,384 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1710...'. Esperando 10.0s.
+2025-07-11 10:33:08,505 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1406...'. Esperando 10.0s.
+2025-07-11 10:33:08,601 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'JBU594...'. Esperando 10.0s.
+2025-07-11 10:33:08,650 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA615...'. Esperando 10.0s.
+2025-07-11 10:33:08,699 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'DAL915...'. Esperando 10.0s.
+2025-07-11 10:33:08,732 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UAL2070...'. Esperando 10.0s.
+2025-07-11 10:33:09,060 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1431...'. Esperando 10.0s.
+2025-07-11 10:33:18,669 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1748...'. Esperando 20.0s.
+2025-07-11 10:33:18,687 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UAL2437...'. Esperando 20.0s.
+2025-07-11 10:33:18,690 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1710...'. Esperando 20.0s.
+2025-07-11 10:33:18,693 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'AAL2453...'. Esperando 20.0s.
+2025-07-11 10:33:18,827 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1406...'. Esperando 20.0s.
+2025-07-11 10:33:18,891 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'JBU594...'. Esperando 20.0s.
+2025-07-11 10:33:18,939 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA615...'. Esperando 20.0s.
+2025-07-11 10:33:19,014 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'DAL915...'. Esperando 20.0s.
+2025-07-11 10:33:19,028 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UAL2070...'. Esperando 20.0s.
+2025-07-11 10:33:19,459 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1431...'. Esperando 20.0s.
+2025-07-11 10:33:38,994 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UAL2437...'. Esperando 40.0s.
+2025-07-11 10:33:39,006 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'AAL2453...'. Esperando 40.0s.
+2025-07-11 10:33:39,009 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1710...'. Esperando 40.0s.
+2025-07-11 10:33:39,017 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1748...'. Esperando 40.0s.
+2025-07-11 10:33:39,128 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1406...'. Esperando 40.0s.
+2025-07-11 10:33:39,174 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'JBU594...'. Esperando 40.0s.
+2025-07-11 10:33:39,225 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA615...'. Esperando 40.0s.
+2025-07-11 10:33:39,322 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UAL2070...'. Esperando 40.0s.
+2025-07-11 10:33:39,421 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'DAL915...'. Esperando 40.0s.
+2025-07-11 10:33:39,758 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1431...'. Esperando 40.0s.
+2025-07-11 10:34:19,490 [INFO] ✅ Éxito en lote 'UAL2437...'. Obtenidos 0 resúmenes.
+2025-07-11 10:34:19,512 [INFO] ✅ Éxito en lote 'AAL2453...'. Obtenidos 0 resúmenes.
+2025-07-11 10:34:19,524 [INFO] ✅ Éxito en lote 'FDX1748...'. Obtenidos 0 resúmenes.
+2025-07-11 10:34:19,571 [INFO] ✅ Éxito en lote 'EJA615...'. Obtenidos 62 resúmenes.
+2025-07-11 10:34:19,608 [INFO] ✅ Éxito en lote 'FDX1406...'. Obtenidos 0 resúmenes.
+2025-07-11 10:34:19,670 [INFO] ✅ Éxito en lote 'UAL2070...'. Obtenidos 0 resúmenes.
+2025-07-11 10:34:19,747 [INFO] ✅ Éxito en lote 'FDX1710...'. Obtenidos 0 resúmenes.
+2025-07-11 10:34:19,806 [ERROR] ❌ Error HTTP 400 en lote 'N214TG,N963QS,LXJ376,N400RK,LXJ604,SWA352,UZB101,EJA524,UPS5335,SWA1240,SWA3518,SWA777,CFXGA,ASP812,N824PM' (Intento 1/5): {"message":"Validation failed","details":"The provided flight number 'CFXGA' is not a valid IATA flight number"}
+2025-07-11 10:34:19,806 [ERROR] Error 400 Bad Request para el lote. Este lote fallará.
+2025-07-11 10:34:19,806 [ERROR] ❌ Fallaron todos los intentos para el lote con callsigns: N214TG,N963QS,LXJ376,N400RK,LXJ604,SWA352,UZB101,EJA524,UPS5335,SWA1240,SWA3518,SWA777,CFXGA,ASP812,N824PM. Marcando IDs como fallidos.
+2025-07-11 10:34:19,846 [INFO] ✅ Éxito en lote 'HAL9624...'. Obtenidos 15 resúmenes.
+2025-07-11 10:34:19,885 [INFO] ✅ Éxito en lote 'SWA3300...'. Obtenidos 0 resúmenes.
+2025-07-11 10:34:19,943 [INFO] ✅ Éxito en lote 'JBU594...'. Obtenidos 0 resúmenes.
+2025-07-11 10:34:20,152 [INFO] ✅ Éxito en lote 'VOI7811...'. Obtenidos 13 resúmenes.
+2025-07-11 10:34:20,153 [ERROR] ❌ Error HTTP 400 en lote 'UPS7845,WJA8958,SWA2131,ACA624,AAL2458,SWA2842,SWA2854,XAKCM,NOJ53,EJA692,SWA954,EJA175,SIY511,SWA802,CYO602' (Intento 1/5): {"message":"Validation failed","details":"The provided flight number 'XAKCM' is not a valid IATA flight number"}
+2025-07-11 10:34:20,153 [ERROR] Error 400 Bad Request para el lote. Este lote fallará.
+2025-07-11 10:34:20,154 [ERROR] ❌ Fallaron todos los intentos para el lote con callsigns: UPS7845,WJA8958,SWA2131,ACA624,AAL2458,SWA2842,SWA2854,XAKCM,NOJ53,EJA692,SWA954,EJA175,SIY511,SWA802,CYO602. Marcando IDs como fallidos.
+2025-07-11 10:34:20,163 [INFO] ✅ Éxito en lote 'DAL9967...'. Obtenidos 14 resúmenes.
+2025-07-11 10:34:20,167 [INFO] ✅ Éxito en lote 'DAL915...'. Obtenidos 0 resúmenes.
+2025-07-11 10:34:20,183 [INFO] ✅ Éxito en lote 'FDX1431...'. Obtenidos 0 resúmenes.
+2025-07-11 10:34:20,222 [INFO] ✅ Éxito en lote 'EJA345...'. Obtenidos 19 resúmenes.
+2025-07-11 10:34:20,243 [INFO] ✅ Éxito en lote 'EJA541...'. Obtenidos 46 resúmenes.
+2025-07-11 10:34:20,396 [INFO] ✅ Éxito en lote 'SWA3963...'. Obtenidos 15 resúmenes.
+2025-07-11 10:34:20,481 [INFO] ✅ Éxito en lote 'SWA2559...'. Obtenidos 0 resúmenes.
+2025-07-11 10:34:20,484 [INFO] ✅ Éxito en lote 'VOI5027...'. Obtenidos 3 resúmenes.
+2025-07-11 10:34:20,487 [INFO] ✅ Éxito en lote 'LAE1828...'. Obtenidos 0 resúmenes.
+2025-07-11 10:34:20,521 [INFO] ✅ Éxito en lote 'N420DD...'. Obtenidos 7 resúmenes.
+2025-07-11 10:34:20,529 [INFO] ✅ Éxito en lote 'SWA3211...'. Obtenidos 42 resúmenes.
+2025-07-11 10:34:20,571 [INFO] ✅ Éxito en lote 'EJA909...'. Obtenidos 61 resúmenes.
+2025-07-11 10:34:20,581 [INFO] ✅ Éxito en lote 'LET3337...'. Obtenidos 54 resúmenes.
+2025-07-11 10:34:20,688 [INFO] ✅ Éxito en lote 'N491WB...'. Obtenidos 7 resúmenes.
+2025-07-11 10:34:20,737 [INFO] ✅ Éxito en lote 'ASP844...'. Obtenidos 36 resúmenes.
+2025-07-11 10:34:20,808 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA968...'. Esperando 5.0s.
+2025-07-11 10:34:20,811 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'LXJ580...'. Esperando 5.0s.
+2025-07-11 10:34:20,815 [INFO] ✅ Éxito en lote 'RKJ736...'. Obtenidos 40 resúmenes.
+2025-07-11 10:34:20,819 [INFO] ✅ Éxito en lote 'N82161...'. Obtenidos 50 resúmenes.
+2025-07-11 10:34:20,869 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'LXJ504...'. Esperando 5.0s.
+2025-07-11 10:34:20,873 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'CNS117...'. Esperando 5.0s.
+2025-07-11 10:34:20,924 [INFO] ✅ Éxito en lote 'UAL370...'. Obtenidos 0 resúmenes.
+2025-07-11 10:34:20,976 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'OPT463...'. Esperando 5.0s.
+2025-07-11 10:34:21,080 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA348...'. Esperando 5.0s.
+2025-07-11 10:34:21,120 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N4RP...'. Esperando 5.0s.
+2025-07-11 10:34:21,130 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N990MS...'. Esperando 5.0s.
+2025-07-11 10:34:21,179 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'NJM375...'. Esperando 5.0s.
+2025-07-11 10:34:21,201 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA821...'. Esperando 5.0s.
+2025-07-11 10:34:26,118 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA968...'. Esperando 10.0s.
+2025-07-11 10:34:26,130 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'LXJ580...'. Esperando 10.0s.
+2025-07-11 10:34:26,152 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'CNS117...'. Esperando 10.0s.
+2025-07-11 10:34:26,173 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'LXJ504...'. Esperando 10.0s.
+2025-07-11 10:34:26,260 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'OPT463...'. Esperando 10.0s.
+2025-07-11 10:34:26,388 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA348...'. Esperando 10.0s.
+2025-07-11 10:34:26,428 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N990MS...'. Esperando 10.0s.
+2025-07-11 10:34:26,443 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N4RP...'. Esperando 10.0s.
+2025-07-11 10:34:26,487 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA821...'. Esperando 10.0s.
+2025-07-11 10:34:26,865 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'NJM375...'. Esperando 10.0s.
+2025-07-11 10:34:36,424 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA968...'. Esperando 20.0s.
+2025-07-11 10:34:36,444 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'CNS117...'. Esperando 20.0s.
+2025-07-11 10:34:36,462 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'LXJ580...'. Esperando 20.0s.
+2025-07-11 10:34:36,467 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'LXJ504...'. Esperando 20.0s.
+2025-07-11 10:34:36,551 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'OPT463...'. Esperando 20.0s.
+2025-07-11 10:34:36,678 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA348...'. Esperando 20.0s.
+2025-07-11 10:34:36,731 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N4RP...'. Esperando 20.0s.
+2025-07-11 10:34:36,787 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA821...'. Esperando 20.0s.
+2025-07-11 10:34:36,787 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N990MS...'. Esperando 20.0s.
+2025-07-11 10:34:37,170 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'NJM375...'. Esperando 20.0s.
+2025-07-11 10:34:56,749 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'CNS117...'. Esperando 40.0s.
+2025-07-11 10:34:56,796 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'LXJ580...'. Esperando 40.0s.
+2025-07-11 10:34:56,798 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA968...'. Esperando 40.0s.
+2025-07-11 10:34:56,835 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'LXJ504...'. Esperando 40.0s.
+2025-07-11 10:34:56,998 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'OPT463...'. Esperando 40.0s.
+2025-07-11 10:34:57,004 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA348...'. Esperando 40.0s.
+2025-07-11 10:34:57,045 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N4RP...'. Esperando 40.0s.
+2025-07-11 10:34:57,081 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA821...'. Esperando 40.0s.
+2025-07-11 10:34:57,453 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'NJM375...'. Esperando 40.0s.
+2025-07-11 10:34:57,482 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N990MS...'. Esperando 40.0s.
+2025-07-11 10:35:37,241 [ERROR] ❌ Error HTTP 400 en lote 'LXJ504,WUP965,EJA974,LXJ395,N52SF,VJT904,EJA904,N350HH,EJA696,DAL120,EJA344,N68AL,EJA434,JRE945,CGJPW' (Intento 5/5): {"message":"Validation failed","details":"The provided flight number 'CGJPW' is not a valid IATA flight number"}
+2025-07-11 10:35:37,242 [ERROR] Error 400 Bad Request para el lote. Este lote fallará.
+2025-07-11 10:35:37,242 [ERROR] ❌ Fallaron todos los intentos para el lote con callsigns: LXJ504,WUP965,EJA974,LXJ395,N52SF,VJT904,EJA904,N350HH,EJA696,DAL120,EJA344,N68AL,EJA434,JRE945,CGJPW. Marcando IDs como fallidos.
+2025-07-11 10:35:37,290 [INFO] ✅ Éxito en lote 'LXJ580...'. Obtenidos 48 resúmenes.
+2025-07-11 10:35:37,299 [INFO] ✅ Éxito en lote 'CNS117...'. Obtenidos 50 resúmenes.
+2025-07-11 10:35:37,339 [INFO] ✅ Éxito en lote 'EJA348...'. Obtenidos 21 resúmenes.
+2025-07-11 10:35:37,369 [ERROR] ❌ Error HTTP 400 en lote 'N4RP,UAE69R,N92WG,SWA1986,SWA786,CTP881,N35JB,EJA806,JTL121,DAL73,N488AM,VJA30,UAL908,EJA324,SLH909' (Intento 5/5): {"message":"Validation failed","details":"The provided flight number 'N4RP' is not a valid IATA flight number"}
+2025-07-11 10:35:37,370 [ERROR] Error 400 Bad Request para el lote. Este lote fallará.
+2025-07-11 10:35:37,371 [ERROR] ❌ Fallaron todos los intentos para el lote con callsigns: N4RP,UAE69R,N92WG,SWA1986,SWA786,CTP881,N35JB,EJA806,JTL121,DAL73,N488AM,VJA30,UAL908,EJA324,SLH909. Marcando IDs como fallidos.
+2025-07-11 10:35:37,371 [ERROR] ❌ Error HTTP 400 en lote 'OPT463,ERY44,LN30LJ,N401GJ,N810JB,UAL3916,N1KD,DAL274,N365MC,JTL400,N958QS,N4RS,EJA481,N624QS,VILLN12' (Intento 5/5): {"message":"Validation failed","details":"The provided flight number 'N1KD' is not a valid IATA flight number, The provided flight number 'N4RS' is not a valid IATA flight number"}
+2025-07-11 10:35:37,372 [ERROR] Error 400 Bad Request para el lote. Este lote fallará.
+2025-07-11 10:35:37,372 [ERROR] ❌ Fallaron todos los intentos para el lote con callsigns: OPT463,ERY44,LN30LJ,N401GJ,N810JB,UAL3916,N1KD,DAL274,N365MC,JTL400,N958QS,N4RS,EJA481,N624QS,VILLN12. Marcando IDs como fallidos.
+2025-07-11 10:35:37,377 [ERROR] ❌ Error HTTP 400 en lote 'EJA821,N36EZ,N7578K,N7SG,JRE950,N303TF,JRE799,BAW291,LXJ459,LJY267,LXJ536,LXJ577,EJA304,N753RB,TWY590' (Intento 5/5): {"message":"Validation failed","details":"The provided flight number 'N7SG' is not a valid IATA flight number"}
+2025-07-11 10:35:37,377 [ERROR] Error 400 Bad Request para el lote. Este lote fallará.
+2025-07-11 10:35:37,377 [ERROR] ❌ Fallaron todos los intentos para el lote con callsigns: EJA821,N36EZ,N7578K,N7SG,JRE950,N303TF,JRE799,BAW291,LXJ459,LJY267,LXJ536,LXJ577,EJA304,N753RB,TWY590. Marcando IDs como fallidos.
+2025-07-11 10:35:37,582 [ERROR] ❌ Error HTTP 400 en lote 'EJA522,N868CW,EJA366,LXJ380,DZR354,N901GC,N783DC,LXJ560,JRE809,EJA146,N713FL,EJA807,EJA755,N995RR,N1HC' (Intento 1/5): {"message":"Validation failed","details":"The provided flight number 'N1HC' is not a valid IATA flight number"}
+2025-07-11 10:35:37,582 [ERROR] Error 400 Bad Request para el lote. Este lote fallará.
+2025-07-11 10:35:37,582 [ERROR] ❌ Fallaron todos los intentos para el lote con callsigns: EJA522,N868CW,EJA366,LXJ380,DZR354,N901GC,N783DC,LXJ560,JRE809,EJA146,N713FL,EJA807,EJA755,N995RR,N1HC. Marcando IDs como fallidos.
+2025-07-11 10:35:37,583 [ERROR] ❌ Error HTTP 400 en lote 'VJA338,N214SG,LXJ727,EJA808,SLH818,EJA881,N4B,JTL505,EJA529,EJA802,LXJ513,NUS630,LXJ355,EJA777,VNT452' (Intento 1/5): {"message":"Validation failed","details":"The provided flight number 'N4B' is not a valid IATA flight number"}
+2025-07-11 10:35:37,584 [ERROR] Error 400 Bad Request para el lote. Este lote fallará.
+2025-07-11 10:35:37,585 [ERROR] ❌ Fallaron todos los intentos para el lote con callsigns: VJA338,N214SG,LXJ727,EJA808,SLH818,EJA881,N4B,JTL505,EJA529,EJA802,LXJ513,NUS630,LXJ355,EJA777,VNT452. Marcando IDs como fallidos.
+2025-07-11 10:35:37,655 [INFO] ✅ Éxito en lote 'EJA968...'. Obtenidos 41 resúmenes.
+2025-07-11 10:35:37,660 [ERROR] ❌ Error HTTP 400 en lote 'KOW703,JRE701,LXJ514,LXJ520,LXJ377,N379TF,KPO505,LXJ519,N655MC,N2016A,LXJ595,N623RM,WUP903,KOW818,MPECL' (Intento 1/5): {"message":"Validation failed","details":"The provided flight number 'MPECL' is not a valid IATA flight number"}
+2025-07-11 10:35:37,660 [ERROR] Error 400 Bad Request para el lote. Este lote fallará.
+2025-07-11 10:35:37,660 [ERROR] ❌ Fallaron todos los intentos para el lote con callsigns: KOW703,JRE701,LXJ514,LXJ520,LXJ377,N379TF,KPO505,LXJ519,N655MC,N2016A,LXJ595,N623RM,WUP903,KOW818,MPECL. Marcando IDs como fallidos.
+2025-07-11 10:35:37,703 [INFO] ✅ Éxito en lote 'PWR6...'. Obtenidos 42 resúmenes.
+2025-07-11 10:35:37,816 [INFO] ✅ Éxito en lote 'N990MS...'. Obtenidos 16 resúmenes.
+2025-07-11 10:35:37,879 [ERROR] ❌ Error HTTP 400 en lote 'EJA418,TIV680,SWA4346,N596LC,N824S,EJA537,DZR355,EJA563,EJA543,N905GS,LXJ585,CGYYT,N999CM,EJA758,AAL2311' (Intento 1/5): {"message":"Validation failed","details":"The provided flight number 'CGYYT' is not a valid IATA flight number"}
+2025-07-11 10:35:37,879 [ERROR] Error 400 Bad Request para el lote. Este lote fallará.
+2025-07-11 10:35:37,879 [ERROR] ❌ Fallaron todos los intentos para el lote con callsigns: EJA418,TIV680,SWA4346,N596LC,N824S,EJA537,DZR355,EJA563,EJA543,N905GS,LXJ585,CGYYT,N999CM,EJA758,AAL2311. Marcando IDs como fallidos.
+2025-07-11 10:35:37,919 [INFO] ✅ Éxito en lote 'N500XX...'. Obtenidos 41 resúmenes.
+2025-07-11 10:35:37,996 [INFO] ✅ Éxito en lote 'N276LJ...'. Obtenidos 45 resúmenes.
+2025-07-11 10:35:38,032 [INFO] ✅ Éxito en lote 'N823CA...'. Obtenidos 51 resúmenes.
+2025-07-11 10:35:38,068 [ERROR] ❌ Error HTTP 400 en lote 'N570PK,SBE808,LXJ546,EJA809,LXJ337,LXJ332,LXJ325,N4SF,LXJ604,LXJ544,LXJ504,WUP920,N947JS,LXJ453,N500WF' (Intento 1/5): {"message":"Validation failed","details":"The provided flight number 'N4SF' is not a valid IATA flight number"}
+2025-07-11 10:35:38,069 [ERROR] Error 400 Bad Request para el lote. Este lote fallará.
+2025-07-11 10:35:38,069 [ERROR] ❌ Fallaron todos los intentos para el lote con callsigns: N570PK,SBE808,LXJ546,EJA809,LXJ337,LXJ332,LXJ325,N4SF,LXJ604,LXJ544,LXJ504,WUP920,N947JS,LXJ453,N500WF. Marcando IDs como fallidos.
+2025-07-11 10:35:38,072 [INFO] ✅ Éxito en lote 'SIA24...'. Obtenidos 23 resúmenes.
+2025-07-11 10:35:38,098 [INFO] ✅ Éxito en lote 'N302AZ...'. Obtenidos 25 resúmenes.
+2025-07-11 10:35:38,185 [INFO] ✅ Éxito en lote 'NJM375...'. Obtenidos 44 resúmenes.
+2025-07-11 10:35:38,193 [ERROR] ❌ Error HTTP 400 en lote 'NBT30G,XAORO,N549CP,EJA801,VJA58,N8BD,AAY3217,N412JD,TIV710,EJA645,LXJ588,GTI8425,SWA2108,SWA4747,AAL3306' (Intento 1/5): {"message":"Validation failed","details":"The provided flight number 'XAORO' is not a valid IATA flight number, The provided flight number 'N8BD' is not a valid IATA flight number"}
+2025-07-11 10:35:38,193 [ERROR] Error 400 Bad Request para el lote. Este lote fallará.
+2025-07-11 10:35:38,194 [ERROR] ❌ Fallaron todos los intentos para el lote con callsigns: NBT30G,XAORO,N549CP,EJA801,VJA58,N8BD,AAY3217,N412JD,TIV710,EJA645,LXJ588,GTI8425,SWA2108,SWA4747,AAL3306. Marcando IDs como fallidos.
+2025-07-11 10:35:38,260 [INFO] ✅ Éxito en lote 'APZ131...'. Obtenidos 8 resúmenes.
+2025-07-11 10:35:38,278 [INFO] ✅ Éxito en lote 'AAL1056...'. Obtenidos 13 resúmenes.
+2025-07-11 10:35:38,330 [INFO] ✅ Éxito en lote 'N107SB...'. Obtenidos 19 resúmenes.
+2025-07-11 10:35:38,361 [ERROR] ❌ Error HTTP 400 en lote 'N935BS,LXJ414,N823AM,SLH909,GTI339,SWA1513,LXJ479,EJA200,N8168,TCN399,LXJ458,N7FW,SWA3198,N450LV,DAL750' (Intento 1/5): {"message":"Validation failed","details":"The provided flight number 'N7FW' is not a valid IATA flight number"}
+2025-07-11 10:35:38,361 [ERROR] Error 400 Bad Request para el lote. Este lote fallará.
+2025-07-11 10:35:38,361 [ERROR] ❌ Fallaron todos los intentos para el lote con callsigns: N935BS,LXJ414,N823AM,SLH909,GTI339,SWA1513,LXJ479,EJA200,N8168,TCN399,LXJ458,N7FW,SWA3198,N450LV,DAL750. Marcando IDs como fallidos.
+2025-07-11 10:35:38,365 [INFO] ✅ Éxito en lote 'PAL126...'. Obtenidos 11 resúmenes.
+2025-07-11 10:35:38,374 [INFO] ✅ Éxito en lote 'N582MM...'. Obtenidos 23 resúmenes.
+2025-07-11 10:35:38,399 [INFO] ✅ Éxito en lote 'LXJ409...'. Obtenidos 24 resúmenes.
+2025-07-11 10:35:38,433 [INFO] ✅ Éxito en lote 'CRE623...'. Obtenidos 31 resúmenes.
+2025-07-11 10:35:38,478 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UAL1517...'. Esperando 5.0s.
+2025-07-11 10:35:38,502 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA658...'. Esperando 5.0s.
+2025-07-11 10:35:38,546 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'TSC282...'. Esperando 5.0s.
+2025-07-11 10:35:38,615 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'VOI3060...'. Esperando 5.0s.
+2025-07-11 10:35:38,643 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA4205...'. Esperando 5.0s.
+2025-07-11 10:35:38,648 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA619...'. Esperando 5.0s.
+2025-07-11 10:35:38,699 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'DAL254...'. Esperando 5.0s.
+2025-07-11 10:35:43,785 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UAL1517...'. Esperando 10.0s.
+2025-07-11 10:35:43,798 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA658...'. Esperando 10.0s.
+2025-07-11 10:35:43,852 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'TSC282...'. Esperando 10.0s.
+2025-07-11 10:35:43,915 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'VOI3060...'. Esperando 10.0s.
+2025-07-11 10:35:43,924 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA4205...'. Esperando 10.0s.
+2025-07-11 10:35:43,946 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA619...'. Esperando 10.0s.
+2025-07-11 10:35:44,016 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'DAL254...'. Esperando 10.0s.
+2025-07-11 10:35:54,080 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UAL1517...'. Esperando 20.0s.
+2025-07-11 10:35:54,104 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA658...'. Esperando 20.0s.
+2025-07-11 10:35:54,144 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'TSC282...'. Esperando 20.0s.
+2025-07-11 10:35:54,204 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'VOI3060...'. Esperando 20.0s.
+2025-07-11 10:35:54,220 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA4205...'. Esperando 20.0s.
+2025-07-11 10:35:54,230 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA619...'. Esperando 20.0s.
+2025-07-11 10:35:54,305 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'DAL254...'. Esperando 20.0s.
+2025-07-11 10:36:14,436 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA658...'. Esperando 40.0s.
+2025-07-11 10:36:14,438 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UAL1517...'. Esperando 40.0s.
+2025-07-11 10:36:14,452 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'TSC282...'. Esperando 40.0s.
+2025-07-11 10:36:14,519 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA4205...'. Esperando 40.0s.
+2025-07-11 10:36:14,521 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'VOI3060...'. Esperando 40.0s.
+2025-07-11 10:36:14,564 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA619...'. Esperando 40.0s.
+2025-07-11 10:36:14,608 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'DAL254...'. Esperando 40.0s.
+2025-07-11 10:36:54,916 [ERROR] ❌ Error HTTP 400 en lote 'SWA658,EJA608,CJT938,N771DG,EJA844,EJA541,SWA2648,EJA360,RKJ104,LXJ376,LXJ342,N340SR,EJA865,N804JM,405KL' (Intento 5/5): {"message":"Validation failed","details":"The provided flight number '405KL' is not a valid IATA flight number"}
+2025-07-11 10:36:54,916 [ERROR] Error 400 Bad Request para el lote. Este lote fallará.
+2025-07-11 10:36:54,917 [ERROR] ❌ Fallaron todos los intentos para el lote con callsigns: SWA658,EJA608,CJT938,N771DG,EJA844,EJA541,SWA2648,EJA360,RKJ104,LXJ376,LXJ342,N340SR,EJA865,N804JM,405KL. Marcando IDs como fallidos.
+2025-07-11 10:36:54,947 [INFO] ✅ Éxito en lote 'VOI3060...'. Obtenidos 0 resúmenes.
+2025-07-11 10:36:54,948 [INFO] ✅ Éxito en lote 'TSC282...'. Obtenidos 0 resúmenes.
+2025-07-11 10:36:54,950 [INFO] ✅ Éxito en lote 'SWA4205...'. Obtenidos 0 resúmenes.
+2025-07-11 10:36:54,950 [INFO] ✅ Éxito en lote 'UAL1517...'. Obtenidos 0 resúmenes.
+2025-07-11 10:36:54,951 [INFO] ✅ Éxito en lote 'DAL254...'. Obtenidos 2 resúmenes.
+2025-07-11 10:36:55,356 [INFO] ✅ Éxito en lote 'EJA619...'. Obtenidos 5 resúmenes.
+2025-07-11 10:36:55,358 [INFO] ✅ Finalizada la obtención de resúmenes. Total obtenidos: 1115.
+2025-07-11 10:36:55,358 [WARNING] ⚠️ No se pudieron obtener resúmenes para 225 IDs de vuelo.
+2025-07-11 10:36:55,360 [INFO] Se obtuvieron 1115 resúmenes de vuelos de la API de resumen.
+2025-07-11 10:36:55,360 [INFO] De esos, 1064 resúmenes únicos se mapearon para combinación.
+2025-07-11 10:36:55,360 [WARNING] IDs fallidos durante la obtención de resumen: ['3b2eafc9', '3b2ec0aa', '3b2e9090', '3b2ec8d4', '3b2e86fa', '3b2ec613', '3b2ef0b6', '3b2ef754', '3b2efbe2', '3b2eee4b', '3b2ec296', '3b2eaabb', '3b2f05e4', '3b2ef3ae', '3b2ec384', '3b3033bd', '3b2ff6c1', '3b301d57', '3b30407b', '3b300e31', '3b3003af', '3b2eb0be', '3b301e6b', '3b3024d5', '3b30237d', '3b302913', '3b2fef0a', '3b302aa4', '3b300f25', '3b3034db', '3b302214', '3b301f7b', '3b303dc8', '3b3037d2', '3b3015ff', '3b2fff91', '3b3040b7', '3b304bc8', '3b302f27', '3b3039ff', '3b305082', '3b2fbb56', '3b300653', '3b302d29', '3b302784', '3b3138b3', '3b30cc6f', '3b31072b', '3b30e196', '3b30eac1', '3b2feb1b', '3b30422e', '3b3035f6', '3b3126fd', '3b2f4470', '3b309d3a', '3b30f4c8', '3b311be9', '3b312559', '3b30d694', '3b3110ee', '3b2f1a0d', '3b310d14', '3b30e1c3', '3b313c27', '3b31417f', '3b30b7d0', '3b313e2d', '3b30a7cf', '3b2fad9d', '3b30fd20', '3b30ed57', '3b2fc9b4', '3b31334f', '3b313120', '3b30df2e', '3b309d62', '3b30f718', '3b30f4bc', '3b312b3b', '3b30d1ac', '3b3115b8', '3b2f2aa4', '3b30ef6a', '3b310e0f', '3b30c597', '3b31295c', '3b3107cd', '3b30f2c3', '3b30dcd3', '3b31f31a', '3b31b839', '3b31c61f', '3b31e268', '3b32060b', '3b312aca', '3b31fc7e', '3b309f8b', '3b3117e5', '3b319440', '3b31ee0d', '3b31fd77', '3b31de3a', '3b314476', '3b318c66', '3b31bf6f', '3b31c386', '3b31c255', '3b31e073', '3b31f945', '3b31f0ae', '3b31fd98', '3b31e197', '3b31cd76', '3b31f72d', '3b3171e0', '3b31f16f', '3b31e5fd', '3b31ffc9', '3b32008c', '3b31a47f', '3b31cf6e', '3b31f414', '3b31fbc3', '3b320589', '3b31fcc5', '3b31e3da', '3b319c00', '3b31a292', '3b3183be', '3b32076d', '3b31cfa4', '3b31dc5d', '3b31d108', '3b31cd9b', '3b31c2b5', '3b31bdc9', '3b31b254', '3b318299', '3b31fd28', '3b31c661', '3b31cffa', '3b31e473', '3b315dac', '3b31d5d7', '3b318f92', '3b319604', '3b319e22', '3b316e01', '3b309c96', '3b31d2f9', '3b31c0b0', '3b31ee3d', '3b31e392', '3b31f57a', '3b31ac0e', '3b31e2ed', '3b31dc9b', '3b320eb9', '3b31dd24', '3b320978', '3b31e769', '3b31f4ff', '3b31ea29', '3b31def8', '3b31c383', '3b31f1f0', '3b315e1a', '3b311f90', '3b31e9cd', '3b311612', '3b31a9e8', '3b31f078', '3b320713', '3b31b629', '3b31c99c', '3b31ccc2', '3b31f811', '3b31c9a5', '3b320386', '3b319dc8', '3b3289ed', '3b327653', '3b3254f4', '3b323036', '3b326980', '3b325c36', '3b321032', '3b32817a', '3b32af36', '3b32560d', '3b32653e', '3b329d37', '3b328bce', '3b327c46', '3b328d69', '3b3238bb', '3b326efc', '3b32ab31', '3b32956a', '3b3266ad', '3b329672', '3b322b35', '3b32239e', '3b328d5e', '3b324878', '3b328934', '3b329222', '3b32504f', '3b325656', '3b327355', '3b32ab52', '3b3288d4', '3b32a337', '3b31ee07', '3b32b273', '3b3262ca', '3b32383d', '3b3251e3', '3b3257c5', '3b321b0c', '3b326f0e', '3b325a7b', '3b326279', '3b327ad4']
+2025-07-11 10:36:55,389 [INFO] Todas las respuestas raw de los resúmenes del día guardadas en: data/flights/raw_summaries/20250710/all_raw_summaries_20250710.json
+2025-07-11 10:36:55,404 [INFO] Resúmenes de vuelos combinados guardados en: data/flights/flights_summary_20250710.json
+2025-07-11 10:36:55,404 [INFO] Procesando 1469 vuelos con datos de posición acumulados para enriquecerlos con resúmenes.
+2025-07-11 10:36:55,413 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2eafc9 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,413 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2ec0aa porque falló la obtención de su resumen.
+2025-07-11 10:36:55,413 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2e9090 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,413 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2ec8d4 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,413 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2e86fa porque falló la obtención de su resumen.
+2025-07-11 10:36:55,413 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2ec613 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,413 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2ef0b6 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,413 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2ef754 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,413 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2efbe2 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,413 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2eee4b porque falló la obtención de su resumen.
+2025-07-11 10:36:55,413 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2ec296 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,413 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2eaabb porque falló la obtención de su resumen.
+2025-07-11 10:36:55,413 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2f05e4 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,414 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2ef3ae porque falló la obtención de su resumen.
+2025-07-11 10:36:55,414 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2ec384 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,467 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3033bd porque falló la obtención de su resumen.
+2025-07-11 10:36:55,468 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2ff6c1 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,468 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b301d57 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,468 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b30407b porque falló la obtención de su resumen.
+2025-07-11 10:36:55,468 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b300e31 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,468 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3003af porque falló la obtención de su resumen.
+2025-07-11 10:36:55,468 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2eb0be porque falló la obtención de su resumen.
+2025-07-11 10:36:55,468 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b301e6b porque falló la obtención de su resumen.
+2025-07-11 10:36:55,468 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3024d5 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,468 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b30237d porque falló la obtención de su resumen.
+2025-07-11 10:36:55,468 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b302913 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,468 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2fef0a porque falló la obtención de su resumen.
+2025-07-11 10:36:55,468 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b302aa4 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,468 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b300f25 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,468 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3034db porque falló la obtención de su resumen.
+2025-07-11 10:36:55,474 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b302214 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,474 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b301f7b porque falló la obtención de su resumen.
+2025-07-11 10:36:55,474 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b303dc8 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,474 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3037d2 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,474 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3015ff porque falló la obtención de su resumen.
+2025-07-11 10:36:55,474 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2fff91 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,474 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3040b7 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,474 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b304bc8 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,474 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b302f27 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,474 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3039ff porque falló la obtención de su resumen.
+2025-07-11 10:36:55,474 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b305082 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,474 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2fbb56 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,474 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b300653 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,474 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b302d29 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,474 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b302784 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,491 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3138b3 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,491 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b30cc6f porque falló la obtención de su resumen.
+2025-07-11 10:36:55,491 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31072b porque falló la obtención de su resumen.
+2025-07-11 10:36:55,491 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b30e196 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,492 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b30eac1 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,492 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2feb1b porque falló la obtención de su resumen.
+2025-07-11 10:36:55,492 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b30422e porque falló la obtención de su resumen.
+2025-07-11 10:36:55,492 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3035f6 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,492 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3126fd porque falló la obtención de su resumen.
+2025-07-11 10:36:55,492 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2f4470 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,492 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b309d3a porque falló la obtención de su resumen.
+2025-07-11 10:36:55,492 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b30f4c8 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,492 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b311be9 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,492 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b312559 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,492 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b30d694 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,493 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b30df2e porque falló la obtención de su resumen.
+2025-07-11 10:36:55,493 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b309d62 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,493 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b30f718 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,493 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b30f4bc porque falló la obtención de su resumen.
+2025-07-11 10:36:55,493 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b312b3b porque falló la obtención de su resumen.
+2025-07-11 10:36:55,493 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b30d1ac porque falló la obtención de su resumen.
+2025-07-11 10:36:55,493 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3115b8 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,493 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2f2aa4 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,493 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b30ef6a porque falló la obtención de su resumen.
+2025-07-11 10:36:55,493 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b310e0f porque falló la obtención de su resumen.
+2025-07-11 10:36:55,493 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b30c597 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,493 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31295c porque falló la obtención de su resumen.
+2025-07-11 10:36:55,493 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3107cd porque falló la obtención de su resumen.
+2025-07-11 10:36:55,493 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b30f2c3 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,493 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b30dcd3 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,494 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3110ee porque falló la obtención de su resumen.
+2025-07-11 10:36:55,494 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2f1a0d porque falló la obtención de su resumen.
+2025-07-11 10:36:55,494 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b310d14 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,494 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b30e1c3 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,494 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b313c27 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,494 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31417f porque falló la obtención de su resumen.
+2025-07-11 10:36:55,494 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b30b7d0 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,494 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b313e2d porque falló la obtención de su resumen.
+2025-07-11 10:36:55,494 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b30a7cf porque falló la obtención de su resumen.
+2025-07-11 10:36:55,494 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2fad9d porque falló la obtención de su resumen.
+2025-07-11 10:36:55,494 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b30fd20 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,494 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b30ed57 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,494 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b2fc9b4 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,494 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31334f porque falló la obtención de su resumen.
+2025-07-11 10:36:55,494 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b313120 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,495 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31f31a porque falló la obtención de su resumen.
+2025-07-11 10:36:55,495 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31b839 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,495 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31c61f porque falló la obtención de su resumen.
+2025-07-11 10:36:55,495 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31e268 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,495 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b32060b porque falló la obtención de su resumen.
+2025-07-11 10:36:55,496 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b312aca porque falló la obtención de su resumen.
+2025-07-11 10:36:55,496 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31fc7e porque falló la obtención de su resumen.
+2025-07-11 10:36:55,496 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b309f8b porque falló la obtención de su resumen.
+2025-07-11 10:36:55,496 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3117e5 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,496 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b319440 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,496 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31ee0d porque falló la obtención de su resumen.
+2025-07-11 10:36:55,496 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31fd77 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,496 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31de3a porque falló la obtención de su resumen.
+2025-07-11 10:36:55,496 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b314476 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,496 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b318c66 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31bf6f porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31c386 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31c255 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31e073 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31f945 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31f0ae porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31fd98 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31e197 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31cd76 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31f72d porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3171e0 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31f16f porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31e5fd porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31ffc9 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b32008c porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31a47f porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31cf6e porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31f414 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31fbc3 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b320589 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31fcc5 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31e3da porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b319c00 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31a292 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3183be porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b32076d porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31cfa4 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31dc5d porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31d108 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,497 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31cd9b porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31c2b5 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31bdc9 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31b254 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b318299 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31fd28 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31c661 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31cffa porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31e473 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b315dac porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31d5d7 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b318f92 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b319604 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b319e22 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b316e01 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b309c96 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31c383 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31f1f0 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b315e1a porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b311f90 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31e9cd porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b311612 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31a9e8 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31f078 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b320713 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31b629 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31c99c porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31ccc2 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31f811 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31c9a5 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,499 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b320386 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,501 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31d2f9 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,501 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31c0b0 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,501 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31ee3d porque falló la obtención de su resumen.
+2025-07-11 10:36:55,501 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31e392 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,501 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31f57a porque falló la obtención de su resumen.
+2025-07-11 10:36:55,501 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31ac0e porque falló la obtención de su resumen.
+2025-07-11 10:36:55,501 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31e2ed porque falló la obtención de su resumen.
+2025-07-11 10:36:55,501 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31dc9b porque falló la obtención de su resumen.
+2025-07-11 10:36:55,501 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b320eb9 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,501 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31dd24 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,501 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b320978 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,501 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31e769 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,502 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31f4ff porque falló la obtención de su resumen.
+2025-07-11 10:36:55,502 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31ea29 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,502 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31def8 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,506 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b319dc8 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,507 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3289ed porque falló la obtención de su resumen.
+2025-07-11 10:36:55,507 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b327653 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,507 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3254f4 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,507 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b323036 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,507 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b326980 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,507 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b325c36 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,507 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b321032 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,507 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b32817a porque falló la obtención de su resumen.
+2025-07-11 10:36:55,507 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b32af36 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,507 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b32560d porque falló la obtención de su resumen.
+2025-07-11 10:36:55,507 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b32653e porque falló la obtención de su resumen.
+2025-07-11 10:36:55,507 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b329d37 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,507 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b328bce porque falló la obtención de su resumen.
+2025-07-11 10:36:55,507 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b327c46 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,511 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b328d69 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,511 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3238bb porque falló la obtención de su resumen.
+2025-07-11 10:36:55,511 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b326efc porque falló la obtención de su resumen.
+2025-07-11 10:36:55,511 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b32ab31 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,511 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b32956a porque falló la obtención de su resumen.
+2025-07-11 10:36:55,511 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3266ad porque falló la obtención de su resumen.
+2025-07-11 10:36:55,511 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b329672 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,511 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b322b35 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,511 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b32239e porque falló la obtención de su resumen.
+2025-07-11 10:36:55,511 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b328d5e porque falló la obtención de su resumen.
+2025-07-11 10:36:55,511 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b324878 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,511 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b328934 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,511 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b329222 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,511 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b32504f porque falló la obtención de su resumen.
+2025-07-11 10:36:55,511 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b325656 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,513 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b327355 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,513 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b32ab52 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,513 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3288d4 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,513 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b32a337 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,513 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b31ee07 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,513 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b32b273 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,513 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3262ca porque falló la obtención de su resumen.
+2025-07-11 10:36:55,514 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b32383d porque falló la obtención de su resumen.
+2025-07-11 10:36:55,514 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3251e3 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,514 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b3257c5 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,514 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b321b0c porque falló la obtención de su resumen.
+2025-07-11 10:36:55,514 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b326f0e porque falló la obtención de su resumen.
+2025-07-11 10:36:55,514 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b325a7b porque falló la obtención de su resumen.
+2025-07-11 10:36:55,514 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b326279 porque falló la obtención de su resumen.
+2025-07-11 10:36:55,514 [WARNING] Saltando el procesamiento del vuelo FR24 ID: 3b327ad4 porque falló la obtención de su resumen.
+2025-07-11 10:36:56,551 [INFO] Datos de vuelos procesados guardados en: data/flights/flights_processed_20250710.json
+2025-07-11 10:36:56,551 [INFO] ✅ Finalizado el procesamiento de 1244 vuelos para 20250710.
+2025-07-11 10:36:56,552 [INFO] Procesamiento de datos de FlightRadar24 finalizado.

@@ -8,6 +8,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from geopy.distance import geodesic
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # --- Logging config ---
 log_dir = Path("logs")
@@ -185,7 +186,7 @@ def collect_flight_ids_for_day(day_start: datetime, interval_minutes: int):
                     logging.info(f"No se encontraron vuelos en la instantánea para {timestamp_str}. No se guardará el archivo raw.")
                 # --- FIN Guardar Raw ---
 
-                snapshot_fr24_ids = set() 
+                snapshot_fr24_ids = set()
 
                 for flight_data in flights_in_snapshot:
                     fr24_id = flight_data.get("fr24_id")
@@ -215,15 +216,15 @@ def collect_flight_ids_for_day(day_start: datetime, interval_minutes: int):
                                 logging.warning(f"No se pudo parsear el timestamp '{timestamp_str_api}' para FR24 ID {fr24_id}: {e}")
 
                         if current_lat is not None and current_lon is not None and current_timestamp is not None:
-                             position_point = {
-                                 "timestamp": current_timestamp,
-                                 "latitude": current_lat,
-                                 "longitude": current_lon,
-                                 "vertical_rate": current_vspeed,
-                                 "altitude": current_alt,
-                                 "ground_speed": current_gspeed
-                             }
-                             all_flight_info[fr24_id]['positions'].append(position_point)
+                            position_point = {
+                                "timestamp": current_timestamp,
+                                "latitude": current_lat,
+                                "longitude": current_lon,
+                                "vertical_rate": current_vspeed,
+                                "altitude": current_alt,
+                                "ground_speed": current_gspeed
+                            }
+                            all_flight_info[fr24_id]['positions'].append(position_point)
                         else:
                             logging.debug(f"Puntos de posición incompletos o faltantes para FR24 ID: {fr24_id}. Lat: {current_lat}, Lon: {current_lon}, Ts: {current_timestamp}")
 
@@ -259,155 +260,117 @@ def collect_flight_ids_for_day(day_start: datetime, interval_minutes: int):
     return all_flight_info_filtered
 
 def fetch_summaries_from_ids(flight_info_map, day_start, day_end):
-    """Obtiene resúmenes de vuelos a partir de un mapa de IDs de vuelo y sus callsigns/flight numbers.
-    Utiliza el Modo 2 de la API de resumen: fechas + filtro por callsigns.
+    """
+    Obtiene resúmenes de vuelos de forma concurrente usando un ThreadPoolExecutor.
+    Utiliza el Modo 2 de la API de resumen: fechas + filtro por lotes de callsigns.
     
     Retorna:
-        tuple: (list de resúmenes de vuelos procesados, list de todos los JSON raw de respuesta)
+        tuple: (list de resúmenes de vuelos procesados, list de todos los JSON raw de respuesta, list de IDs de vuelos que fallaron)
     """
-    all_processed_summaries = []
-    all_raw_summary_responses = [] # Nueva lista para almacenar todas las respuestas raw
-    
-    fr24_ids_with_callsigns = list(flight_info_map.keys())
-
-    if not fr24_ids_with_callsigns:
+    if not flight_info_map:
         logging.info("No hay IDs de vuelo con callsigns/flight numbers para obtener resúmenes.")
-        return [], [] # Retorna listas vacías
+        return [], [], []
 
-    BATCH_SIZE = 15 # Máximo permitido para 'flights' o 'callsigns' en la API de summary
-
-    logging.info(f"Comenzando a obtener resúmenes para {len(fr24_ids_with_callsigns)} vuelos (en lotes de {BATCH_SIZE} elementos, usando callsigns/flight numbers).")
-
-    # Los directorios raw_summaries_dir se manejan en process_day para el guardado consolidado.
-    # No necesitamos crearlo aquí.
-
-    # Ajustar el rango de fechas para la búsqueda de resúmenes:
-    # Ampliar a un día antes y un día después del día de interés
-    summary_datetime_from = day_start - timedelta(hours=12) 
-    summary_datetime_to = day_end + timedelta(hours=12)    
-
-    logging.debug(f"🔍 Rango de fechas para resúmenes extendido: de {summary_datetime_from.isoformat()} a {summary_datetime_to.isoformat()}")
-
-
-    for i in range(0, len(fr24_ids_with_callsigns), BATCH_SIZE):
-        current_batch_fr24_ids = fr24_ids_with_callsigns[i:i + BATCH_SIZE]
+    # Helper function to fetch a single batch of summaries
+    def fetch_single_batch(batch_of_fr24_ids):
+        """Fetches summaries for a single batch of IDs, with retries."""
+        batch_callsigns = [flight_info_map[fid]['callsign_or_flight'] for fid in batch_of_fr24_ids]
+        batch_callsigns_str = ",".join(batch_callsigns)
         
-        # Construir la lista de callsigns/flight numbers para el lote actual
-        current_batch_callsigns_or_flights = [
-            flight_info_map[fr24_id]['callsign_or_flight'] 
-            for fr24_id in current_batch_fr24_ids 
-            if flight_info_map[fr24_id]['callsign_or_flight']
-        ]
-
-        if not current_batch_callsigns_or_flights:
-            logging.debug(f"Saltando lote {i} porque no hay callsigns/flight numbers válidos.")
-            continue
-
-        current_batch_callsigns_str = ",".join(current_batch_callsigns_or_flights)
+        # Extended date range for summary search
+        summary_datetime_from = day_start - timedelta(hours=12)
+        summary_datetime_to = day_end + timedelta(hours=12)
         
-        current_offset = 0
+        params = {
+            "flights": batch_callsigns_str,
+            "flight_datetime_from": summary_datetime_from.isoformat(timespec='seconds'),
+            "flight_datetime_to": summary_datetime_to.isoformat(timespec='seconds'),
+            "limit": 100, # Max limit per page
+        }
+
         max_retries = 5
-        initial_wait_time = 5 # segundos
+        initial_wait_time = 5
         
-        while True: # Bucle de paginación
-            for attempt in range(1, max_retries + 1):
-                params = {
-                    "flights": current_batch_callsigns_str, # Usamos 'flights' con callsigns/flight numbers
-                    "flight_datetime_from": summary_datetime_from.isoformat(timespec='seconds'),
-                    "flight_datetime_to": summary_datetime_to.isoformat(timespec='seconds'),
-                    "limit": 100,
-                    "offset": current_offset
-                }
-                logging.debug(f"🔗 Solicitando resúmenes para lote de callsigns '{current_batch_callsigns_or_flights[0]}...' con parámetros {params} (Intento {attempt}/{max_retries})")
-
-                try:
-                    r = requests.get(SUMMARY_URL, headers=HEADERS, params=params)
-                    
-                    if r.status_code == 429:
-                        wait_time = initial_wait_time * (2 ** (attempt - 1))
-                        logging.warning(f"⚠️ Demasiadas solicitudes (429) en el intento {attempt}/{max_retries} para lote de resúmenes '{current_batch_callsigns_or_flights[0]}...'. Esperando {wait_time:.1f} segundos antes de reintentar...")
-                        time.sleep(wait_time)
-                        continue
-                    
-                    r.raise_for_status()
-                    
-                    response_json = r.json()
-                    
-                    # Almacenar la respuesta raw completa
-                    all_raw_summary_responses.append(response_json)
-
-                    data = []
-                    if isinstance(response_json, dict) and "data" in response_json and isinstance(response_json["data"], list):
-                        data = response_json["data"]
-                    elif isinstance(response_json, list): 
-                        logging.warning(f"La respuesta de la API de resumen fue una lista directa para el lote '{current_batch_callsigns_str}', no un diccionario con 'data'. Estructura inesperada pero manejada. Respuesta completa: {json.dumps(response_json, indent=2)}")
-                        data = response_json
-                    else:
-                        logging.error(
-                            f"❌ La respuesta de la API de resumen no coincide con la estructura documentada (dict con clave 'data' que contiene una lista), ni fue una lista directa. "
-                            f"Tipo recibido: {type(response_json)}. "
-                            f"Lote de callsigns: '{current_batch_callsigns_str}'. Offset: {current_offset}. "
-                            f"Respuesta completa: {json.dumps(response_json, indent=2)}. "
-                            f"Asumiendo lista vacía."
-                        )
-                        data = []
-
-                    # Ya no guardamos el JSON raw del summary aquí, se hará al final del día.
-                    
-                    if not data:
-                        logging.info(f"No se encontraron resúmenes en la respuesta para el lote '{current_batch_callsigns_or_flights[0]}...' (offset {current_offset}). Finalizando paginación para este lote.")
-                        break
-                    
-                    all_processed_summaries.extend(data)
-                    current_offset += len(data)
-                    logging.info(f"✅ Obtenidos {len(data)} resúmenes para el lote '{current_batch_callsigns_or_flights[0]}...'. Total acumulado: {len(all_processed_summaries)} resúmenes.")
-                    time.sleep(1)
-
-                    break # Romper el bucle de reintentos y pasar a la siguiente página (o lote si no hay más páginas)
+        for attempt in range(1, max_retries + 1):
+            try:
+                r = requests.get(SUMMARY_URL, headers=HEADERS, params=params)
                 
-                except requests.exceptions.HTTPError as http_err:
-                    error_detail = r.text if r.text else str(http_err)
-                    logging.error(f"❌ Error HTTP {r.status_code} {r.reason} al obtener resúmenes para el lote de callsigns '{current_batch_callsigns_str}' (offset {current_offset}): Detalles: {error_detail} (Intento {attempt}/{max_retries})")
-                    
-                    if r.status_code == 400:
-                        logging.warning(f"Error 400 Bad Request para el lote. Saltando al siguiente lote de resúmenes.")
-                        break # Romper reintentos y pasar al siguiente lote de callsigns
-                    
-                    if attempt == max_retries:
-                        logging.error(f"Agota dos los intentos ({max_retries}) para el lote '{current_batch_callsigns_str}' debido a error HTTP. Saltando al siguiente lote.")
-                        break # Romper reintentos y pasar al siguiente lote de callsigns
-                    time.sleep(initial_wait_time)
-
-                except requests.exceptions.RequestException as e:
-                    logging.error(f"❌ Error de red al obtener resúmenes para el lote de callsigns '{current_batch_callsigns_str}' (offset {current_offset}): {e} (Intento {attempt}/{max_retries})")
-                    if attempt == max_retries:
-                        logging.error(f"Agota dos los intentos ({max_retries}) para el lote '{current_batch_callsigns_str}' debido a error de red. Saltando al siguiente lote.")
-                        break # Romper reintentos y pasar al siguiente lote de callsigns
-                    time.sleep(initial_wait_time)
-                    
-                except json.JSONDecodeError as e:
-                    logging.error(f"❌ Error al decodificar JSON de la respuesta del resumen para el lote de callsigns '{current_batch_callsigns_str}' (offset {current_offset}): {e} (Intento {attempt}/{max_retries}). Saltando al siguiente lote de resúmenes.")
-                    break # Romper reintentos y pasar al siguiente lote de callsigns
+                if r.status_code == 429:
+                    wait_time = initial_wait_time * (2 ** (attempt - 1))
+                    logging.warning(f"⚠️ Demasiadas solicitudes (429) para lote '{batch_callsigns[0]}...'. Esperando {wait_time:.1f}s.")
+                    time.sleep(wait_time)
+                    continue
                 
-                except Exception as e:
-                    logging.critical(f"❌ Error inesperado y crítico al obtener resúmenes para el lote de callsigns '{current_batch_callsigns_str}' (offset {current_offset}): {e} (Intento {attempt}/{max_retries}). Saltando al siguiente lote.", exc_info=True)
-                    break # Romper reintentos y pasar al siguiente lote de callsigns
+                r.raise_for_status()
+                response_json = r.json()
+                
+                # The API is expected to return a dictionary with a 'data' key containing a list of flights
+                if isinstance(response_json, dict) and "data" in response_json:
+                    summaries = response_json.get("data", [])
+                elif isinstance(response_json, list): # Handle unexpected direct list response
+                    summaries = response_json
+                else:
+                    summaries = []
 
-            else: # Este else se ejecuta si el bucle for termina sin un 'break' (es decir, agotó los intentos)
-                logging.error(f"❌ Fallaron todos los {max_retries} intentos para el lote de resúmenes '{current_batch_callsigns_str}' (offset {current_offset}). No se pudieron obtener resúmenes para este lote.")
+                logging.info(f"✅ Éxito en lote '{batch_callsigns[0]}...'. Obtenidos {len(summaries)} resúmenes.")
+                # Return the raw response and the extracted summaries
+                return response_json, summaries, []
+
+            except requests.exceptions.HTTPError as http_err:
+                logging.error(f"❌ Error HTTP {http_err.response.status_code} en lote '{batch_callsigns_str}' (Intento {attempt}/{max_retries}): {http_err.response.text}")
+                if http_err.response.status_code == 400:
+                    logging.error(f"Error 400 Bad Request para el lote. Este lote fallará.")
+                    break # Break retry loop on 400
+            except Exception as e:
+                logging.error(f"❌ Error inesperado en lote '{batch_callsigns_str}' (Intento {attempt}/{max_retries}): {e}")
             
-            # Lógica para controlar el bucle de paginación (while True)
-            if 'data' not in locals() or not data: # Si 'data' no se pudo extraer o está vacío, salir del bucle de paginación
-                break 
-            # Si hubo un Bad Request en el último intento, salir del bucle de paginación para este lote
-            if 'r' in locals() and r.status_code == 400: 
-                break
-            # Si se agotaron los reintentos y no se obtuvo data, salir del bucle de paginación
-            if 'attempt' in locals() and attempt == max_retries and not data:
-                 break
+            time.sleep(initial_wait_time)
 
-    logging.info(f"Finalizada la obtención de resúmenes. Total: {len(all_processed_summaries)}.")
-    return all_processed_summaries, all_raw_summary_responses
+        # If all retries fail, return failure for the whole batch
+        logging.error(f"❌ Fallaron todos los intentos para el lote con callsigns: {batch_callsigns_str}. Marcando IDs como fallidos.")
+        return None, [], batch_of_fr24_ids
+
+    # --- Main logic for fetch_summaries_from_ids ---
+    all_processed_summaries = []
+    all_raw_summary_responses = []
+    failed_fr24_ids = []
+    
+    BATCH_SIZE = 15  # Max allowed by API
+    MAX_WORKERS = 10 # Number of parallel threads
+
+    fr24_ids_to_process = list(flight_info_map.keys())
+    # Create batches of fr24_ids
+    batches = [fr24_ids_to_process[i:i + BATCH_SIZE] for i in range(0, len(fr24_ids_to_process), BATCH_SIZE)]
+    
+    logging.info(f"🚀 Iniciando obtención de resúmenes para {len(fr24_ids_to_process)} vuelos en {len(batches)} lotes concurrentes (hasta {MAX_WORKERS} hilos).")
+
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        # Submit all batches to the executor
+        future_to_batch = {executor.submit(fetch_single_batch, batch): batch for batch in batches}
+        
+        for future in as_completed(future_to_batch):
+            try:
+                raw_response, summaries, failed_ids = future.result()
+                
+                if raw_response:
+                    all_raw_summary_responses.append(raw_response)
+                if summaries:
+                    all_processed_summaries.extend(summaries)
+                if failed_ids:
+                    failed_fr24_ids.extend(failed_ids)
+                    
+            except Exception as e:
+                batch = future_to_batch[future]
+                callsigns = [flight_info_map[fid]['callsign_or_flight'] for fid in batch]
+                logging.critical(f"❌ Fallo crítico al procesar el futuro para el lote de callsigns '{callsigns}': {e}", exc_info=True)
+                failed_fr24_ids.extend(batch) # Mark the entire batch as failed
+
+    logging.info(f"✅ Finalizada la obtención de resúmenes. Total obtenidos: {len(all_processed_summaries)}.")
+    if failed_fr24_ids:
+        logging.warning(f"⚠️ No se pudieron obtener resúmenes para {len(failed_fr24_ids)} IDs de vuelo.")
+
+    return all_processed_summaries, all_raw_summary_responses, failed_fr24_ids
+
 
 def process_day(day_start: datetime):
     """Procesa los datos de vuelos para un día completo, usando datos de posición acumulados."""
@@ -427,11 +390,14 @@ def process_day(day_start: datetime):
 
     # Paso 2: Obtener resúmenes de vuelos usando los IDs recolectados
     # Ahora fetch_summaries_from_ids devuelve los resúmenes procesados y las respuestas raw
-    summaries, all_raw_summary_responses = fetch_summaries_from_ids(accumulated_flight_data, day_start, day_end) 
+    summaries, all_raw_summary_responses, failed_ids = fetch_summaries_from_ids(accumulated_flight_data, day_start, day_end)
     summary_map = {s.get("fr24_id"): s for s in summaries if s.get("fr24_id")}
     
     logging.info(f"Se obtuvieron {len(summaries)} resúmenes de vuelos de la API de resumen.")
     logging.info(f"De esos, {len(summary_map)} resúmenes únicos se mapearon para combinación.")
+    if failed_ids:
+        logging.warning(f"IDs fallidos durante la obtención de resumen: {failed_ids}")
+
 
     # --- Guardar TODAS las respuestas raw de los summaries en un ÚNICO archivo por día ---
     if all_raw_summary_responses:
@@ -461,6 +427,10 @@ def process_day(day_start: datetime):
     logging.info(f"Procesando {len(accumulated_flight_data)} vuelos con datos de posición acumulados para enriquecerlos con resúmenes.")
 
     for fid, flight_data in accumulated_flight_data.items():
+        if fid in failed_ids:
+            logging.warning(f"Saltando el procesamiento del vuelo FR24 ID: {fid} porque falló la obtención de su resumen.")
+            continue
+
         pts = flight_data['positions'] # Obtener solo las posiciones
         callsign_or_flight = flight_data['callsign_or_flight'] # Obtener el callsign/flight
 
