@@ -8,7 +8,7 @@ from pathlib import Path
 dotenv_path = Path(__file__).resolve().parent / '.env'
 load_dotenv(dotenv_path)
 
-api_key = os.environ.get("FR24_API_KEY")
+api_key = os.environ.get("PROD_FR24_API_KEY")
 
 if not api_key:
     raise ValueError("❌ No API key found. Make sure FR24_API_KEY is set in your .env file.")
@@ -39,7 +39,7 @@ try:
         raise ValueError("❌ 'data' key not found in the response.")
 
     timestamp = datetime.utcnow().strftime("%Y%m%d%H%M")
-    output_dir = Path("data/flights")
+    output_dir = Path("test_data/flights")
     output_dir.mkdir(parents=True, exist_ok=True)
     output_path = output_dir / f"call_{timestamp}.json"
 

@@ -1,0 +1,402 @@
+[
+  {
+    "timestamp": 1751528627,
+    "latitude": 37.7852,
+    "longitude": -122.3554,
+    "vertical_rate": 1830.68,
+    "altitude": 100.0,
+    "ground_speed": 172.0
+  },
+  {
+    "timestamp": 1751528987,
+    "latitude": 37.7664,
+    "longitude": -121.4322,
+    "vertical_rate": 695.36,
+    "altitude": 4753.0,
+    "ground_speed": 318.0
+  },
+  {
+    "timestamp": 1751529347,
+    "latitude": 37.9878,
+    "longitude": -120.5351,
+    "vertical_rate": 1669.74,
+    "altitude": 9407.0,
+    "ground_speed": 362.0
+  },
+  {
+    "timestamp": 1751529707,
+    "latitude": 37.9336,
+    "longitude": -119.3683,
+    "vertical_rate": 938.11,
+    "altitude": 14060.0,
+    "ground_speed": 349.0
+  },
+  {
+    "timestamp": 1751530067,
+    "latitude": 38.066,
+    "longitude": -118.5612,
+    "vertical_rate": 1121.6,
+    "altitude": 18713.0,
+    "ground_speed": 316.0
+  },
+  {
+    "timestamp": 1751530427,
+    "latitude": 38.0608,
+    "longitude": -117.5125,
+    "vertical_rate": 1635.15,
+    "altitude": 23367.0,
+    "ground_speed": 252.0
+  },
+  {
+    "timestamp": 1751530787,
+    "latitude": 38.1189,
+    "longitude": -116.4618,
+    "vertical_rate": 734.35,
+    "altitude": 28020.0,
+    "ground_speed": 202.0
+  },
+  {
+    "timestamp": 1751531147,
+    "latitude": 38.1821,
+    "longitude": -115.4333,
+    "vertical_rate": 1547.67,
+    "altitude": 32673.0,
+    "ground_speed": 191.0
+  },
+  {
+    "timestamp": 1751531507,
+    "latitude": 38.1907,
+    "longitude": -114.5186,
+    "vertical_rate": 1.07,
+    "altitude": 34766.0,
+    "ground_speed": 513.0
+  },
+  {
+    "timestamp": 1751531867,
+    "latitude": 38.3392,
+    "longitude": -113.59,
+    "vertical_rate": -16.77,
+    "altitude": 34710.0,
+    "ground_speed": 454.0
+  },
+  {
+    "timestamp": 1751532227,
+    "latitude": 38.4222,
+    "longitude": -112.549,
+    "vertical_rate": 37.74,
+    "altitude": 34850.0,
+    "ground_speed": 516.0
+  },
+  {
+    "timestamp": 1751532587,
+    "latitude": 38.5147,
+    "longitude": -111.5718,
+    "vertical_rate": -19.0,
+    "altitude": 35376.0,
+    "ground_speed": 545.0
+  },
+  {
+    "timestamp": 1751532947,
+    "latitude": 38.4612,
+    "longitude": -110.6586,
+    "vertical_rate": 33.07,
+    "altitude": 35189.0,
+    "ground_speed": 459.0
+  },
+  {
+    "timestamp": 1751533307,
+    "latitude": 38.458,
+    "longitude": -109.491,
+    "vertical_rate": -49.86,
+    "altitude": 34725.0,
+    "ground_speed": 519.0
+  },
+  {
+    "timestamp": 1751533667,
+    "latitude": 38.5415,
+    "longitude": -108.5284,
+    "vertical_rate": 40.98,
+    "altitude": 34610.0,
+    "ground_speed": 463.0
+  },
+  {
+    "timestamp": 1751534027,
+    "latitude": 38.5997,
+    "longitude": -107.5164,
+    "vertical_rate": 4.14,
+    "altitude": 35042.0,
+    "ground_speed": 485.0
+  },
+  {
+    "timestamp": 1751534387,
+    "latitude": 38.7774,
+    "longitude": -106.6114,
+    "vertical_rate": 39.68,
+    "altitude": 35267.0,
+    "ground_speed": 464.0
+  },
+  {
+    "timestamp": 1751534747,
+    "latitude": 38.8177,
+    "longitude": -105.7209,
+    "vertical_rate": -10.59,
+    "altitude": 34589.0,
+    "ground_speed": 453.0
+  },
+  {
+    "timestamp": 1751535107,
+    "latitude": 38.8928,
+    "longitude": -104.7049,
+    "vertical_rate": -34.7,
+    "altitude": 34528.0,
+    "ground_speed": 518.0
+  },
+  {
+    "timestamp": 1751535467,
+    "latitude": 38.9588,
+    "longitude": -103.5667,
+    "vertical_rate": -17.96,
+    "altitude": 34524.0,
+    "ground_speed": 451.0
+  },
+  {
+    "timestamp": 1751535827,
+    "latitude": 38.9773,
+    "longitude": -102.5932,
+    "vertical_rate": -19.56,
+    "altitude": 34861.0,
+    "ground_speed": 535.0
+  },
+  {
+    "timestamp": 1751536187,
+    "latitude": 38.9424,
+    "longitude": -101.6073,
+    "vertical_rate": -18.63,
+    "altitude": 35199.0,
+    "ground_speed": 507.0
+  },
+  {
+    "timestamp": 1751536547,
+    "latitude": 39.0441,
+    "longitude": -100.6992,
+    "vertical_rate": 37.79,
+    "altitude": 35292.0,
+    "ground_speed": 532.0
+  },
+  {
+    "timestamp": 1751536907,
+    "latitude": 39.2422,
+    "longitude": -99.6583,
+    "vertical_rate": -23.0,
+    "altitude": 35247.0,
+    "ground_speed": 493.0
+  },
+  {
+    "timestamp": 1751537267,
+    "latitude": 39.2923,
+    "longitude": -98.7003,
+    "vertical_rate": -32.2,
+    "altitude": 34680.0,
+    "ground_speed": 497.0
+  },
+  {
+    "timestamp": 1751537627,
+    "latitude": 39.292,
+    "longitude": -97.6642,
+    "vertical_rate": 34.82,
+    "altitude": 34819.0,
+    "ground_speed": 490.0
+  },
+  {
+    "timestamp": 1751537987,
+    "latitude": 39.4083,
+    "longitude": -96.8178,
+    "vertical_rate": 19.96,
+    "altitude": 35126.0,
+    "ground_speed": 476.0
+  },
+  {
+    "timestamp": 1751538347,
+    "latitude": 39.3476,
+    "longitude": -95.7384,
+    "vertical_rate": 41.58,
+    "altitude": 34854.0,
+    "ground_speed": 529.0
+  },
+  {
+    "timestamp": 1751538707,
+    "latitude": 39.3675,
+    "longitude": -94.818,
+    "vertical_rate": -38.5,
+    "altitude": 35375.0,
+    "ground_speed": 473.0
+  },
+  {
+    "timestamp": 1751539067,
+    "latitude": 39.5458,
+    "longitude": -93.76,
+    "vertical_rate": 25.78,
+    "altitude": 34744.0,
+    "ground_speed": 527.0
+  },
+  {
+    "timestamp": 1751539427,
+    "latitude": 39.6061,
+    "longitude": -92.735,
+    "vertical_rate": 22.28,
+    "altitude": 35165.0,
+    "ground_speed": 503.0
+  },
+  {
+    "timestamp": 1751539787,
+    "latitude": 39.6467,
+    "longitude": -91.7558,
+    "vertical_rate": -14.06,
+    "altitude": 35002.0,
+    "ground_speed": 467.0
+  },
+  {
+    "timestamp": 1751540147,
+    "latitude": 39.7235,
+    "longitude": -90.7468,
+    "vertical_rate": -41.48,
+    "altitude": 35298.0,
+    "ground_speed": 495.0
+  },
+  {
+    "timestamp": 1751540507,
+    "latitude": 39.7044,
+    "longitude": -89.8057,
+    "vertical_rate": -27.03,
+    "altitude": 34653.0,
+    "ground_speed": 462.0
+  },
+  {
+    "timestamp": 1751540867,
+    "latitude": 39.8955,
+    "longitude": -88.806,
+    "vertical_rate": 1.17,
+    "altitude": 34874.0,
+    "ground_speed": 533.0
+  },
+  {
+    "timestamp": 1751541227,
+    "latitude": 39.9613,
+    "longitude": -87.9234,
+    "vertical_rate": 44.13,
+    "altitude": 35068.0,
+    "ground_speed": 528.0
+  },
+  {
+    "timestamp": 1751541587,
+    "latitude": 39.9627,
+    "longitude": -86.8233,
+    "vertical_rate": -37.75,
+    "altitude": 35370.0,
+    "ground_speed": 515.0
+  },
+  {
+    "timestamp": 1751541947,
+    "latitude": 40.0192,
+    "longitude": -85.829,
+    "vertical_rate": -38.69,
+    "altitude": 35329.0,
+    "ground_speed": 497.0
+  },
+  {
+    "timestamp": 1751542307,
+    "latitude": 40.0966,
+    "longitude": -84.872,
+    "vertical_rate": -28.53,
+    "altitude": 34765.0,
+    "ground_speed": 456.0
+  },
+  {
+    "timestamp": 1751542667,
+    "latitude": 40.2025,
+    "longitude": -83.857,
+    "vertical_rate": 40.31,
+    "altitude": 34922.0,
+    "ground_speed": 487.0
+  },
+  {
+    "timestamp": 1751543027,
+    "latitude": 40.1919,
+    "longitude": -82.9767,
+    "vertical_rate": 27.21,
+    "altitude": 34620.0,
+    "ground_speed": 540.0
+  },
+  {
+    "timestamp": 1751543387,
+    "latitude": 40.1386,
+    "longitude": -81.8339,
+    "vertical_rate": 49.36,
+    "altitude": 34741.0,
+    "ground_speed": 517.0
+  },
+  {
+    "timestamp": 1751543747,
+    "latitude": 40.3564,
+    "longitude": -80.9795,
+    "vertical_rate": -24.52,
+    "altitude": 35039.0,
+    "ground_speed": 480.0
+  },
+  {
+    "timestamp": 1751544107,
+    "latitude": 40.3677,
+    "longitude": -79.9643,
+    "vertical_rate": -872.42,
+    "altitude": 32700.0,
+    "ground_speed": 395.0
+  },
+  {
+    "timestamp": 1751544467,
+    "latitude": 40.4339,
+    "longitude": -78.8969,
+    "vertical_rate": -1860.84,
+    "altitude": 28100.0,
+    "ground_speed": 351.0
+  },
+  {
+    "timestamp": 1751544827,
+    "latitude": 40.4014,
+    "longitude": -78.029,
+    "vertical_rate": -975.29,
+    "altitude": 23500.0,
+    "ground_speed": 398.0
+  },
+  {
+    "timestamp": 1751545187,
+    "latitude": 40.5097,
+    "longitude": -76.8765,
+    "vertical_rate": -823.01,
+    "altitude": 18900.0,
+    "ground_speed": 294.0
+  },
+  {
+    "timestamp": 1751545547,
+    "latitude": 40.5311,
+    "longitude": -76.0025,
+    "vertical_rate": -1711.02,
+    "altitude": 14300.0,
+    "ground_speed": 324.0
+  },
+  {
+    "timestamp": 1751545907,
+    "latitude": 40.5817,
+    "longitude": -74.9702,
+    "vertical_rate": -1298.46,
+    "altitude": 9700.0,
+    "ground_speed": 320.0
+  },
+  {
+    "timestamp": 1751546267,
+    "latitude": 40.8019,
+    "longitude": -73.9127,
+    "vertical_rate": -760.84,
+    "altitude": 5100.0,
+    "ground_speed": 232.0
+  }
+]

@@ -5,7 +5,7 @@ from pathlib import Path
 
 dotenv_path = Path(__file__).resolve().parent / '.env'
 load_dotenv(dotenv_path)
-api_key = os.getenv("FR24_API_KEY")
+api_key = os.getenv("PROD_FR24_API_KEY")
 if not api_key:
     raise ValueError("Missing FR24_API_KEY")
 
@@ -14,7 +14,7 @@ interval = timedelta(minutes=10)
 iterations = 6  # 1 hour = 6 intervals of 10 minutes
 
 # Output
-all_flights = {}
+all_flights = []
 
 for i in range(iterations):
     timestamp = int((start_time + i * interval).timestamp())
@@ -39,17 +39,15 @@ for i in range(iterations):
         positions = data.get("positions", []) or data.get("data", [])  # fallback if key is different
         print(f"✅ {len(positions)} flights at this snapshot")
 
-        for flight in positions:
-            flight_id = flight.get("id") or flight.get("icao24") or str(flight)
-            all_flights[flight_id] = flight  # De-duplicate using flight ID
+        all_flights.extend(positions)
 
     except Exception as e:
         print(f"❌ Error at timestamp {timestamp}: {e}")
 
-output_dir = Path("data/positions")
+output_dir = Path("test_data/positions")
 output_dir.mkdir(parents=True, exist_ok=True)
 filename = f"aggregate_positions_{start_time.strftime('%Y%m%d%H%M')}.json"
 with open(output_dir / filename, "w") as f:
-    json.dump(list(all_flights.values()), f, indent=2)
+    json.dump(all_flights, f, indent=2)
 
 print(f"📦 Aggregated {len(all_flights)} unique flights across {iterations} snapshots")

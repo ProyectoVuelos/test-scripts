@@ -1,0 +1,28 @@
+--- 📅 Iniciando procesamiento (simulado) para el día: 2025-07-03 ---
+2025-07-04 16:08:19,115 [INFO] Comenzando el procesamiento de datos para el día: 2025-07-03
+2025-07-04 16:08:19,115 [INFO] SIMULADO: Comenzando la recolección de IDs, callsigns/flight numbers y posiciones para el día: 2025-07-03
+2025-07-04 16:08:19,116 [INFO] SIMULADO: Generando instantánea simulada en 2025-07-03 05:00:00 UTC
+2025-07-04 16:08:19,116 [INFO] SIMULADO: Encontrados 1 IDs de vuelo en la instantánea simulada.
+2025-07-04 16:08:19,217 [INFO] SIMULADO: Generando instantánea simulada en 2025-07-03 09:00:00 UTC
+2025-07-04 16:08:19,217 [INFO] SIMULADO: Encontrados 1 IDs de vuelo en la instantánea simulada.
+2025-07-04 16:08:19,318 [INFO] SIMULADO: Generando instantánea simulada en 2025-07-03 13:00:00 UTC
+2025-07-04 16:08:19,319 [INFO] SIMULADO: Encontrados 1 IDs de vuelo en la instantánea simulada.
+2025-07-04 16:08:19,424 [INFO] SIMULADO: Generando instantánea simulada en 2025-07-03 17:00:00 UTC
+2025-07-04 16:08:19,426 [INFO] SIMULADO: Encontrados 1 IDs de vuelo en la instantánea simulada.
+2025-07-04 16:08:19,530 [INFO] SIMULADO: Generando instantánea simulada en 2025-07-03 21:00:00 UTC
+2025-07-04 16:08:19,531 [INFO] SIMULADO: Encontrados 3 IDs de vuelo en la instantánea simulada.
+2025-07-04 16:08:19,636 [INFO] SIMULADO: Generando instantánea simulada en 2025-07-04 01:00:00 UTC
+2025-07-04 16:08:19,638 [INFO] SIMULADO: Encontrados 4 IDs de vuelo en la instantánea simulada.
+2025-07-04 16:08:19,739 [INFO] SIMULADO: Se recolectaron un total de 5 IDs únicos y se acumularon 218 puntos de posición.
+2025-07-04 16:08:19,739 [INFO] SIMULADO: Después de filtrar, 5 vuelos tienen callsign/flight y serán considerados para resumen.
+2025-07-04 16:08:19,740 [INFO] Se encontraron 5 IDs de vuelo con datos y callsigns/flight numbers en las instantáneas para el día 20250703.
+2025-07-04 16:08:19,740 [INFO] SIMULADO: Comenzando a generar resúmenes simulados para 5 vuelos.
+2025-07-04 16:08:20,002 [INFO] SIMULADO: Finalizada la generación de resúmenes. Total: 5.
+2025-07-04 16:08:20,002 [INFO] Se obtuvieron 5 resúmenes de vuelos simulados.
+2025-07-04 16:08:20,002 [INFO] De esos, 5 resúmenes únicos se mapearon para combinación.
+2025-07-04 16:08:20,002 [INFO] SIMULADO: No se obtuvieron respuestas raw de resúmenes (simuladas) para el día 20250703. No se guardará el archivo consolidado.
+2025-07-04 16:08:20,003 [INFO] Resúmenes de vuelos combinados (simulados) guardados en: data/flights/flights_summary_20250703.json
+2025-07-04 16:08:20,003 [INFO] Procesando 5 vuelos con datos de posición acumulados para enriquecerlos con resúmenes.
+2025-07-04 16:08:20,122 [INFO] Datos de vuelos procesados (simulados) guardados en: data/flights/flights_processed_20250703.json
+2025-07-04 16:08:20,122 [INFO] ✅ Finalizado el procesamiento de 5 vuelos para 20250703.
+2025-07-04 16:08:20,122 [INFO] Procesamiento de datos de FlightRadar24 finalizado (Modo Simulación).

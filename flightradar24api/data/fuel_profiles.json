@@ -1,0 +1,42 @@
+{
+  "A320": {
+    "takeoff": 2800,
+    "climb": 2400,
+    "cruise": 2200,
+    "descent": 1500,
+    "landing": 900,
+    "seats": 180
+  },
+  "B737-800": {
+    "takeoff": 2900,
+    "climb": 2500,
+    "cruise": 2300,
+    "descent": 1600,
+    "landing": 1000,
+    "seats": 189
+  },
+  "A350": {
+    "takeoff": 3200,
+    "climb": 2700,
+    "cruise": 2500,
+    "descent": 1800,
+    "landing": 1100,
+    "seats": 300
+  },
+  "B777": {
+    "takeoff": 3400,
+    "climb": 2900,
+    "cruise": 2600,
+    "descent": 2000,
+    "landing": 1200,
+    "seats": 350
+  },
+  "default": {
+    "takeoff": 3000,
+    "climb": 2500,
+    "cruise": 2000,
+    "descent": 1500,
+    "landing": 1000,
+    "seats": 150
+  }
+}
