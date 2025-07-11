@@ -1,0 +1,50 @@
+[
+  {
+    "timestamp": 1752123599,
+    "latitude": 42.50844,
+    "longitude": -96.67988,
+    "vertical_rate": 128,
+    "altitude": 56500,
+    "ground_speed": 16
+  },
+  {
+    "timestamp": 1752137999,
+    "latitude": 42.11297,
+    "longitude": -97.01221,
+    "vertical_rate": 0,
+    "altitude": 63000,
+    "ground_speed": 13
+  },
+  {
+    "timestamp": 1752152400,
+    "latitude": 41.63469,
+    "longitude": -98.40218,
+    "vertical_rate": 192,
+    "altitude": 62700,
+    "ground_speed": 23
+  },
+  {
+    "timestamp": 1752166800,
+    "latitude": 41.59298,
+    "longitude": -99.47162,
+    "vertical_rate": 0,
+    "altitude": 65300,
+    "ground_speed": 11
+  },
+  {
+    "timestamp": 1752181199,
+    "latitude": 41.54824,
+    "longitude": -100.57326,
+    "vertical_rate": 0,
+    "altitude": 64500,
+    "ground_speed": 13
+  },
+  {
+    "timestamp": 1752195600,
+    "latitude": 41.62057,
+    "longitude": -101.83092,
+    "vertical_rate": 64,
+    "altitude": 64100,
+    "ground_speed": 16
+  }
+]

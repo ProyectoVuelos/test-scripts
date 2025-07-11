@@ -52,10 +52,6 @@ except json.JSONDecodeError:
     logging.critical("Error al decodificar 'data/fuel_profiles.json'. Asegúrate de que es un JSON válido.")
     raise
 
-out_dir = Path("data/flights")
-out_dir.mkdir(parents=True, exist_ok=True)
-logging.info(f"Directorio de salida configurado en: {out_dir}")
-
 DAYS = 1
 INTERVAL_MINUTES = 240
 
@@ -128,22 +124,17 @@ def estimate_co2_by_passenger(fuel_kg, model="default"):
     logging.debug(f"CO2 total: {co2_total} kg, CO2 por pasajero: {co2_per_passenger} kg")
     return co2_per_passenger
 
-def collect_flight_ids_for_day(day_start: datetime, interval_minutes: int):
+def collect_flight_ids_for_day(day_start: datetime, interval_minutes: int, run_output_dir: Path):
     """
     Recolecta IDs de vuelos, callsigns/flight numbers, y puntos de posición
     para un día específico a intervalos definidos.
-
-    Retorna:
-        dict: Un diccionario donde las claves son fr24_id y los valores son
-              diccionarios con 'positions' (lista de puntos de posición) y
-              'callsign_or_flight' (el callsign o flight number).
     """
     all_flight_info = defaultdict(lambda: {'positions': [], 'callsign_or_flight': None})
     iterations = int((24 * 60) / interval_minutes)
     interval = timedelta(minutes=interval_minutes)
     logging.info(f"Comenzando la recolección de IDs, callsigns/flight numbers y posiciones detalladas para el día: {day_start.strftime('%Y-%m-%d')} en la región de EE.UU.")
 
-    raw_data_dir = out_dir / "raw_snapshots" / day_start.strftime("%Y%m%d")
+    raw_data_dir = run_output_dir / "raw_snapshots" / day_start.strftime("%Y%m%d")
     raw_data_dir.mkdir(parents=True, exist_ok=True)
     logging.info(f"Directorio para datos raw del día {day_start.strftime('%Y-%m-%d')}: {raw_data_dir}")
 
@@ -172,41 +163,29 @@ def collect_flight_ids_for_day(day_start: datetime, interval_minutes: int):
                 data = r.json()
 
                 flights_in_snapshot = data.get("positions") or data.get("data") or []
-                
-                # --- Guardar el JSON raw de la instantánea SOLO si hay datos ---
+
                 if flights_in_snapshot:
                     raw_file_path = raw_data_dir / f"snapshot_{timestamp_str}.json"
-                    try:
-                        with open(raw_file_path, "w", encoding="utf-8") as f:
-                            json.dump(data, f, indent=2)
-                        logging.debug(f"Datos raw de la instantánea guardados en: {raw_file_path}")
-                    except IOError as e:
-                        logging.error(f"Error al guardar los datos raw de la instantánea {timestamp_str}: {e}")
-                else:
-                    logging.info(f"No se encontraron vuelos en la instantánea para {timestamp_str}. No se guardará el archivo raw.")
-                # --- FIN Guardar Raw ---
+                    with open(raw_file_path, "w", encoding="utf-8") as f:
+                        json.dump(data, f, indent=2)
 
                 snapshot_fr24_ids = set()
 
                 for flight_data in flights_in_snapshot:
                     fr24_id = flight_data.get("fr24_id")
                     if fr24_id:
-                        snapshot_fr24_ids.add(fr24_id) # Acumular solo los IDs
-                        
-                        # Obtener callsign o flight number
+                        snapshot_fr24_ids.add(fr24_id)
                         callsign_or_flight = flight_data.get("callsign") or flight_data.get("flight")
-                        if callsign_or_flight:
-                            # Solo actualizar si no lo tenemos ya (el primero que veamos es suficiente)
-                            if all_flight_info[fr24_id]['callsign_or_flight'] is None:
-                                all_flight_info[fr24_id]['callsign_or_flight'] = callsign_or_flight
+                        if callsign_or_flight and all_flight_info[fr24_id]['callsign_or_flight'] is None:
+                            all_flight_info[fr24_id]['callsign_or_flight'] = callsign_or_flight
 
                         current_lat = flight_data.get("lat")
                         current_lon = flight_data.get("lon")
                         current_alt = flight_data.get("alt", 0)
                         current_gspeed = flight_data.get("gspeed", 0)
                         current_vspeed = flight_data.get("vspeed", 0)
-
                         timestamp_str_api = flight_data.get("timestamp")
+                        
                         current_timestamp = None
                         if timestamp_str_api:
                             try:
@@ -217,299 +196,199 @@ def collect_flight_ids_for_day(day_start: datetime, interval_minutes: int):
 
                         if current_lat is not None and current_lon is not None and current_timestamp is not None:
                             position_point = {
-                                "timestamp": current_timestamp,
-                                "latitude": current_lat,
-                                "longitude": current_lon,
-                                "vertical_rate": current_vspeed,
-                                "altitude": current_alt,
-                                "ground_speed": current_gspeed
+                                "timestamp": current_timestamp, "latitude": current_lat, "longitude": current_lon,
+                                "vertical_rate": current_vspeed, "altitude": current_alt, "ground_speed": current_gspeed
                             }
                             all_flight_info[fr24_id]['positions'].append(position_point)
-                        else:
-                            logging.debug(f"Puntos de posición incompletos o faltantes para FR24 ID: {fr24_id}. Lat: {current_lat}, Lon: {current_lon}, Ts: {current_timestamp}")
 
                 logging.info(f"✅ Encontrados {len(snapshot_fr24_ids)} IDs de vuelo en la instantánea.")
-                logging.debug(f"Puntos acumulados para esta instantánea hasta ahora: {sum(len(v['positions']) for v in all_flight_info.values())} puntos de {len(all_flight_info)} vuelos.")
-
                 break
             except requests.exceptions.RequestException as e:
                 logging.error(f"Error de red o HTTP al obtener vuelos en el timestamp {ts} (Intento {attempt}/5): {e}")
-                time.sleep(5)
-            except json.JSONDecodeError as e:
-                logging.error(f"Error al decodificar JSON de la respuesta en el timestamp {ts} (Intento {attempt}/5): {e}")
                 time.sleep(5)
             except Exception as e:
                 logging.error(f"Error inesperado al obtener vuelos en el timestamp {ts} (Intento {attempt}/5): {e}")
                 time.sleep(5)
         else:
-            logging.error(f"❌ Fallaron todos los intentos para el timestamp {ts}. No se pudieron obtener los IDs de vuelo.")
+            logging.error(f"❌ Fallaron todos los intentos para el timestamp {ts}.")
         time.sleep(1)
 
     for fr24_id in all_flight_info:
         all_flight_info[fr24_id]['positions'].sort(key=lambda p: p["timestamp"])
 
-    total_accumulated_points = sum(len(v['positions']) for v in all_flight_info.values())
-    total_unique_fr24_ids = len(all_flight_info)
-    logging.info(f"Se recolectaron un total de {total_unique_fr24_ids} IDs únicos y se acumularon {total_accumulated_points} puntos de posición.")
-    
-    # Filtra vuelos que no tienen callsign_or_flight, ya que son necesarios para el summary en Modo 2
-    all_flight_info_filtered = {
-        fr24_id: data for fr24_id, data in all_flight_info.items() if data['callsign_or_flight']
-    }
+    all_flight_info_filtered = {k: v for k, v in all_flight_info.items() if v['callsign_or_flight']}
     logging.info(f"Después de filtrar, {len(all_flight_info_filtered)} vuelos tienen callsign/flight y serán considerados para resumen.")
     return all_flight_info_filtered
 
+# --- OPTIMIZED METHOD WITH RETRY LOGIC ---
 def fetch_summaries_from_ids(flight_info_map, day_start, day_end):
     """
-    Obtiene resúmenes de vuelos de forma concurrente usando un ThreadPoolExecutor.
-    Utiliza el Modo 2 de la API de resumen: fechas + filtro por lotes de callsigns.
-    
-    Retorna:
-        tuple: (list de resúmenes de vuelos procesados, list de todos los JSON raw de respuesta, list de IDs de vuelos que fallaron)
+    Obtiene resúmenes de vuelos de forma concurrente y reintenta los lotes fallidos.
     """
-    if not flight_info_map:
-        logging.info("No hay IDs de vuelo con callsigns/flight numbers para obtener resúmenes.")
-        return [], [], []
-
-    # Helper function to fetch a single batch of summaries
     def fetch_single_batch(batch_of_fr24_ids):
-        """Fetches summaries for a single batch of IDs, with retries."""
+        """Worker function to fetch summaries for a single batch of IDs."""
         batch_callsigns = [flight_info_map[fid]['callsign_or_flight'] for fid in batch_of_fr24_ids]
         batch_callsigns_str = ",".join(batch_callsigns)
-        
-        # Extended date range for summary search
         summary_datetime_from = day_start - timedelta(hours=12)
         summary_datetime_to = day_end + timedelta(hours=12)
-        
         params = {
             "flights": batch_callsigns_str,
             "flight_datetime_from": summary_datetime_from.isoformat(timespec='seconds'),
             "flight_datetime_to": summary_datetime_to.isoformat(timespec='seconds'),
-            "limit": 100, # Max limit per page
+            "limit": 100,
         }
-
-        max_retries = 5
-        initial_wait_time = 5
-        
+        max_retries = 3
         for attempt in range(1, max_retries + 1):
             try:
                 r = requests.get(SUMMARY_URL, headers=HEADERS, params=params)
-                
                 if r.status_code == 429:
-                    wait_time = initial_wait_time * (2 ** (attempt - 1))
+                    wait_time = 5 * (2 ** (attempt - 1))
                     logging.warning(f"⚠️ Demasiadas solicitudes (429) para lote '{batch_callsigns[0]}...'. Esperando {wait_time:.1f}s.")
                     time.sleep(wait_time)
                     continue
-                
                 r.raise_for_status()
                 response_json = r.json()
-                
-                # The API is expected to return a dictionary with a 'data' key containing a list of flights
-                if isinstance(response_json, dict) and "data" in response_json:
-                    summaries = response_json.get("data", [])
-                elif isinstance(response_json, list): # Handle unexpected direct list response
-                    summaries = response_json
-                else:
-                    summaries = []
-
-                logging.info(f"✅ Éxito en lote '{batch_callsigns[0]}...'. Obtenidos {len(summaries)} resúmenes.")
-                # Return the raw response and the extracted summaries
+                summaries = response_json.get("data", []) if isinstance(response_json, dict) else response_json if isinstance(response_json, list) else []
                 return response_json, summaries, []
-
-            except requests.exceptions.HTTPError as http_err:
-                logging.error(f"❌ Error HTTP {http_err.response.status_code} en lote '{batch_callsigns_str}' (Intento {attempt}/{max_retries}): {http_err.response.text}")
-                if http_err.response.status_code == 400:
-                    logging.error(f"Error 400 Bad Request para el lote. Este lote fallará.")
-                    break # Break retry loop on 400
-            except Exception as e:
-                logging.error(f"❌ Error inesperado en lote '{batch_callsigns_str}' (Intento {attempt}/{max_retries}): {e}")
-            
-            time.sleep(initial_wait_time)
-
-        # If all retries fail, return failure for the whole batch
-        logging.error(f"❌ Fallaron todos los intentos para el lote con callsigns: {batch_callsigns_str}. Marcando IDs como fallidos.")
+            except requests.exceptions.HTTPError as e:
+                if e.response.status_code == 400: break
+            except Exception: pass
         return None, [], batch_of_fr24_ids
 
-    # --- Main logic for fetch_summaries_from_ids ---
+    # --- Main logic with retry loop ---
     all_processed_summaries = []
     all_raw_summary_responses = []
-    failed_fr24_ids = []
+    ids_to_process = list(flight_info_map.keys())
     
-    BATCH_SIZE = 15  # Max allowed by API
-    MAX_WORKERS = 10 # Number of parallel threads
-
-    fr24_ids_to_process = list(flight_info_map.keys())
-    # Create batches of fr24_ids
-    batches = [fr24_ids_to_process[i:i + BATCH_SIZE] for i in range(0, len(fr24_ids_to_process), BATCH_SIZE)]
-    
-    logging.info(f"🚀 Iniciando obtención de resúmenes para {len(fr24_ids_to_process)} vuelos en {len(batches)} lotes concurrentes (hasta {MAX_WORKERS} hilos).")
-
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        # Submit all batches to the executor
-        future_to_batch = {executor.submit(fetch_single_batch, batch): batch for batch in batches}
+    # Initial attempt + 3 retries
+    for attempt in range(1, 5):
+        if not ids_to_process:
+            break
+            
+        logging.info(f"🚀 Iniciando obtención de resúmenes. Intento {attempt}/4 para {len(ids_to_process)} IDs.")
         
-        for future in as_completed(future_to_batch):
-            try:
-                raw_response, summaries, failed_ids = future.result()
-                
-                if raw_response:
-                    all_raw_summary_responses.append(raw_response)
-                if summaries:
-                    all_processed_summaries.extend(summaries)
-                if failed_ids:
-                    failed_fr24_ids.extend(failed_ids)
-                    
-            except Exception as e:
-                batch = future_to_batch[future]
-                callsigns = [flight_info_map[fid]['callsign_or_flight'] for fid in batch]
-                logging.critical(f"❌ Fallo crítico al procesar el futuro para el lote de callsigns '{callsigns}': {e}", exc_info=True)
-                failed_fr24_ids.extend(batch) # Mark the entire batch as failed
+        batches = [ids_to_process[i:i + 15] for i in range(0, len(ids_to_process), 15)]
+        currently_failed_ids = []
+        
+        with ThreadPoolExecutor(max_workers=10) as executor:
+            future_to_batch = {executor.submit(fetch_single_batch, batch): batch for batch in batches}
+            for future in as_completed(future_to_batch):
+                try:
+                    raw_response, summaries, failed_ids = future.result()
+                    if raw_response: all_raw_summary_responses.append(raw_response)
+                    if summaries: all_processed_summaries.extend(summaries)
+                    if failed_ids: currently_failed_ids.extend(failed_ids)
+                except Exception as e:
+                    batch = future_to_batch[future]
+                    logging.critical(f"❌ Fallo crítico al procesar el futuro para el lote {batch}: {e}", exc_info=True)
+                    currently_failed_ids.extend(batch)
+        
+        ids_to_process = currently_failed_ids
+        if ids_to_process:
+            logging.warning(f"Fin del intento {attempt}. Quedan {len(ids_to_process)} IDs fallidos. Reintentando...")
 
     logging.info(f"✅ Finalizada la obtención de resúmenes. Total obtenidos: {len(all_processed_summaries)}.")
-    if failed_fr24_ids:
-        logging.warning(f"⚠️ No se pudieron obtener resúmenes para {len(failed_fr24_ids)} IDs de vuelo.")
+    if ids_to_process:
+        logging.error(f"⚠️ No se pudieron obtener resúmenes para {len(ids_to_process)} IDs después de todos los reintentos.")
 
-    return all_processed_summaries, all_raw_summary_responses, failed_fr24_ids
+    return all_processed_summaries, all_raw_summary_responses, ids_to_process
 
 
-def process_day(day_start: datetime):
-    """Procesa los datos de vuelos para un día completo, usando datos de posición acumulados."""
+def process_day(day_start: datetime, run_output_dir: Path):
+    """Procesa los datos de vuelos para un día completo, usando la nueva estructura de carpetas."""
     date_str = day_start.strftime("%Y%m%d")
     day_end = day_start + timedelta(days=1)
     logging.info(f"Comenzando el procesamiento de datos para el día: {day_start.strftime('%Y-%m-%d')}")
 
-    # Paso 1: Recolectar IDs de vuelos y puntos de posición
-    accumulated_flight_data = collect_flight_ids_for_day(day_start, INTERVAL_MINUTES)
-    flight_ids_from_snapshots_with_data = list(accumulated_flight_data.keys())
-    logging.info(f"Se encontraron {len(flight_ids_from_snapshots_with_data)} IDs de vuelo con datos y callsigns/flight numbers en las instantáneas para el día {date_str}.")
-
-
-    if not flight_ids_from_snapshots_with_data:
-        logging.warning(f"No se encontraron IDs de vuelo o datos de posición en las instantáneas para el día {date_str}. Saltando el procesamiento para este día.")
+    # Paso 1: Recolectar IDs
+    accumulated_flight_data = collect_flight_ids_for_day(day_start, INTERVAL_MINUTES, run_output_dir)
+    if not accumulated_flight_data:
+        logging.warning(f"No se encontraron vuelos para procesar el día {date_str}.")
         return
 
-    # Paso 2: Obtener resúmenes de vuelos usando los IDs recolectados
-    # Ahora fetch_summaries_from_ids devuelve los resúmenes procesados y las respuestas raw
+    # Paso 2: Obtener resúmenes
     summaries, all_raw_summary_responses, failed_ids = fetch_summaries_from_ids(accumulated_flight_data, day_start, day_end)
     summary_map = {s.get("fr24_id"): s for s in summaries if s.get("fr24_id")}
     
-    logging.info(f"Se obtuvieron {len(summaries)} resúmenes de vuelos de la API de resumen.")
-    logging.info(f"De esos, {len(summary_map)} resúmenes únicos se mapearon para combinación.")
-    if failed_ids:
-        logging.warning(f"IDs fallidos durante la obtención de resumen: {failed_ids}")
+    # --- Guardar archivos en la nueva estructura de carpetas ---
+    raw_summaries_dir = run_output_dir / "raw_summaries" / day_start.strftime("%Y%m%d")
+    summaries_dir = run_output_dir / "summaries"
+    processed_dir = run_output_dir / "processed"
+    detailed_paths_dir = run_output_dir / "detailed_paths"
+    for d in [raw_summaries_dir, summaries_dir, processed_dir, detailed_paths_dir]:
+        d.mkdir(parents=True, exist_ok=True)
 
-
-    # --- Guardar TODAS las respuestas raw de los summaries en un ÚNICO archivo por día ---
     if all_raw_summary_responses:
-        raw_summaries_dir = out_dir / "raw_summaries" / day_start.strftime("%Y%m%d")
-        raw_summaries_dir.mkdir(parents=True, exist_ok=True) # Asegurarse de que el directorio exista
-        
         consolidated_raw_summary_file = raw_summaries_dir / f"all_raw_summaries_{date_str}.json"
-        try:
-            with open(consolidated_raw_summary_file, "w", encoding="utf-8") as f:
-                json.dump(all_raw_summary_responses, f, indent=2)
-            logging.info(f"Todas las respuestas raw de los resúmenes del día guardadas en: {consolidated_raw_summary_file}")
-        except IOError as e:
-            logging.error(f"Error al guardar el archivo consolidado de resúmenes raw en {consolidated_raw_summary_file}: {e}")
-    else:
-        logging.info(f"No se obtuvieron respuestas raw de resúmenes para el día {date_str}. No se guardará el archivo consolidado.")
-    # --- FIN Guardar Raw Consolidado ---
+        with open(consolidated_raw_summary_file, "w", encoding="utf-8") as f:
+            json.dump(all_raw_summary_responses, f, indent=2)
+    
+    summary_file_path = summaries_dir / f"flights_summary_{date_str}.json"
+    with open(summary_file_path, "w", encoding="utf-8") as f:
+        json.dump(summaries, f, indent=2)
+    logging.info(f"Resúmenes de vuelos guardados en: {summary_file_path}")
 
-    summary_file_path = out_dir / f"flights_summary_{date_str}.json"
-    try:
-        with open(summary_file_path, "w", encoding="utf-8") as f:
-            json.dump(summaries, f, indent=2)
-        logging.info(f"Resúmenes de vuelos combinados guardados en: {summary_file_path}")
-    except IOError as e:
-        logging.error(f"Error al guardar los resúmenes combinados en {summary_file_path}: {e}")
-
+    # --- Procesar y enriquecer cada vuelo ---
     processed_flights = []
-    logging.info(f"Procesando {len(accumulated_flight_data)} vuelos con datos de posición acumulados para enriquecerlos con resúmenes.")
-
     for fid, flight_data in accumulated_flight_data.items():
         if fid in failed_ids:
-            logging.warning(f"Saltando el procesamiento del vuelo FR24 ID: {fid} porque falló la obtención de su resumen.")
             continue
 
-        pts = flight_data['positions'] # Obtener solo las posiciones
-        callsign_or_flight = flight_data['callsign_or_flight'] # Obtener el callsign/flight
-
+        pts = flight_data.get('positions', [])
         if not pts:
-            logging.warning(f"No hay puntos de posición para el vuelo FR24 ID: {fid}. Saltando cálculos para este vuelo.")
             continue
 
-        s = summary_map.get(fid, {}) # Obtiene el resumen, si existe. Si no, es un diccionario vacío.
-
-        # Si no se encontró un resumen para este vuelo, loguearlo y saltarlo o continuar con datos parciales
-        if not s:
-            logging.debug(f"ℹ️ No se encontró resumen detallado de la API para el vuelo FR24 ID: {fid} (Callsign: {callsign_or_flight}). Se procesará con datos parciales.")
-            # Dependiendo de tu estrategia, podrías optar por saltar este vuelo aquí:
-            # continue 
+        s = summary_map.get(fid, {})
+        callsign_or_flight = flight_data['callsign_or_flight']
         
-        coords = [(p["latitude"], p["longitude"]) for p in pts if p["latitude"] is not None and p["longitude"] is not None]
-        dist = calculate_distance(coords) if coords else 0
+        coords = [(p["latitude"], p["longitude"]) for p in pts if p.get("latitude") is not None]
+        dist = calculate_distance(coords)
         durs = detect_phases(pts)
         
-        aircraft_type_from_summary = s.get("type") 
-        aircraft_model = s.get("aircraft", {}).get("model") 
-        
-        model_for_fuel = aircraft_type_from_summary or aircraft_model or "default"
-
+        model_for_fuel = s.get("type") or s.get("aircraft", {}).get("model") or "default"
         fuel = estimate_fuel(durs, model_for_fuel)
         co2_by_phase = {ph: round(fuel[ph] * 3.16, 2) for ph in fuel}
-        co2_total = round(sum(co2_by_phase.values()), 2)
-        co2_per_passenger = estimate_co2_by_passenger(fuel, model_for_fuel)
-
+        
         rec = {
-            "fr24_id": fid,
-            "flight": s.get("flight"),
-            "callsign": s.get("callsign") or callsign_or_flight, # Preferir el de summary, si no, el de la instantánea
-            "aircraft_model": model_for_fuel,
-            "aircraft_reg": s.get("reg"),
-            "departure": s.get("orig_icao"),
-            "arrival": s.get("dest_icao"),
-            "distance_km": dist,
-            "phase_durations_s": durs,
-            "fuel_estimated_kg": fuel,
-            "co2_estimated_kg": co2_by_phase,
-            "co2_total_kg": co2_total,
-            "co2_per_passenger_kg": co2_per_passenger,
-            "raw_flight_path_points": pts,
-            "circle_distance": s.get("circle_distance"),
+            "fr24_id": fid, "flight": s.get("flight"), "callsign": s.get("callsign") or callsign_or_flight,
+            "aircraft_model": model_for_fuel, "aircraft_reg": s.get("reg"), "departure": s.get("orig_icao"),
+            "arrival": s.get("dest_icao"), "distance_km": dist, "phase_durations_s": durs,
+            "fuel_estimated_kg": fuel, "co2_estimated_kg": co2_by_phase,
+            "co2_total_kg": round(sum(co2_by_phase.values()), 2),
+            "co2_per_passenger_kg": estimate_co2_by_passenger(fuel, model_for_fuel),
+            "raw_flight_path_points": pts, "circle_distance": s.get("circle_distance"),
         }
         processed_flights.append(rec)
 
-        flight_detail_file_path = out_dir / f"{fid}_detailed_path_{date_str}.json"
-        try:
-            with open(flight_detail_file_path, "w", encoding="utf-8") as f:
-                json.dump(pts, f, indent=2)
-            logging.debug(f"Puntos de posición detallados para el vuelo {fid} guardados en: {flight_detail_file_path}")
-        except IOError as e:
-            logging.error(f"Error al guardar los puntos de posición del vuelo {fid} en {flight_detail_file_path}: {e}")
+        flight_detail_file_path = detailed_paths_dir / f"{fid}_detailed_path_{date_str}.json"
+        with open(flight_detail_file_path, "w", encoding="utf-8") as f:
+            json.dump(pts, f, indent=2)
 
-    time.sleep(1)
-
-    processed_file_path = out_dir / f"flights_processed_{date_str}.json"
-    try:
-        with open(processed_file_path, "w", encoding="utf-8") as f:
-            json.dump(processed_flights, f, indent=2)
-        logging.info(f"Datos de vuelos procesados guardados en: {processed_file_path}")
-    except IOError as e:
-        logging.error(f"Error al guardar los vuelos procesados en {processed_file_path}: {e}")
-
+    processed_file_path = processed_dir / f"flights_processed_{date_str}.json"
+    with open(processed_file_path, "w", encoding="utf-8") as f:
+        json.dump(processed_flights, f, indent=2)
+    logging.info(f"Datos de vuelos procesados guardados en: {processed_file_path}")
     logging.info(f"✅ Finalizado el procesamiento de {len(processed_flights)} vuelos para {date_str}.")
 
 if __name__ == "__main__":
+    # --- Create a unique output directory for this script run ---
+    run_timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    base_output_dir = Path("data/flights")
+    run_output_dir = base_output_dir / f"run_{run_timestamp}"
+    run_output_dir.mkdir(parents=True, exist_ok=True)
+    logging.info(f"📂 Directorio de salida para esta ejecución: {run_output_dir}")
+
     today_utc_midnight = datetime.utcnow().replace(hour=0, minute=0, second=0, microsecond=0)
-    days_to_offset_from_today = 1 # Para procesar el día de ayer UTC (ej. hoy 04/07, se procesa 03/07)
+    days_to_offset_from_today = 1
     start_processing_day = today_utc_midnight - timedelta(days=days_to_offset_from_today)
 
     logging.info("Iniciando el script de recolección y procesamiento de datos de FlightRadar24.")
     for day_offset in range(DAYS):
-        day = start_processing_day
+        day = start_processing_day - timedelta(days=day_offset)
         logging.info(f"\n--- 📅 Iniciando procesamiento para el día: {day.strftime('%Y-%m-%d')} ---")
         try:
-            process_day(day)
+            # Pass the unique run directory to the processing function
+            process_day(day, run_output_dir)
         except Exception as e:
             logging.critical(f"❌ Error crítico al procesar el día {day.strftime('%Y-%m-%d')}: {e}", exc_info=True)
     logging.info("Procesamiento de datos de FlightRadar24 finalizado.")

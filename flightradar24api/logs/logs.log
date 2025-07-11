@@ -2221,3 +2221,251 @@
 2025-07-11 10:36:56,551 [INFO] Datos de vuelos procesados guardados en: data/flights/flights_processed_20250710.json
 2025-07-11 10:36:56,551 [INFO] ✅ Finalizado el procesamiento de 1244 vuelos para 20250710.
 2025-07-11 10:36:56,552 [INFO] Procesamiento de datos de FlightRadar24 finalizado.
+2025-07-11 10:55:49,651 [CRITICAL] No se encontró 'data/fuel_profiles.json'. Asegúrate de que el archivo existe.
+2025-07-11 10:56:09,019 [INFO] 📂 Directorio de salida para esta ejecución: data/flights/run_2025-07-11_10-56-09
+2025-07-11 10:56:09,019 [INFO] Iniciando el script de recolección y procesamiento de datos de FlightRadar24.
+2025-07-11 10:56:09,019 [INFO] 
+--- 📅 Iniciando procesamiento para el día: 2025-07-10 ---
+2025-07-11 10:56:09,019 [INFO] Comenzando el procesamiento de datos para el día: 2025-07-10
+2025-07-11 10:56:09,019 [INFO] Comenzando la recolección de IDs, callsigns/flight numbers y posiciones detalladas para el día: 2025-07-10 en la región de EE.UU.
+2025-07-11 10:56:09,019 [INFO] Directorio para datos raw del día 2025-07-10: data/flights/run_2025-07-11_10-56-09/raw_snapshots/20250710
+2025-07-11 10:56:09,019 [INFO] 🛰 Solicitando instantánea en 2025-07-10 05:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 10:56:10,386 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 10:56:11,388 [INFO] 🛰 Solicitando instantánea en 2025-07-10 09:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 10:56:12,554 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 10:56:13,559 [INFO] 🛰 Solicitando instantánea en 2025-07-10 13:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 10:56:14,881 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 10:56:15,885 [INFO] 🛰 Solicitando instantánea en 2025-07-10 17:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 10:56:17,612 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 10:56:18,614 [INFO] 🛰 Solicitando instantánea en 2025-07-10 21:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 10:56:19,754 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 10:56:20,760 [INFO] 🛰 Solicitando instantánea en 2025-07-11 01:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 10:56:21,258 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 10:56:22,263 [INFO] Después de filtrar, 1469 vuelos tienen callsign/flight y serán considerados para resumen.
+2025-07-11 10:56:22,265 [INFO] 🚀 Iniciando obtención de resúmenes. Intento 1/4 para 1469 IDs.
+2025-07-11 10:56:24,088 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UAL2017...'. Esperando 5.0s.
+2025-07-11 10:56:24,089 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UAL2437...'. Esperando 5.0s.
+2025-07-11 10:56:24,092 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'AMX171...'. Esperando 5.0s.
+2025-07-11 10:56:24,102 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1710...'. Esperando 5.0s.
+2025-07-11 10:56:24,214 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'AAL2453...'. Esperando 5.0s.
+2025-07-11 10:56:24,340 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1406...'. Esperando 5.0s.
+2025-07-11 10:56:24,404 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'JBU594...'. Esperando 5.0s.
+2025-07-11 10:56:24,405 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1431...'. Esperando 5.0s.
+2025-07-11 10:56:24,409 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA615...'. Esperando 5.0s.
+2025-07-11 10:56:24,486 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1748...'. Esperando 5.0s.
+2025-07-11 10:56:29,409 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UAL2017...'. Esperando 10.0s.
+2025-07-11 10:56:29,420 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UAL2437...'. Esperando 10.0s.
+2025-07-11 10:56:29,425 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1710...'. Esperando 10.0s.
+2025-07-11 10:56:29,513 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'AAL2453...'. Esperando 10.0s.
+2025-07-11 10:56:29,686 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'JBU594...'. Esperando 10.0s.
+2025-07-11 10:56:29,696 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1431...'. Esperando 10.0s.
+2025-07-11 10:56:29,702 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA615...'. Esperando 10.0s.
+2025-07-11 10:56:29,749 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1406...'. Esperando 10.0s.
+2025-07-11 10:56:29,812 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'AMX171...'. Esperando 10.0s.
+2025-07-11 10:56:30,207 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1748...'. Esperando 10.0s.
+2025-07-11 10:56:39,710 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UAL2017...'. Esperando 20.0s.
+2025-07-11 10:56:39,719 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1710...'. Esperando 20.0s.
+2025-07-11 10:56:39,729 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UAL2437...'. Esperando 20.0s.
+2025-07-11 10:56:39,814 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'AAL2453...'. Esperando 20.0s.
+2025-07-11 10:56:40,010 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA615...'. Esperando 20.0s.
+2025-07-11 10:56:40,016 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1431...'. Esperando 20.0s.
+2025-07-11 10:56:40,018 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'JBU594...'. Esperando 20.0s.
+2025-07-11 10:56:40,042 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1406...'. Esperando 20.0s.
+2025-07-11 10:56:40,105 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'AMX171...'. Esperando 20.0s.
+2025-07-11 10:56:40,500 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'FDX1748...'. Esperando 20.0s.
+2025-07-11 10:57:00,089 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N214TG...'. Esperando 5.0s.
+2025-07-11 10:57:00,101 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA541...'. Esperando 5.0s.
+2025-07-11 10:57:00,144 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA3300...'. Esperando 5.0s.
+2025-07-11 10:57:00,306 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'VOI7811...'. Esperando 5.0s.
+2025-07-11 10:57:00,327 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N420DD...'. Esperando 5.0s.
+2025-07-11 10:57:00,328 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA3963...'. Esperando 5.0s.
+2025-07-11 10:57:00,341 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'DAL9967...'. Esperando 5.0s.
+2025-07-11 10:57:00,439 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'HAL9624...'. Esperando 5.0s.
+2025-07-11 10:57:00,547 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UPS7845...'. Esperando 5.0s.
+2025-07-11 10:57:00,802 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA345...'. Esperando 5.0s.
+2025-07-11 10:57:05,411 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N214TG...'. Esperando 10.0s.
+2025-07-11 10:57:05,415 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA541...'. Esperando 10.0s.
+2025-07-11 10:57:05,449 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA3300...'. Esperando 10.0s.
+2025-07-11 10:57:05,625 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N420DD...'. Esperando 10.0s.
+2025-07-11 10:57:05,635 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA3963...'. Esperando 10.0s.
+2025-07-11 10:57:05,638 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'VOI7811...'. Esperando 10.0s.
+2025-07-11 10:57:05,739 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'HAL9624...'. Esperando 10.0s.
+2025-07-11 10:57:05,756 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'DAL9967...'. Esperando 10.0s.
+2025-07-11 10:57:05,856 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UPS7845...'. Esperando 10.0s.
+2025-07-11 10:57:06,106 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA345...'. Esperando 10.0s.
+2025-07-11 10:57:15,808 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA541...'. Esperando 20.0s.
+2025-07-11 10:57:15,818 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA3300...'. Esperando 20.0s.
+2025-07-11 10:57:15,867 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N214TG...'. Esperando 20.0s.
+2025-07-11 10:57:15,924 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N420DD...'. Esperando 20.0s.
+2025-07-11 10:57:15,946 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA3963...'. Esperando 20.0s.
+2025-07-11 10:57:15,996 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'VOI7811...'. Esperando 20.0s.
+2025-07-11 10:57:16,058 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'DAL9967...'. Esperando 20.0s.
+2025-07-11 10:57:16,108 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'HAL9624...'. Esperando 20.0s.
+2025-07-11 10:57:16,187 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UPS7845...'. Esperando 20.0s.
+2025-07-11 10:57:16,404 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA345...'. Esperando 20.0s.
+2025-07-11 10:57:37,469 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SIA24...'. Esperando 5.0s.
+2025-07-11 10:57:37,480 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N276LJ...'. Esperando 5.0s.
+2025-07-11 10:57:37,489 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'APZ131...'. Esperando 5.0s.
+2025-07-11 10:57:37,516 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'NBT30G...'. Esperando 5.0s.
+2025-07-11 10:57:37,573 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N107SB...'. Esperando 5.0s.
+2025-07-11 10:57:37,605 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'PAL126...'. Esperando 5.0s.
+2025-07-11 10:57:37,639 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N935BS...'. Esperando 5.0s.
+2025-07-11 10:57:37,662 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'AAL1056...'. Esperando 5.0s.
+2025-07-11 10:57:37,725 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N582MM...'. Esperando 5.0s.
+2025-07-11 10:57:37,760 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'LXJ409...'. Esperando 5.0s.
+2025-07-11 10:57:42,778 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N276LJ...'. Esperando 10.0s.
+2025-07-11 10:57:42,789 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SIA24...'. Esperando 10.0s.
+2025-07-11 10:57:42,796 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'APZ131...'. Esperando 10.0s.
+2025-07-11 10:57:42,812 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'NBT30G...'. Esperando 10.0s.
+2025-07-11 10:57:42,871 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N107SB...'. Esperando 10.0s.
+2025-07-11 10:57:42,896 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'PAL126...'. Esperando 10.0s.
+2025-07-11 10:57:42,934 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N935BS...'. Esperando 10.0s.
+2025-07-11 10:57:42,978 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'AAL1056...'. Esperando 10.0s.
+2025-07-11 10:57:43,043 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'LXJ409...'. Esperando 10.0s.
+2025-07-11 10:57:43,447 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N582MM...'. Esperando 10.0s.
+2025-07-11 10:57:53,250 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SIA24...'. Esperando 20.0s.
+2025-07-11 10:57:53,297 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N107SB...'. Esperando 20.0s.
+2025-07-11 10:57:53,297 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N935BS...'. Esperando 20.0s.
+2025-07-11 10:57:53,297 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'PAL126...'. Esperando 20.0s.
+2025-07-11 10:57:53,298 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N276LJ...'. Esperando 20.0s.
+2025-07-11 10:57:53,308 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'NBT30G...'. Esperando 20.0s.
+2025-07-11 10:57:53,329 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'AAL1056...'. Esperando 20.0s.
+2025-07-11 10:57:53,329 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'APZ131...'. Esperando 20.0s.
+2025-07-11 10:57:53,369 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'LXJ409...'. Esperando 20.0s.
+2025-07-11 10:57:53,742 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N582MM...'. Esperando 20.0s.
+2025-07-11 10:58:13,627 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA658...'. Esperando 5.0s.
+2025-07-11 10:58:13,627 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'VOI3060...'. Esperando 5.0s.
+2025-07-11 10:58:13,633 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UAL1517...'. Esperando 5.0s.
+2025-07-11 10:58:13,641 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'TSC282...'. Esperando 5.0s.
+2025-07-11 10:58:13,641 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA619...'. Esperando 5.0s.
+2025-07-11 10:58:13,644 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA4205...'. Esperando 5.0s.
+2025-07-11 10:58:13,673 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'DAL254...'. Esperando 5.0s.
+2025-07-11 10:58:13,685 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'CRE623...'. Esperando 5.0s.
+2025-07-11 10:58:19,022 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA619...'. Esperando 10.0s.
+2025-07-11 10:58:19,033 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'VOI3060...'. Esperando 10.0s.
+2025-07-11 10:58:19,034 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UAL1517...'. Esperando 10.0s.
+2025-07-11 10:58:19,044 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'DAL254...'. Esperando 10.0s.
+2025-07-11 10:58:19,084 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'TSC282...'. Esperando 10.0s.
+2025-07-11 10:58:19,366 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA4205...'. Esperando 10.0s.
+2025-07-11 10:58:19,394 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA658...'. Esperando 10.0s.
+2025-07-11 10:58:19,397 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'CRE623...'. Esperando 10.0s.
+2025-07-11 10:58:29,334 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA619...'. Esperando 20.0s.
+2025-07-11 10:58:29,344 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UAL1517...'. Esperando 20.0s.
+2025-07-11 10:58:29,346 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'VOI3060...'. Esperando 20.0s.
+2025-07-11 10:58:29,358 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'DAL254...'. Esperando 20.0s.
+2025-07-11 10:58:29,407 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'TSC282...'. Esperando 20.0s.
+2025-07-11 10:58:29,685 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA658...'. Esperando 20.0s.
+2025-07-11 10:58:29,700 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'CRE623...'. Esperando 20.0s.
+2025-07-11 10:58:29,794 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA4205...'. Esperando 20.0s.
+2025-07-11 10:58:49,801 [WARNING] Fin del intento 1. Quedan 719 IDs fallidos. Reintentando...
+2025-07-11 10:58:49,802 [INFO] 🚀 Iniciando obtención de resúmenes. Intento 2/4 para 719 IDs.
+2025-07-11 10:58:51,225 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N107SB...'. Esperando 5.0s.
+2025-07-11 10:58:51,235 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA345...'. Esperando 5.0s.
+2025-07-11 10:58:51,250 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N276LJ...'. Esperando 5.0s.
+2025-07-11 10:58:51,318 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SIA24...'. Esperando 5.0s.
+2025-07-11 10:58:51,411 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'NBT30G...'. Esperando 5.0s.
+2025-07-11 10:58:51,486 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'AAL1056...'. Esperando 5.0s.
+2025-07-11 10:58:51,535 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N4RP...'. Esperando 5.0s.
+2025-07-11 10:58:51,568 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'APZ131...'. Esperando 5.0s.
+2025-07-11 10:58:51,585 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N582MM...'. Esperando 5.0s.
+2025-07-11 10:58:51,635 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'LXJ409...'. Esperando 5.0s.
+2025-07-11 10:58:56,558 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N107SB...'. Esperando 10.0s.
+2025-07-11 10:58:56,559 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA345...'. Esperando 10.0s.
+2025-07-11 10:58:56,576 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N276LJ...'. Esperando 10.0s.
+2025-07-11 10:58:56,610 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SIA24...'. Esperando 10.0s.
+2025-07-11 10:58:56,713 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'NBT30G...'. Esperando 10.0s.
+2025-07-11 10:58:56,772 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'AAL1056...'. Esperando 10.0s.
+2025-07-11 10:58:56,826 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N4RP...'. Esperando 10.0s.
+2025-07-11 10:58:56,864 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'APZ131...'. Esperando 10.0s.
+2025-07-11 10:58:56,929 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'LXJ409...'. Esperando 10.0s.
+2025-07-11 10:58:57,293 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N582MM...'. Esperando 10.0s.
+2025-07-11 10:59:06,869 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N107SB...'. Esperando 20.0s.
+2025-07-11 10:59:06,874 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA345...'. Esperando 20.0s.
+2025-07-11 10:59:06,881 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N276LJ...'. Esperando 20.0s.
+2025-07-11 10:59:07,039 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'NBT30G...'. Esperando 20.0s.
+2025-07-11 10:59:07,039 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SIA24...'. Esperando 20.0s.
+2025-07-11 10:59:07,065 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'AAL1056...'. Esperando 20.0s.
+2025-07-11 10:59:07,124 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N4RP...'. Esperando 20.0s.
+2025-07-11 10:59:07,158 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'APZ131...'. Esperando 20.0s.
+2025-07-11 10:59:07,214 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'LXJ409...'. Esperando 20.0s.
+2025-07-11 10:59:07,601 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N582MM...'. Esperando 20.0s.
+2025-07-11 10:59:27,356 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA696...'. Esperando 5.0s.
+2025-07-11 10:59:27,357 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA619...'. Esperando 5.0s.
+2025-07-11 10:59:27,362 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UPS1347...'. Esperando 5.0s.
+2025-07-11 10:59:27,421 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'AFR159...'. Esperando 5.0s.
+2025-07-11 10:59:27,421 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA6546...'. Esperando 5.0s.
+2025-07-11 10:59:27,429 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA608...'. Esperando 5.0s.
+2025-07-11 10:59:27,430 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'VIR41R...'. Esperando 5.0s.
+2025-07-11 10:59:27,465 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'DAL991...'. Esperando 5.0s.
+2025-07-11 10:59:32,653 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UPS1347...'. Esperando 10.0s.
+2025-07-11 10:59:32,662 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA619...'. Esperando 10.0s.
+2025-07-11 10:59:32,688 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA696...'. Esperando 10.0s.
+2025-07-11 10:59:32,717 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA6546...'. Esperando 10.0s.
+2025-07-11 10:59:32,721 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'VIR41R...'. Esperando 10.0s.
+2025-07-11 10:59:32,754 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'AFR159...'. Esperando 10.0s.
+2025-07-11 10:59:32,762 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'DAL991...'. Esperando 10.0s.
+2025-07-11 10:59:32,765 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA608...'. Esperando 10.0s.
+2025-07-11 10:59:42,974 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UPS1347...'. Esperando 20.0s.
+2025-07-11 10:59:42,981 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA619...'. Esperando 20.0s.
+2025-07-11 10:59:43,004 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'VIR41R...'. Esperando 20.0s.
+2025-07-11 10:59:43,010 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA6546...'. Esperando 20.0s.
+2025-07-11 10:59:43,039 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'AFR159...'. Esperando 20.0s.
+2025-07-11 10:59:43,054 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA608...'. Esperando 20.0s.
+2025-07-11 10:59:43,058 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'DAL991...'. Esperando 20.0s.
+2025-07-11 10:59:43,112 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'SWA696...'. Esperando 20.0s.
+2025-07-11 11:00:03,117 [WARNING] Fin del intento 2. Quedan 449 IDs fallidos. Reintentando...
+2025-07-11 11:00:03,118 [INFO] 🚀 Iniciando obtención de resúmenes. Intento 3/4 para 449 IDs.
+2025-07-11 11:00:04,539 [WARNING] Fin del intento 3. Quedan 225 IDs fallidos. Reintentando...
+2025-07-11 11:00:04,540 [INFO] 🚀 Iniciando obtención de resúmenes. Intento 4/4 para 225 IDs.
+2025-07-11 11:00:04,834 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'LXJ504...'. Esperando 5.0s.
+2025-07-11 11:00:04,851 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N570PK...'. Esperando 5.0s.
+2025-07-11 11:00:04,852 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'XAASP...'. Esperando 5.0s.
+2025-07-11 11:00:04,852 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'VJA338...'. Esperando 5.0s.
+2025-07-11 11:00:04,854 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N214TG...'. Esperando 5.0s.
+2025-07-11 11:00:04,856 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'KOW703...'. Esperando 5.0s.
+2025-07-11 11:00:04,856 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N935BS...'. Esperando 5.0s.
+2025-07-11 11:00:04,864 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'OPT463...'. Esperando 5.0s.
+2025-07-11 11:00:04,864 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA821...'. Esperando 5.0s.
+2025-07-11 11:00:04,990 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UPS7845...'. Esperando 5.0s.
+2025-07-11 11:00:10,155 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'LXJ504...'. Esperando 10.0s.
+2025-07-11 11:00:10,167 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'XAASP...'. Esperando 10.0s.
+2025-07-11 11:00:10,175 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N570PK...'. Esperando 10.0s.
+2025-07-11 11:00:10,175 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N935BS...'. Esperando 10.0s.
+2025-07-11 11:00:10,175 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'VJA338...'. Esperando 10.0s.
+2025-07-11 11:00:10,175 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA821...'. Esperando 10.0s.
+2025-07-11 11:00:10,182 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'OPT463...'. Esperando 10.0s.
+2025-07-11 11:00:10,274 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N214TG...'. Esperando 10.0s.
+2025-07-11 11:00:10,275 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'KOW703...'. Esperando 10.0s.
+2025-07-11 11:00:10,290 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UPS7845...'. Esperando 10.0s.
+2025-07-11 11:00:20,485 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA821...'. Esperando 20.0s.
+2025-07-11 11:00:20,492 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N935BS...'. Esperando 20.0s.
+2025-07-11 11:00:20,496 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'OPT463...'. Esperando 20.0s.
+2025-07-11 11:00:20,498 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'LXJ504...'. Esperando 20.0s.
+2025-07-11 11:00:20,503 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'VJA338...'. Esperando 20.0s.
+2025-07-11 11:00:20,506 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N570PK...'. Esperando 20.0s.
+2025-07-11 11:00:20,565 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'KOW703...'. Esperando 20.0s.
+2025-07-11 11:00:20,566 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N214TG...'. Esperando 20.0s.
+2025-07-11 11:00:20,578 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'UPS7845...'. Esperando 20.0s.
+2025-07-11 11:00:20,881 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'XAASP...'. Esperando 20.0s.
+2025-07-11 11:00:40,867 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA522...'. Esperando 5.0s.
+2025-07-11 11:00:40,890 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N4RP...'. Esperando 5.0s.
+2025-07-11 11:00:40,966 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA418...'. Esperando 5.0s.
+2025-07-11 11:00:40,966 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA608...'. Esperando 5.0s.
+2025-07-11 11:00:40,966 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'NBT30G...'. Esperando 5.0s.
+2025-07-11 11:00:46,290 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA522...'. Esperando 10.0s.
+2025-07-11 11:00:46,306 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'NBT30G...'. Esperando 10.0s.
+2025-07-11 11:00:46,320 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA418...'. Esperando 10.0s.
+2025-07-11 11:00:46,382 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA608...'. Esperando 10.0s.
+2025-07-11 11:00:46,588 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N4RP...'. Esperando 10.0s.
+2025-07-11 11:00:56,604 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA522...'. Esperando 20.0s.
+2025-07-11 11:00:56,611 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'NBT30G...'. Esperando 20.0s.
+2025-07-11 11:00:56,698 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA608...'. Esperando 20.0s.
+2025-07-11 11:00:56,737 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'EJA418...'. Esperando 20.0s.
+2025-07-11 11:00:56,885 [WARNING] ⚠️ Demasiadas solicitudes (429) para lote 'N4RP...'. Esperando 20.0s.
+2025-07-11 11:01:16,892 [WARNING] Fin del intento 4. Quedan 225 IDs fallidos. Reintentando...
+2025-07-11 11:01:16,892 [INFO] ✅ Finalizada la obtención de resúmenes. Total obtenidos: 1110.
+2025-07-11 11:01:16,892 [ERROR] ⚠️ No se pudieron obtener resúmenes para 225 IDs después de todos los reintentos.
+2025-07-11 11:01:16,938 [INFO] Resúmenes de vuelos guardados en: data/flights/run_2025-07-11_10-56-09/summaries/flights_summary_20250710.json
+2025-07-11 11:01:17,059 [INFO] Datos de vuelos procesados guardados en: data/flights/run_2025-07-11_10-56-09/processed/flights_processed_20250710.json
+2025-07-11 11:01:17,059 [INFO] ✅ Finalizado el procesamiento de 1244 vuelos para 20250710.
+2025-07-11 11:01:17,059 [INFO] Procesamiento de datos de FlightRadar24 finalizado.
