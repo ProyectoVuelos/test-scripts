@@ -15,7 +15,7 @@ log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
 logging.basicConfig(
-    level=logging.INFO,
+    level=logging.DEBUG,
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[
         logging.FileHandler(log_dir / "logs.log"),
@@ -53,8 +53,8 @@ except json.JSONDecodeError:
     raise
 
 DAYS = 1
-INTERVAL_MINUTES = 240
-
+INTERVAL_MINUTES = 10
+MINIMUM_DATA_POINTS = 5 
 
 def calculate_distance(coords):
     """Calcula la distancia total recorrida a partir de una lista de coordenadas."""
@@ -336,6 +336,10 @@ def process_day(day_start: datetime, run_output_dir: Path):
 
         pts = flight_data.get('positions', [])
         if not pts:
+            continue
+
+        if len(pts) < MINIMUM_DATA_POINTS:
+            logging.info(f"Saltando vuelo {fid} por tener datos insuficientes ({len(pts)} puntos).")
             continue
 
         s = summary_map.get(fid, {})

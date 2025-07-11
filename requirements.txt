@@ -1,0 +1,4 @@
+geopy
+dotenv
+requests
+psycopg2-binary

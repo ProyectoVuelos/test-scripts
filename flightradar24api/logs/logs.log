@@ -2469,3 +2469,333 @@
 2025-07-11 11:01:17,059 [INFO] Datos de vuelos procesados guardados en: data/flights/run_2025-07-11_10-56-09/processed/flights_processed_20250710.json
 2025-07-11 11:01:17,059 [INFO] ✅ Finalizado el procesamiento de 1244 vuelos para 20250710.
 2025-07-11 11:01:17,059 [INFO] Procesamiento de datos de FlightRadar24 finalizado.
+2025-07-11 11:07:12,922 [INFO] 📂 Directorio de salida para esta ejecución: data/flights/run_2025-07-11_11-07-12
+2025-07-11 11:07:12,922 [INFO] Iniciando el script de recolección y procesamiento de datos de FlightRadar24.
+2025-07-11 11:07:12,922 [INFO] 
+--- 📅 Iniciando procesamiento para el día: 2025-07-10 ---
+2025-07-11 11:07:12,922 [INFO] Comenzando el procesamiento de datos para el día: 2025-07-10
+2025-07-11 11:07:12,922 [INFO] Comenzando la recolección de IDs, callsigns/flight numbers y posiciones detalladas para el día: 2025-07-10 en la región de EE.UU.
+2025-07-11 11:07:12,922 [INFO] Directorio para datos raw del día 2025-07-10: data/flights/run_2025-07-11_11-07-12/raw_snapshots/20250710
+2025-07-11 11:07:12,922 [INFO] 🛰 Solicitando instantánea en 2025-07-10 05:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:12,925 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:14,041 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752123600 HTTP/1.1" 200 None
+2025-07-11 11:07:14,257 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:15,262 [INFO] 🛰 Solicitando instantánea en 2025-07-10 05:10:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:15,266 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:16,384 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752124200 HTTP/1.1" 200 None
+2025-07-11 11:07:16,593 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:17,598 [INFO] 🛰 Solicitando instantánea en 2025-07-10 05:20:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:17,600 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:18,184 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752124800 HTTP/1.1" 200 None
+2025-07-11 11:07:18,199 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:19,201 [INFO] 🛰 Solicitando instantánea en 2025-07-10 05:30:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:19,202 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:19,846 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752125400 HTTP/1.1" 200 None
+2025-07-11 11:07:19,859 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:20,863 [INFO] 🛰 Solicitando instantánea en 2025-07-10 05:40:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:20,865 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:21,857 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752126000 HTTP/1.1" 200 None
+2025-07-11 11:07:22,002 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:23,007 [INFO] 🛰 Solicitando instantánea en 2025-07-10 05:50:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:23,011 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:24,179 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752126600 HTTP/1.1" 200 None
+2025-07-11 11:07:24,371 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:25,377 [INFO] 🛰 Solicitando instantánea en 2025-07-10 06:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:25,380 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:26,014 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752127200 HTTP/1.1" 200 None
+2025-07-11 11:07:26,026 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:27,031 [INFO] 🛰 Solicitando instantánea en 2025-07-10 06:10:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:27,034 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:27,559 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752127800 HTTP/1.1" 200 None
+2025-07-11 11:07:27,565 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:28,568 [INFO] 🛰 Solicitando instantánea en 2025-07-10 06:20:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:28,571 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:29,157 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752128400 HTTP/1.1" 200 None
+2025-07-11 11:07:29,165 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:30,167 [INFO] 🛰 Solicitando instantánea en 2025-07-10 06:30:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:30,168 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:30,710 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752129000 HTTP/1.1" 200 None
+2025-07-11 11:07:30,721 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:31,722 [INFO] 🛰 Solicitando instantánea en 2025-07-10 06:40:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:31,725 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:32,267 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752129600 HTTP/1.1" 200 None
+2025-07-11 11:07:32,274 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:33,279 [INFO] 🛰 Solicitando instantánea en 2025-07-10 06:50:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:33,282 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:33,779 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752130200 HTTP/1.1" 200 None
+2025-07-11 11:07:33,788 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:34,792 [INFO] 🛰 Solicitando instantánea en 2025-07-10 07:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:34,795 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:35,798 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752130800 HTTP/1.1" 200 None
+2025-07-11 11:07:35,943 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:36,945 [INFO] 🛰 Solicitando instantánea en 2025-07-10 07:10:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:36,946 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:37,479 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752131400 HTTP/1.1" 200 None
+2025-07-11 11:07:37,488 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:38,492 [INFO] 🛰 Solicitando instantánea en 2025-07-10 07:20:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:38,493 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:39,439 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752132000 HTTP/1.1" 200 None
+2025-07-11 11:07:39,584 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:40,584 [INFO] 🛰 Solicitando instantánea en 2025-07-10 07:30:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:40,585 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:41,138 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752132600 HTTP/1.1" 200 None
+2025-07-11 11:07:41,150 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:42,152 [INFO] 🛰 Solicitando instantánea en 2025-07-10 07:40:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:42,153 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:43,048 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752133200 HTTP/1.1" 200 None
+2025-07-11 11:07:43,191 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:44,194 [INFO] 🛰 Solicitando instantánea en 2025-07-10 07:50:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:44,195 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:44,800 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752133800 HTTP/1.1" 200 None
+2025-07-11 11:07:44,807 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:45,812 [INFO] 🛰 Solicitando instantánea en 2025-07-10 08:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:45,812 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:46,340 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752134400 HTTP/1.1" 200 None
+2025-07-11 11:07:46,349 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:47,351 [INFO] 🛰 Solicitando instantánea en 2025-07-10 08:10:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:47,352 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:47,922 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752135000 HTTP/1.1" 200 None
+2025-07-11 11:07:47,928 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:48,931 [INFO] 🛰 Solicitando instantánea en 2025-07-10 08:20:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:48,933 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:49,445 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752135600 HTTP/1.1" 200 None
+2025-07-11 11:07:49,454 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:50,459 [INFO] 🛰 Solicitando instantánea en 2025-07-10 08:30:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:50,462 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:51,010 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752136200 HTTP/1.1" 200 None
+2025-07-11 11:07:51,020 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:52,024 [INFO] 🛰 Solicitando instantánea en 2025-07-10 08:40:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:52,028 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:52,548 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752136800 HTTP/1.1" 200 None
+2025-07-11 11:07:52,563 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:53,568 [INFO] 🛰 Solicitando instantánea en 2025-07-10 08:50:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:53,572 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:54,594 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752137400 HTTP/1.1" 200 None
+2025-07-11 11:07:54,803 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:55,807 [INFO] 🛰 Solicitando instantánea en 2025-07-10 09:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:55,808 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:56,356 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752138000 HTTP/1.1" 200 None
+2025-07-11 11:07:56,366 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:57,371 [INFO] 🛰 Solicitando instantánea en 2025-07-10 09:10:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:57,375 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:58,045 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752138600 HTTP/1.1" 200 None
+2025-07-11 11:07:58,056 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:07:59,061 [INFO] 🛰 Solicitando instantánea en 2025-07-10 09:20:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:07:59,065 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:07:59,603 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752139200 HTTP/1.1" 200 None
+2025-07-11 11:07:59,607 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:00,613 [INFO] 🛰 Solicitando instantánea en 2025-07-10 09:30:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:00,616 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:01,248 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752139800 HTTP/1.1" 200 None
+2025-07-11 11:08:01,264 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:02,264 [INFO] 🛰 Solicitando instantánea en 2025-07-10 09:40:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:02,265 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:02,817 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752140400 HTTP/1.1" 200 None
+2025-07-11 11:08:02,833 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:03,838 [INFO] 🛰 Solicitando instantánea en 2025-07-10 09:50:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:03,841 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:04,831 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752141000 HTTP/1.1" 200 None
+2025-07-11 11:08:04,976 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:05,980 [INFO] 🛰 Solicitando instantánea en 2025-07-10 10:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:05,983 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:06,306 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752141600 HTTP/1.1" 429 None
+2025-07-11 11:08:06,307 [WARNING] ⚠️ Demasiadas solicitudes (429) en el intento 1. Esperando 10 segundos...
+2025-07-11 11:08:16,312 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:16,835 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752141600 HTTP/1.1" 200 None
+2025-07-11 11:08:16,840 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:17,840 [INFO] 🛰 Solicitando instantánea en 2025-07-10 10:10:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:17,844 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:18,419 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752142200 HTTP/1.1" 200 None
+2025-07-11 11:08:18,428 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:19,433 [INFO] 🛰 Solicitando instantánea en 2025-07-10 10:20:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:19,436 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:20,035 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752142800 HTTP/1.1" 200 None
+2025-07-11 11:08:20,041 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:21,045 [INFO] 🛰 Solicitando instantánea en 2025-07-10 10:30:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:21,045 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:21,614 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752143400 HTTP/1.1" 200 None
+2025-07-11 11:08:21,639 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:22,642 [INFO] 🛰 Solicitando instantánea en 2025-07-10 10:40:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:22,643 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:23,396 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752144000 HTTP/1.1" 200 None
+2025-07-11 11:08:23,402 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:24,405 [INFO] 🛰 Solicitando instantánea en 2025-07-10 10:50:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:24,406 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:25,057 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752144600 HTTP/1.1" 200 None
+2025-07-11 11:08:25,067 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:26,072 [INFO] 🛰 Solicitando instantánea en 2025-07-10 11:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:26,074 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:26,732 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752145200 HTTP/1.1" 200 None
+2025-07-11 11:08:26,748 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:27,751 [INFO] 🛰 Solicitando instantánea en 2025-07-10 11:10:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:27,753 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:28,336 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752145800 HTTP/1.1" 200 None
+2025-07-11 11:08:28,346 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:29,350 [INFO] 🛰 Solicitando instantánea en 2025-07-10 11:20:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:29,351 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:29,945 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752146400 HTTP/1.1" 200 None
+2025-07-11 11:08:29,956 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:30,958 [INFO] 🛰 Solicitando instantánea en 2025-07-10 11:30:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:30,959 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:31,601 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752147000 HTTP/1.1" 200 None
+2025-07-11 11:08:31,614 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:32,619 [INFO] 🛰 Solicitando instantánea en 2025-07-10 11:40:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:32,621 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:33,231 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752147600 HTTP/1.1" 200 None
+2025-07-11 11:08:33,239 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:34,244 [INFO] 🛰 Solicitando instantánea en 2025-07-10 11:50:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:34,247 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:34,828 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752148200 HTTP/1.1" 200 None
+2025-07-11 11:08:34,838 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:35,841 [INFO] 🛰 Solicitando instantánea en 2025-07-10 12:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:35,842 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:36,839 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752148800 HTTP/1.1" 200 None
+2025-07-11 11:08:36,985 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:37,991 [INFO] 🛰 Solicitando instantánea en 2025-07-10 12:10:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:37,994 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:38,579 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752149400 HTTP/1.1" 200 None
+2025-07-11 11:08:38,588 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:39,592 [INFO] 🛰 Solicitando instantánea en 2025-07-10 12:20:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:39,595 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:40,171 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752150000 HTTP/1.1" 200 None
+2025-07-11 11:08:40,180 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:41,181 [INFO] 🛰 Solicitando instantánea en 2025-07-10 12:30:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:41,182 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:41,814 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752150600 HTTP/1.1" 200 None
+2025-07-11 11:08:41,823 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:42,826 [INFO] 🛰 Solicitando instantánea en 2025-07-10 12:40:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:42,828 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:43,909 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752151200 HTTP/1.1" 200 None
+2025-07-11 11:08:44,051 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:45,054 [INFO] 🛰 Solicitando instantánea en 2025-07-10 12:50:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:45,056 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:45,656 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752151800 HTTP/1.1" 200 None
+2025-07-11 11:08:45,666 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:46,670 [INFO] 🛰 Solicitando instantánea en 2025-07-10 13:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:46,673 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:47,199 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752152400 HTTP/1.1" 200 None
+2025-07-11 11:08:47,211 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:48,212 [INFO] 🛰 Solicitando instantánea en 2025-07-10 13:10:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:48,213 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:48,826 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752153000 HTTP/1.1" 200 None
+2025-07-11 11:08:48,830 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:49,836 [INFO] 🛰 Solicitando instantánea en 2025-07-10 13:20:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:49,838 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:50,442 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752153600 HTTP/1.1" 200 None
+2025-07-11 11:08:50,452 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:51,456 [INFO] 🛰 Solicitando instantánea en 2025-07-10 13:30:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:51,459 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:52,082 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752154200 HTTP/1.1" 200 None
+2025-07-11 11:08:52,090 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:53,093 [INFO] 🛰 Solicitando instantánea en 2025-07-10 13:40:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:53,096 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:53,679 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752154800 HTTP/1.1" 200 None
+2025-07-11 11:08:53,692 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:54,693 [INFO] 🛰 Solicitando instantánea en 2025-07-10 13:50:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:54,695 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:55,249 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752155400 HTTP/1.1" 200 None
+2025-07-11 11:08:55,259 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:56,262 [INFO] 🛰 Solicitando instantánea en 2025-07-10 14:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:56,264 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:56,909 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752156000 HTTP/1.1" 200 None
+2025-07-11 11:08:56,920 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:57,923 [INFO] 🛰 Solicitando instantánea en 2025-07-10 14:10:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:57,924 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:08:58,574 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752156600 HTTP/1.1" 200 None
+2025-07-11 11:08:58,579 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:08:59,583 [INFO] 🛰 Solicitando instantánea en 2025-07-10 14:20:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:08:59,584 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:09:00,671 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752157200 HTTP/1.1" 200 None
+2025-07-11 11:09:00,810 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:09:01,812 [INFO] 🛰 Solicitando instantánea en 2025-07-10 14:30:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:09:01,813 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:09:02,402 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752157800 HTTP/1.1" 200 None
+2025-07-11 11:09:02,408 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:09:03,410 [INFO] 🛰 Solicitando instantánea en 2025-07-10 14:40:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:09:03,410 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:09:03,999 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752158400 HTTP/1.1" 200 None
+2025-07-11 11:09:04,006 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:09:05,008 [INFO] 🛰 Solicitando instantánea en 2025-07-10 14:50:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:09:05,009 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:09:05,688 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752159000 HTTP/1.1" 200 None
+2025-07-11 11:09:05,701 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:09:06,702 [INFO] 🛰 Solicitando instantánea en 2025-07-10 15:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:09:06,705 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:09:07,022 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752159600 HTTP/1.1" 429 None
+2025-07-11 11:09:07,024 [WARNING] ⚠️ Demasiadas solicitudes (429) en el intento 1. Esperando 10 segundos...
+2025-07-11 11:09:17,031 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:09:17,797 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752159600 HTTP/1.1" 200 None
+2025-07-11 11:09:17,805 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:09:18,806 [INFO] 🛰 Solicitando instantánea en 2025-07-10 15:10:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:09:18,809 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:09:19,362 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752160200 HTTP/1.1" 200 None
+2025-07-11 11:09:19,377 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:09:20,382 [INFO] 🛰 Solicitando instantánea en 2025-07-10 15:20:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:09:20,383 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:09:21,001 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752160800 HTTP/1.1" 200 None
+2025-07-11 11:09:21,011 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:09:22,017 [INFO] 🛰 Solicitando instantánea en 2025-07-10 15:30:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:09:22,020 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:09:22,611 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752161400 HTTP/1.1" 200 None
+2025-07-11 11:09:22,619 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:09:23,621 [INFO] 🛰 Solicitando instantánea en 2025-07-10 15:40:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:09:23,624 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:09:24,173 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752162000 HTTP/1.1" 200 None
+2025-07-11 11:09:24,183 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:09:25,187 [INFO] 🛰 Solicitando instantánea en 2025-07-10 15:50:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:09:25,191 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:09:25,779 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752162600 HTTP/1.1" 200 None
+2025-07-11 11:09:25,791 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:09:26,795 [INFO] 🛰 Solicitando instantánea en 2025-07-10 16:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:09:26,796 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:09:27,401 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752163200 HTTP/1.1" 200 None
+2025-07-11 11:09:27,411 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:09:28,412 [INFO] 🛰 Solicitando instantánea en 2025-07-10 16:10:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:09:28,413 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:09:28,948 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752163800 HTTP/1.1" 200 None
+2025-07-11 11:09:28,962 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:09:29,965 [INFO] 🛰 Solicitando instantánea en 2025-07-10 16:20:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:09:29,966 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:09:30,515 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752164400 HTTP/1.1" 200 None
+2025-07-11 11:09:30,523 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:09:31,525 [INFO] 🛰 Solicitando instantánea en 2025-07-10 16:30:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:09:31,527 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:09:32,095 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752165000 HTTP/1.1" 200 None
+2025-07-11 11:09:32,113 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:09:33,118 [INFO] 🛰 Solicitando instantánea en 2025-07-10 16:40:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:09:33,119 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:09:34,521 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752165600 HTTP/1.1" 200 None
+2025-07-11 11:09:34,677 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:09:35,681 [INFO] 🛰 Solicitando instantánea en 2025-07-10 16:50:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:09:35,684 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:09:36,649 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752166200 HTTP/1.1" 200 None
+2025-07-11 11:09:36,801 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:09:37,803 [INFO] 🛰 Solicitando instantánea en 2025-07-10 17:00:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:09:37,804 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:09:38,327 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752166800 HTTP/1.1" 200 None
+2025-07-11 11:09:38,337 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:09:39,342 [INFO] 🛰 Solicitando instantánea en 2025-07-10 17:10:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:09:39,344 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:09:39,935 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752167400 HTTP/1.1" 200 None
+2025-07-11 11:09:39,945 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:09:40,948 [INFO] 🛰 Solicitando instantánea en 2025-07-10 17:20:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:09:40,951 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:09:41,624 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752168000 HTTP/1.1" 200 None
+2025-07-11 11:09:41,636 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:09:42,640 [INFO] 🛰 Solicitando instantánea en 2025-07-10 17:30:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:09:42,641 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:09:43,625 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752168600 HTTP/1.1" 200 None
+2025-07-11 11:09:43,771 [INFO] ✅ Encontrados 300 IDs de vuelo en la instantánea.
+2025-07-11 11:09:44,773 [INFO] 🛰 Solicitando instantánea en 2025-07-10 17:40:00 UTC para EE.UU. (49.38,24.52,-124.77,-66.95)
+2025-07-11 11:09:44,774 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:09:45,091 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752169200 HTTP/1.1" 402 None
+2025-07-11 11:09:45,092 [ERROR] Error de red o HTTP al obtener vuelos en el timestamp 1752169200 (Intento 1/5): 402 Client Error: Payment Required for url: https://fr24api.flightradar24.com/api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752169200
+2025-07-11 11:09:50,098 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:09:50,424 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752169200 HTTP/1.1" 402 None
+2025-07-11 11:09:50,425 [ERROR] Error de red o HTTP al obtener vuelos en el timestamp 1752169200 (Intento 2/5): 402 Client Error: Payment Required for url: https://fr24api.flightradar24.com/api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752169200
+2025-07-11 11:09:55,428 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:09:55,759 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752169200 HTTP/1.1" 402 None
+2025-07-11 11:09:55,760 [ERROR] Error de red o HTTP al obtener vuelos en el timestamp 1752169200 (Intento 3/5): 402 Client Error: Payment Required for url: https://fr24api.flightradar24.com/api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752169200
+2025-07-11 11:10:00,765 [DEBUG] Starting new HTTPS connection (1): fr24api.flightradar24.com:443
+2025-07-11 11:10:01,233 [DEBUG] https://fr24api.flightradar24.com:443 "GET /api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752169200 HTTP/1.1" 402 None
+2025-07-11 11:10:01,233 [ERROR] Error de red o HTTP al obtener vuelos en el timestamp 1752169200 (Intento 4/5): 402 Client Error: Payment Required for url: https://fr24api.flightradar24.com/api/historic/flight-positions/full?bounds=49.38%2C24.52%2C-124.77%2C-66.95&timestamp=1752169200
