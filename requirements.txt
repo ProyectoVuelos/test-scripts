@@ -2,3 +2,5 @@ geopy
 dotenv
 requests
 psycopg2-binary
+tqdm
+black
