@@ -1,48 +1,38 @@
 #!/bin/bash
-
 # =================================================================
-#  Bash script to set up the PostgreSQL database schema.
-#  - Enables the PostGIS extension.
-#  - Executes a .sql file to create tables.
+#  Sets up the database schema by executing a .sql file.
+#  Reads configuration from the project's .env file.
 # =================================================================
+set -e
 
-# --- Configuration ---
-# These should match the values in your start_postgres.sh script
-CONTAINER_NAME="postgres-db"
-DB_USER="listerineh"
-DB_NAME="flights-db"
+# --- Load Configuration from .env file ---
+if [ -f .env ]; then
+  export $(grep -v '^#' .env | sed -e 's/^"//' -e 's/"$//' | xargs)
+fi
+
+# --- Configuration (with fallbacks) ---
+CONTAINER_NAME="flights-db-container"
+DB_USER=${DB_USER:-"postgres"}
+DB_NAME=${DB_NAME:-"postgres"}
 SQL_FILE="database/sql/generation.sql"
 
-# --- Pre-flight Check ---
-# Check if the Docker container is running
+# --- Pre-flight Checks ---
 if ! docker ps -f name=^/${CONTAINER_NAME}$ | grep -q $CONTAINER_NAME; then
     echo "❌ Error: The Docker container '$CONTAINER_NAME' is not running."
     echo "-> Please run ./start_postgres.sh first."
     exit 1
 fi
 
-# Check if the SQL file exists
 if [ ! -f "$SQL_FILE" ]; then
-    echo "❌ Error: SQL file '$SQL_FILE' not found in the current directory."
+    echo "❌ Error: SQL file '$SQL_FILE' not found."
     exit 1
 fi
 
-# --- Step 1: Enable PostGIS Extension ---
-# We execute this as the 'postgres' superuser inside the container for privileges.
-echo "-> Enabling PostGIS extension in the database '$DB_NAME'..."
-docker exec $CONTAINER_NAME psql -U postgres -d $DB_NAME -c "CREATE EXTENSION IF NOT EXISTS postgis;"
-
-
-# --- Step 2: Copy the SQL file into the container ---
-# The file is copied to the /tmp/ directory inside the container.
-echo "-> Copying '$SQL_FILE' into the container..."
-docker cp "$SQL_FILE" "${CONTAINER_NAME}:/tmp/generation.sql"
-
-
-# --- Step 3: Execute the SQL file to create tables ---
-# We execute the file using the specific user for our database.
-echo "-> Executing '$SQL_FILE' to generate tables..."
-docker exec $CONTAINER_NAME psql -U $DB_USER -d $DB_NAME -f /tmp/generation.sql
+# --- Execute the SQL file to create tables ---
+# We pipe the SQL file directly to psql inside the container.
+# This is cleaner than copying the file in first.
+echo "-> Executing '$SQL_FILE' to generate tables in database '$DB_NAME'..."
+docker exec -i $CONTAINER_NAME psql -U $DB_USER -d $DB_NAME < "$SQL_FILE"
 
 echo ""
-echo "✅ Database schema and extensions configured successfully!"
+echo "✅ Database schema configured successfully!"
