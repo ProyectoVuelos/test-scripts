@@ -5,20 +5,21 @@
 
 CREATE TABLE flights (
     -- Core Identifiers
-    flight_id SERIAL PRIMARY KEY, -- Internal auto-incrementing primary key
-    fr24_id VARCHAR(20) NOT NULL UNIQUE, -- The unique ID from the FlightRadar24 API
-    flight VARCHAR(20), -- Flight number, e.g., 'UAL173'
-    callsign VARCHAR(20), -- Flight callsign, e.g., 'SWA2914'
+    flight_id SERIAL PRIMARY KEY,
+    fr24_id VARCHAR(20) NOT NULL UNIQUE,
+    flight VARCHAR(20),
+    callsign VARCHAR(20),
     
     -- Aircraft Details
     aircraft_model VARCHAR(100),
-    aircraft_reg VARCHAR(20), -- Aircraft registration, e.g., 'N123UA'
-    
-    -- Route & Distance
-    departure VARCHAR(4), -- 4-letter ICAO airport code
-    arrival VARCHAR(4),   -- 4-letter ICAO airport code
-    distance_km NUMERIC(10, 2),
-    circle_distance NUMERIC(10, 2),
+    aircraft_reg VARCHAR(20),
+    departure_icao CHAR(4),
+    arrival_icao CHAR(4),
+    departure_time_utc TIMESTAMPTZ,
+    arrival_time_utc TIMESTAMPTZ,  
+    flight_duration_s INTEGER,    
+    distance_calculated_km NUMERIC(10, 2),
+    great_circle_distance_km NUMERIC(10, 2),
 
     -- Phase Durations (in seconds)
     duration_takeoff_s INTEGER,
@@ -44,8 +45,23 @@ CREATE TABLE flights (
     co2_per_passenger_kg NUMERIC(10, 2),
     
     -- Record Timestamps
-    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    last_updated TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
+
+-- Adds a trigger to automatically update the 'last_updated' timestamp on any change
+CREATE OR REPLACE FUNCTION trigger_set_timestamp()
+RETURNS TRIGGER AS $$
+BEGIN
+  NEW.last_updated = NOW();
+  RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER set_timestamp
+BEFORE UPDATE ON flights
+FOR EACH ROW
+EXECUTE FUNCTION trigger_set_timestamp();
 
 -- ######################################
 -- ##  TABLE 2: FLIGHT_POSITIONS       ##
@@ -59,7 +75,7 @@ CREATE TABLE flight_positions (
     flight_id INTEGER NOT NULL REFERENCES flights(flight_id) ON DELETE CASCADE,
     
     -- Position Data
-    "timestamp" TIMESTAMPTZ NOT NULL, -- Storing as a proper timestamp is better than an integer
+    "timestamp" TIMESTAMPTZ NOT NULL,
     latitude NUMERIC(9, 6) NOT NULL,
     longitude NUMERIC(9, 6) NOT NULL,
     altitude INTEGER,
