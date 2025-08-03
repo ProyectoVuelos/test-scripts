@@ -1,0 +1,87 @@
+[
+  {
+    "fr24_id": "sim_id_20250703_0",
+    "callsign": "SIM817",
+    "type": "A333",
+    "aircraft": {
+      "model": "A333",
+      "seats": 150
+    },
+    "reg": "N104E",
+    "orig_icao": "KATL",
+    "dest_icao": "KORD",
+    "airline": {
+      "name": "Delta Airlines",
+      "icao_code": "DL"
+    },
+    "actual_sch_time_utc": "2025-07-04T21:08:19Z"
+  },
+  {
+    "fr24_id": "sim_id_20250703_4",
+    "callsign": "SIM133",
+    "type": "E190",
+    "aircraft": {
+      "model": "E190",
+      "seats": 150
+    },
+    "reg": "N108T",
+    "orig_icao": "KATL",
+    "dest_icao": "KJFK",
+    "airline": {
+      "name": "Delta Airlines",
+      "icao_code": "UA"
+    },
+    "actual_sch_time_utc": "2025-07-04T21:08:19Z"
+  },
+  {
+    "fr24_id": "sim_id_20250703_2",
+    "callsign": "SIM294",
+    "type": "B77W",
+    "aircraft": {
+      "model": "B77W",
+      "seats": 150
+    },
+    "reg": "N467A",
+    "orig_icao": "KATL",
+    "dest_icao": "KDFW",
+    "airline": {
+      "name": "Spirit Airlines",
+      "icao_code": "DL"
+    },
+    "actual_sch_time_utc": "2025-07-04T21:08:19Z"
+  },
+  {
+    "fr24_id": "sim_id_20250703_3",
+    "callsign": "SIM572",
+    "type": "B77W",
+    "aircraft": {
+      "model": "B77W",
+      "seats": 150
+    },
+    "reg": "N254E",
+    "orig_icao": "KJFK",
+    "dest_icao": "KLAX",
+    "airline": {
+      "name": "Southwest Airlines",
+      "icao_code": "UA"
+    },
+    "actual_sch_time_utc": "2025-07-04T21:08:19Z"
+  },
+  {
+    "fr24_id": "sim_id_20250703_1",
+    "callsign": "SIM146",
+    "type": "A333",
+    "aircraft": {
+      "model": "A333",
+      "seats": 150
+    },
+    "reg": "N973W",
+    "orig_icao": "KATL",
+    "dest_icao": "KLAX",
+    "airline": {
+      "name": "American Airlines",
+      "icao_code": "AA"
+    },
+    "actual_sch_time_utc": "2025-07-04T21:08:19Z"
+  }
+]
