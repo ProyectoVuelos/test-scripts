@@ -1,6 +1,16 @@
--- #################################
--- ##      TABLE 1: FLIGHTS       ##
--- #################################
+-- ##################################################################
+-- ##      CLEANUP: Drop existing objects to ensure a fresh start    ##
+-- ##################################################################
+-- The CASCADE option automatically drops dependent objects like indexes and triggers.
+
+DROP TABLE IF EXISTS flight_positions CASCADE;
+DROP TABLE IF EXISTS flights CASCADE;
+DROP FUNCTION IF EXISTS trigger_set_timestamp() CASCADE;
+
+
+-- ##################################################################
+-- ##                TABLE 1: FLIGHTS                              ##
+-- ##################################################################
 -- Stores the main summary for each flight.
 
 CREATE TABLE flights (
@@ -13,11 +23,13 @@ CREATE TABLE flights (
     -- Aircraft Details
     aircraft_model VARCHAR(100),
     aircraft_reg VARCHAR(20),
+    
+    -- Route, Time & Distance
     departure_icao CHAR(4),
     arrival_icao CHAR(4),
     departure_time_utc TIMESTAMPTZ,
-    arrival_time_utc TIMESTAMPTZ,  
-    flight_duration_s INTEGER,    
+    arrival_time_utc TIMESTAMPTZ,
+    flight_duration_s INTEGER,
     distance_calculated_km NUMERIC(10, 2),
     great_circle_distance_km NUMERIC(10, 2),
 
@@ -49,29 +61,14 @@ CREATE TABLE flights (
     last_updated TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
--- Adds a trigger to automatically update the 'last_updated' timestamp on any change
-CREATE OR REPLACE FUNCTION trigger_set_timestamp()
-RETURNS TRIGGER AS $$
-BEGIN
-  NEW.last_updated = NOW();
-  RETURN NEW;
-END;
-$$ LANGUAGE plpgsql;
 
-CREATE TRIGGER set_timestamp
-BEFORE UPDATE ON flights
-FOR EACH ROW
-EXECUTE FUNCTION trigger_set_timestamp();
-
--- ######################################
--- ##  TABLE 2: FLIGHT_POSITIONS       ##
--- ######################################
+-- ##################################################################
+-- ##                TABLE 2: FLIGHT_POSITIONS                     ##
+-- ##################################################################
 -- Stores the time-series GPS data for each flight path.
 
 CREATE TABLE flight_positions (
     position_id SERIAL PRIMARY KEY,
-    
-    -- Foreign key to link back to the flights table
     flight_id INTEGER NOT NULL REFERENCES flights(flight_id) ON DELETE CASCADE,
     
     -- Position Data
@@ -84,14 +81,31 @@ CREATE TABLE flight_positions (
 );
 
 
--- #################################
--- ##          INDEXES            ##
--- #################################
--- Create indexes on frequently queried columns for performance.
+-- ##################################################################
+-- ##             INDEXES (Corrected Column Names)                 ##
+-- ##################################################################
 
 CREATE INDEX idx_flights_callsign ON flights(callsign);
-CREATE INDEX idx_flights_departure ON flights(departure);
-CREATE INDEX idx_flights_arrival ON flights(arrival);
+CREATE INDEX idx_flights_departure_icao ON flights(departure_icao); -- Corrected
+CREATE INDEX idx_flights_arrival_icao ON flights(arrival_icao);     -- Corrected
 
 CREATE INDEX idx_flight_positions_flight_id ON flight_positions(flight_id);
 CREATE INDEX idx_flight_positions_timestamp ON flight_positions("timestamp");
+
+
+-- ##################################################################
+-- ##          TRIGGERS: Automatically update timestamps           ##
+-- ##################################################################
+
+CREATE OR REPLACE FUNCTION trigger_set_timestamp()
+RETURNS TRIGGER AS $$
+BEGIN
+  NEW.last_updated = NOW();
+  RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER set_timestamp
+BEFORE UPDATE ON flights
+FOR EACH ROW
+EXECUTE FUNCTION trigger_set_timestamp();
