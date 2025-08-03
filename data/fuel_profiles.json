@@ -1,42 +1,98 @@
 {
-  "A320": {
-    "takeoff": 2800,
-    "climb": 2400,
-    "cruise": 2200,
-    "descent": 1500,
-    "landing": 900,
-    "seats": 180
+  "A220": {
+    "seats": 120,
+    "takeoff": 3040,
+    "climb": 2470,
+    "cruise": 1900,
+    "descent": 1140,
+    "landing": 760
   },
-  "B737-800": {
-    "takeoff": 2900,
-    "climb": 2500,
-    "cruise": 2300,
-    "descent": 1600,
-    "landing": 1000,
-    "seats": 189
+  "A320": {
+    "seats": 180,
+    "takeoff": 3840,
+    "climb": 3120,
+    "cruise": 2400,
+    "descent": 1440,
+    "landing": 960
+  },
+  "A330": {
+    "seats": 290,
+    "takeoff": 8800,
+    "climb": 7150,
+    "cruise": 5500,
+    "descent": 3300,
+    "landing": 2200
   },
   "A350": {
-    "takeoff": 3200,
-    "climb": 2700,
+    "seats": 315,
+    "takeoff": 8480,
+    "climb": 6890,
+    "cruise": 5300,
+    "descent": 3180,
+    "landing": 2120
+  },
+  "B737": {
+    "seats": 140,
+    "takeoff": 3680,
+    "climb": 2990,
+    "cruise": 2300,
+    "descent": 1380,
+    "landing": 920
+  },
+  "B738": {
+    "seats": 180,
+    "takeoff": 4000,
+    "climb": 3250,
     "cruise": 2500,
-    "descent": 1800,
-    "landing": 1100,
-    "seats": 300
+    "descent": 1500,
+    "landing": 1000
+  },
+  "B38M": {
+    "seats": 190,
+    "takeoff": 3520,
+    "climb": 2860,
+    "cruise": 2200,
+    "descent": 1320,
+    "landing": 880
   },
   "B777": {
-    "takeoff": 3400,
-    "climb": 2900,
-    "cruise": 2600,
-    "descent": 2000,
-    "landing": 1200,
-    "seats": 350
+    "seats": 360,
+    "takeoff": 10400,
+    "climb": 8450,
+    "cruise": 6500,
+    "descent": 3900,
+    "landing": 2600
+  },
+  "B787": {
+    "seats": 290,
+    "takeoff": 8000,
+    "climb": 6500,
+    "cruise": 5000,
+    "descent": 3000,
+    "landing": 2000
+  },
+  "CRJ7": {
+    "seats": 70,
+    "takeoff": 2560,
+    "climb": 2080,
+    "cruise": 1600,
+    "descent": 960,
+    "landing": 640
+  },
+  "E170": {
+    "seats": 78,
+    "takeoff": 2400,
+    "climb": 1950,
+    "cruise": 1500,
+    "descent": 900,
+    "landing": 600
   },
   "default": {
-    "takeoff": 3000,
-    "climb": 2500,
+    "seats": 150,
+    "takeoff": 3200,
+    "climb": 2600,
     "cruise": 2000,
-    "descent": 1500,
-    "landing": 1000,
-    "seats": 150
+    "descent": 1200,
+    "landing": 800
   }
 }

@@ -1,0 +1,39 @@
+[
+  {
+    "fr24_id": "phase_test_01",
+    "flight": "PT01",
+    "callsign": "PHTEST01",
+    "aircraft_model": "default",
+    "aircraft_reg": "N-TEST",
+    "departure_icao": "JFK",
+    "arrival_icao": "ORD",
+    "departure_time_utc": "2024-08-03T05:40:00+00:00",
+    "arrival_time_utc": "2024-08-03T06:05:00+00:00",
+    "flight_duration_s": 1500,
+    "distance_calculated_km": 62.03,
+    "great_circle_distance_km": 1150,
+    "phase_durations_s": {
+      "takeoff": 300,
+      "climb": 300,
+      "cruise": 300,
+      "descent": 300,
+      "landing": 300
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 208.33,
+      "climb": 166.67,
+      "cruise": 150.0,
+      "descent": 83.33,
+      "landing": 58.33
+    },
+    "co2_estimated_kg": {
+      "takeoff": 658.32,
+      "climb": 526.68,
+      "cruise": 474.0,
+      "descent": 263.32,
+      "landing": 184.32
+    },
+    "co2_total_kg": 2106.64,
+    "co2_per_passenger_kg": 14.04
+  }
+]
