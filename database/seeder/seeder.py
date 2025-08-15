@@ -7,17 +7,14 @@ from psycopg2.extras import execute_values
 from pathlib import Path
 from dotenv import load_dotenv
 
-# --- Load Environment Variables ---
 load_dotenv()
 
-# --- Logging Config ---
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[logging.StreamHandler()],
 )
 
-# --- Configuration ---
 DB_CONFIG = {
     "host": os.getenv("DB_HOST"),
     "port": os.getenv("DB_PORT", "5432"),
@@ -35,11 +32,9 @@ BASE_DATA_DIR = Path("data/flights")
 
 
 def get_all_processed_files(base_directory: Path):
-    """Finds all 'flights_processed_*.json' files across all run directories."""
     if not base_directory.is_dir():
         logging.error(f"Base data directory not found: {base_directory}")
         return []
-
     search_pattern = "run_*/processed/flights_processed_*.json"
     files = list(base_directory.glob(search_pattern))
     logging.info(f"Found {len(files)} processed JSON files.")
@@ -47,7 +42,6 @@ def get_all_processed_files(base_directory: Path):
 
 
 def seed_database(json_files_to_process):
-    """Connects to the DB and seeds the data from the provided list of files."""
     try:
         logging.info("Connecting to the PostgreSQL database...")
         conn = psycopg2.connect(**DB_CONFIG)
@@ -58,9 +52,17 @@ def seed_database(json_files_to_process):
 
     for json_file in json_files_to_process:
         logging.info(f"--- Processing file: {json_file} ---")
-        run_dir = json_file.parents[
-            1
-        ]  # The parent of the 'processed' directory is the run directory
+        run_dir = json_file.parents[1]
+
+        details_map_file = next(run_dir.glob("flight_details_map_*.json"), None)
+        if not details_map_file:
+            logging.error(
+                f"Could not find flight_details_map.json in {run_dir}. Skipping."
+            )
+            continue
+
+        with open(details_map_file, "r", encoding="utf-8") as f:
+            details_map = json.load(f)
 
         try:
             with open(json_file, "r", encoding="utf-8") as f:
@@ -68,7 +70,6 @@ def seed_database(json_files_to_process):
             logging.info(f"📄 Loaded {len(flights_data)} flights from {json_file.name}")
 
             with conn.cursor() as cur:
-                # Prepare data for bulk upsert
                 flight_tuples = [
                     (
                         f["fr24_id"],
@@ -104,7 +105,6 @@ def seed_database(json_files_to_process):
                     for f in flights_data
                 ]
 
-                # Bulk upsert flight data
                 inserted_flights = execute_values(
                     cur,
                     """
@@ -132,19 +132,12 @@ def seed_database(json_files_to_process):
                     f"✅ Bulk upsert complete. {len(flight_id_map)} flights processed."
                 )
 
-                # Insert positions for each upserted flight
-                date_str = json_file.stem.split("_")[-1]
-                detailed_paths_dir = run_dir / "detailed_paths"
-
                 for fr24_id, flight_id in flight_id_map.items():
-                    position_file = (
-                        detailed_paths_dir / f"{fr24_id}_detailed_path_{date_str}.json"
-                    )
-                    if not position_file.exists():
+                    flight_detail_data = details_map.get(fr24_id)
+                    if not flight_detail_data:
                         continue
 
-                    with open(position_file, "r") as f:
-                        positions = json.load(f)
+                    positions = flight_detail_data.get("positions", [])
                     if not positions:
                         continue
 
@@ -187,7 +180,6 @@ def seed_database(json_files_to_process):
 
 
 def main():
-    """Parses arguments and determines which files to seed."""
     parser = argparse.ArgumentParser(
         description="Seed the PostgreSQL database with processed flight data."
     )
@@ -211,7 +203,6 @@ def main():
     if not files_to_seed:
         logging.warning("No files found to seed.")
         return
-
     seed_database(files_to_seed)
 
 

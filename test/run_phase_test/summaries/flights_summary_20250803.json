@@ -1,0 +1,16 @@
+[
+  {
+    "fr24_id": "phase_test_01",
+    "flight": "PT01",
+    "callsign": "PHTEST01",
+    "reg": "N-TEST",
+    "type": "default",
+    "aircraft": { "model": "Test Craft" },
+    "origin": { "icao": "JFK" },
+    "destination": { "icao": "ORD" },
+    "great_circle_distance": { "km": 1150 },
+    "time": {
+      "real": { "departure": 1722663600, "arrival": 1722665100 }
+    }
+  }
+]

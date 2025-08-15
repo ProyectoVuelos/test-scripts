@@ -1,0 +1,3656 @@
+[
+  {
+    "fr24_id": "3b980e05",
+    "flight_number": "WN3341",
+    "start_ts": 1754435291,
+    "end_ts": 1754454876
+  },
+  {
+    "fr24_id": "3b98130c",
+    "flight_number": "UA909",
+    "start_ts": 1754435687,
+    "end_ts": 1754465642
+  },
+  {
+    "fr24_id": "3b984029",
+    "flight_number": "WN2465",
+    "start_ts": 1754439659,
+    "end_ts": 1754448453
+  },
+  {
+    "fr24_id": "3b985307",
+    "flight_number": "EJA797",
+    "start_ts": 1754441488,
+    "end_ts": 1754448167
+  },
+  {
+    "fr24_id": "3b9855b5",
+    "flight_number": "N955JS",
+    "start_ts": 1754441741,
+    "end_ts": 1754451451
+  },
+  {
+    "fr24_id": "3b9857a1",
+    "flight_number": "AXEL21",
+    "start_ts": 1754441904,
+    "end_ts": 1754453681
+  },
+  {
+    "fr24_id": "3b985b8a",
+    "flight_number": "DL2692",
+    "start_ts": 1754442393,
+    "end_ts": 1754475984
+  },
+  {
+    "fr24_id": "3b98a0a5",
+    "flight_number": "VS142",
+    "start_ts": 1754449589,
+    "end_ts": 1754485446
+  },
+  {
+    "fr24_id": "3b98f7b6",
+    "flight_number": "DL758",
+    "start_ts": 1754459462,
+    "end_ts": 1754472502
+  },
+  {
+    "fr24_id": "3b98f837",
+    "flight_number": "LXJ528",
+    "start_ts": 1754459530,
+    "end_ts": 1754477619
+  },
+  {
+    "fr24_id": "3b98fccd",
+    "flight_number": "F93294",
+    "start_ts": 1754460040,
+    "end_ts": 1754473092
+  },
+  {
+    "fr24_id": "3b9a1c97",
+    "flight_number": "WN3246",
+    "start_ts": 1754484180,
+    "end_ts": 1754494411
+  },
+  {
+    "fr24_id": "3b9a4589",
+    "flight_number": "N107SB",
+    "start_ts": 1754486641,
+    "end_ts": 1754495315
+  },
+  {
+    "fr24_id": "3b97ecf9",
+    "flight_number": "DL437",
+    "start_ts": 1754432511,
+    "end_ts": 1754452049
+  },
+  {
+    "fr24_id": "3b985cbc",
+    "flight_number": "WN2773",
+    "start_ts": 1754442400,
+    "end_ts": 1754453272
+  },
+  {
+    "fr24_id": "3b9863d2",
+    "flight_number": "UA368",
+    "start_ts": 1754443100,
+    "end_ts": 1754450266
+  },
+  {
+    "fr24_id": "3b98a735",
+    "flight_number": "BA264",
+    "start_ts": 1754450395,
+    "end_ts": 1754487829
+  },
+  {
+    "fr24_id": "3b98dda2",
+    "flight_number": "AA3245",
+    "start_ts": 1754456509,
+    "end_ts": 1754477718
+  },
+  {
+    "fr24_id": "3b990607",
+    "flight_number": "2D9036",
+    "start_ts": 1754461184,
+    "end_ts": 1754470411
+  },
+  {
+    "fr24_id": "3b993606",
+    "flight_number": "UA711",
+    "start_ts": 1754466077,
+    "end_ts": 1754494205
+  },
+  {
+    "fr24_id": "3b993e0e",
+    "flight_number": "AC807",
+    "start_ts": 1754466862,
+    "end_ts": 1754491839
+  },
+  {
+    "fr24_id": "3b99e917",
+    "flight_number": "XFL450",
+    "start_ts": 1754480969,
+    "end_ts": 1754503076
+  },
+  {
+    "fr24_id": "3b9a200d",
+    "flight_number": "JRE832",
+    "start_ts": 1754484393,
+    "end_ts": 1754495062
+  },
+  {
+    "fr24_id": "3b9a2f75",
+    "flight_number": "LXJ594",
+    "start_ts": 1754485330,
+    "end_ts": 1754491709
+  },
+  {
+    "fr24_id": "3b9a3ff1",
+    "flight_number": "N414FJ",
+    "start_ts": 1754486305,
+    "end_ts": 1754492851
+  },
+  {
+    "fr24_id": "3b9830cb",
+    "flight_number": "DL986",
+    "start_ts": 1754438256,
+    "end_ts": 1754449021
+  },
+  {
+    "fr24_id": "3b9841ac",
+    "flight_number": "WN2150",
+    "start_ts": 1754439798,
+    "end_ts": 1754447973
+  },
+  {
+    "fr24_id": "3b985e73",
+    "flight_number": "UA2224",
+    "start_ts": 1754442573,
+    "end_ts": 1754452796
+  },
+  {
+    "fr24_id": "3b98669e",
+    "flight_number": "DL650",
+    "start_ts": 1754443391,
+    "end_ts": 1754478380
+  },
+  {
+    "fr24_id": "3b98e907",
+    "flight_number": "UA2030",
+    "start_ts": 1754457787,
+    "end_ts": 1754475623
+  },
+  {
+    "fr24_id": "3b98e932",
+    "flight_number": "B6988",
+    "start_ts": 1754457801,
+    "end_ts": 1754491298
+  },
+  {
+    "fr24_id": "3b990649",
+    "flight_number": "WN4286",
+    "start_ts": 1754461641,
+    "end_ts": 1754474470
+  },
+  {
+    "fr24_id": "3b9982d5",
+    "flight_number": "CV5933",
+    "start_ts": 1754472882,
+    "end_ts": 1754509001
+  },
+  {
+    "fr24_id": "3b99e7f2",
+    "flight_number": "K4535",
+    "start_ts": 1754480861,
+    "end_ts": 1754493905
+  },
+  {
+    "fr24_id": "3b99e996",
+    "flight_number": "WN1667",
+    "start_ts": 1754480991,
+    "end_ts": 1754493439
+  },
+  {
+    "fr24_id": "3b99ead2",
+    "flight_number": "N760HC",
+    "start_ts": 1754481169,
+    "end_ts": 1754494097
+  },
+  {
+    "fr24_id": "3b99eedb",
+    "flight_number": "EJA817",
+    "start_ts": 1754482259,
+    "end_ts": 1754506138
+  },
+  {
+    "fr24_id": "3b9a26d3",
+    "flight_number": "WN2100",
+    "start_ts": 1754484822,
+    "end_ts": 1754492547
+  },
+  {
+    "fr24_id": "3b97eed0",
+    "flight_number": "AA2311",
+    "start_ts": 1754432682,
+    "end_ts": 1754450739
+  },
+  {
+    "fr24_id": "3b986b8c",
+    "flight_number": "FX1362",
+    "start_ts": 1754443883,
+    "end_ts": 1754448743
+  },
+  {
+    "fr24_id": "3b98d724",
+    "flight_number": "BA288",
+    "start_ts": 1754455834,
+    "end_ts": 1754491547
+  },
+  {
+    "fr24_id": "3b98d9e5",
+    "flight_number": "LXJ409",
+    "start_ts": 1754456113,
+    "end_ts": 1754473528
+  },
+  {
+    "fr24_id": "3b98ed4c",
+    "flight_number": "WS318",
+    "start_ts": 1754458282,
+    "end_ts": 1754471103
+  },
+  {
+    "fr24_id": "3b98f6dd",
+    "flight_number": "UA2210",
+    "start_ts": 1754459365,
+    "end_ts": 1754479692
+  },
+  {
+    "fr24_id": "3b98f944",
+    "flight_number": "AA1372",
+    "start_ts": 1754459658,
+    "end_ts": 1754478028
+  },
+  {
+    "fr24_id": "3b990780",
+    "flight_number": "5X304",
+    "start_ts": 1754461194,
+    "end_ts": 1754468914
+  },
+  {
+    "fr24_id": "3b9918b1",
+    "flight_number": "UA284",
+    "start_ts": 1754463105,
+    "end_ts": 1754478930
+  },
+  {
+    "fr24_id": "3b992315",
+    "flight_number": "Y43082",
+    "start_ts": 1754464178,
+    "end_ts": 1754480093
+  },
+  {
+    "fr24_id": "3b9931f9",
+    "flight_number": "FX1447",
+    "start_ts": 1754465687,
+    "end_ts": 1754472085
+  },
+  {
+    "fr24_id": "3b9817a3",
+    "flight_number": "LXJ365",
+    "start_ts": 1754436077,
+    "end_ts": 1754451842
+  },
+  {
+    "fr24_id": "3b982f0e",
+    "flight_number": "SIY905",
+    "start_ts": 1754438140,
+    "end_ts": 1754451676
+  },
+  {
+    "fr24_id": "3b9844fa",
+    "flight_number": "NK1395",
+    "start_ts": 1754440111,
+    "end_ts": 1754449823
+  },
+  {
+    "fr24_id": "3b9845f0",
+    "flight_number": "UA1312",
+    "start_ts": 1754440191,
+    "end_ts": 1754454350
+  },
+  {
+    "fr24_id": "3b984c12",
+    "flight_number": "AA3145",
+    "start_ts": 1754440799,
+    "end_ts": 1754449450
+  },
+  {
+    "fr24_id": "3b984ebf",
+    "flight_number": "AC327",
+    "start_ts": 1754441064,
+    "end_ts": 1754456801
+  },
+  {
+    "fr24_id": "3b9860a0",
+    "flight_number": "WN3024",
+    "start_ts": 1754442795,
+    "end_ts": 1754450383
+  },
+  {
+    "fr24_id": "3b9866d2",
+    "flight_number": "UA1841",
+    "start_ts": 1754443435,
+    "end_ts": 1754451792
+  },
+  {
+    "fr24_id": "3b98c1f4",
+    "flight_number": "BW520",
+    "start_ts": 1754453447,
+    "end_ts": 1754470276
+  },
+  {
+    "fr24_id": "3b98f4f0",
+    "flight_number": "UA436",
+    "start_ts": 1754459146,
+    "end_ts": 1754477811
+  },
+  {
+    "fr24_id": "3b99e4bb",
+    "flight_number": "EJA805",
+    "start_ts": 1754480647,
+    "end_ts": 1754496521
+  },
+  {
+    "fr24_id": "3b9a1543",
+    "flight_number": "WN4259",
+    "start_ts": 1754483745,
+    "end_ts": 1754492428
+  },
+  {
+    "fr24_id": "3b9a146d",
+    "flight_number": "EJA870",
+    "start_ts": 1754483935,
+    "end_ts": 1754492830
+  },
+  {
+    "fr24_id": "3b9a2202",
+    "flight_number": "LXJ465",
+    "start_ts": 1754484516,
+    "end_ts": 1754500709
+  },
+  {
+    "fr24_id": "3b97edcb",
+    "flight_number": "AS569",
+    "start_ts": 1754432575,
+    "end_ts": 1754449384
+  },
+  {
+    "fr24_id": "3b97ff34",
+    "flight_number": "WN457",
+    "start_ts": 1754434020,
+    "end_ts": 1754449504
+  },
+  {
+    "fr24_id": "3b9804f8",
+    "flight_number": "AC1074",
+    "start_ts": 1754434503,
+    "end_ts": 1754455616
+  },
+  {
+    "fr24_id": "3b981eab",
+    "flight_number": "DL226",
+    "start_ts": 1754436691,
+    "end_ts": 1754471341
+  },
+  {
+    "fr24_id": "3b983305",
+    "flight_number": "LH447",
+    "start_ts": 1754438460,
+    "end_ts": 1754473114
+  },
+  {
+    "fr24_id": "3b98422d",
+    "flight_number": "WN239",
+    "start_ts": 1754440033,
+    "end_ts": 1754451195
+  },
+  {
+    "fr24_id": "3b984d3b",
+    "flight_number": "WN1156",
+    "start_ts": 1754440934,
+    "end_ts": 1754452316
+  },
+  {
+    "fr24_id": "3b98d990",
+    "flight_number": "DL910",
+    "start_ts": 1754456082,
+    "end_ts": 1754474927
+  },
+  {
+    "fr24_id": "3b98e1ed",
+    "flight_number": "EJA808",
+    "start_ts": 1754456962,
+    "end_ts": 1754473606
+  },
+  {
+    "fr24_id": "3b98faa8",
+    "flight_number": "PD364",
+    "start_ts": 1754459809,
+    "end_ts": 1754473038
+  },
+  {
+    "fr24_id": "3b98fe29",
+    "flight_number": "WN4016",
+    "start_ts": 1754460196,
+    "end_ts": 1754473841
+  },
+  {
+    "fr24_id": "3b990d30",
+    "flight_number": "AA2773",
+    "start_ts": 1754461838,
+    "end_ts": 1754472585
+  },
+  {
+    "fr24_id": "3b99344b",
+    "flight_number": "QE730",
+    "start_ts": 1754465905,
+    "end_ts": 1754497180
+  },
+  {
+    "fr24_id": "3b9a29ba",
+    "flight_number": "UA1392",
+    "start_ts": 1754484976,
+    "end_ts": 1754494539
+  },
+  {
+    "fr24_id": "3b981e80",
+    "flight_number": "AA2473",
+    "start_ts": 1754436684,
+    "end_ts": 1754450335
+  },
+  {
+    "fr24_id": "3b984cc7",
+    "flight_number": "WN3335",
+    "start_ts": 1754440875,
+    "end_ts": 1754454107
+  },
+  {
+    "fr24_id": "3b985e70",
+    "flight_number": "FX1371",
+    "start_ts": 1754442571,
+    "end_ts": 1754455914
+  },
+  {
+    "fr24_id": "3b986562",
+    "flight_number": "DL310",
+    "start_ts": 1754443272,
+    "end_ts": 1754474526
+  },
+  {
+    "fr24_id": "3b98bafb",
+    "flight_number": "B6136",
+    "start_ts": 1754452724,
+    "end_ts": 1754476124
+  },
+  {
+    "fr24_id": "3b98eb1c",
+    "flight_number": "UA737",
+    "start_ts": 1754458038,
+    "end_ts": 1754477195
+  },
+  {
+    "fr24_id": "3b98f10f",
+    "flight_number": "AM90",
+    "start_ts": 1754458699,
+    "end_ts": 1754510151
+  },
+  {
+    "fr24_id": "3b9a0b12",
+    "flight_number": "FX3631",
+    "start_ts": 1754483114,
+    "end_ts": 1754491968
+  },
+  {
+    "fr24_id": "3b9a0fce",
+    "flight_number": "CRE518",
+    "start_ts": 1754483402,
+    "end_ts": 1754496080
+  },
+  {
+    "fr24_id": "3b9a37ae",
+    "flight_number": "WN4185",
+    "start_ts": 1754485807,
+    "end_ts": 1754496007
+  },
+  {
+    "fr24_id": "3b9a39f3",
+    "flight_number": "5X2983",
+    "start_ts": 1754485948,
+    "end_ts": 1754494706
+  },
+  {
+    "fr24_id": "3b9a4503",
+    "flight_number": "N96DD",
+    "start_ts": 1754486603,
+    "end_ts": 1754490105
+  },
+  {
+    "fr24_id": "3b9a10d1",
+    "flight_number": "QE301",
+    "start_ts": 1754486796,
+    "end_ts": 1754498367
+  },
+  {
+    "fr24_id": "3b97f86d",
+    "flight_number": "AZ621",
+    "start_ts": 1754433453,
+    "end_ts": 1754474216
+  },
+  {
+    "fr24_id": "3b9832d5",
+    "flight_number": "AA3277",
+    "start_ts": 1754438493,
+    "end_ts": 1754450914
+  },
+  {
+    "fr24_id": "3b983c77",
+    "flight_number": "WN1845",
+    "start_ts": 1754439423,
+    "end_ts": 1754450397
+  },
+  {
+    "fr24_id": "3b98470b",
+    "flight_number": "5Y8174",
+    "start_ts": 1754440302,
+    "end_ts": 1754452206
+  },
+  {
+    "fr24_id": "3b985b74",
+    "flight_number": "5X208",
+    "start_ts": 1754442274,
+    "end_ts": 1754472099
+  },
+  {
+    "fr24_id": "3b988aa2",
+    "flight_number": "TP240",
+    "start_ts": 1754447184,
+    "end_ts": 1754481899
+  },
+  {
+    "fr24_id": "3b98e3fd",
+    "flight_number": "UA1726",
+    "start_ts": 1754457199,
+    "end_ts": 1754470618
+  },
+  {
+    "fr24_id": "3b9914b7",
+    "flight_number": "UA2070",
+    "start_ts": 1754462669,
+    "end_ts": 1754482277
+  },
+  {
+    "fr24_id": "3b991cde",
+    "flight_number": "DL915",
+    "start_ts": 1754463547,
+    "end_ts": 1754482783
+  },
+  {
+    "fr24_id": "3b9922f1",
+    "flight_number": "NK1144",
+    "start_ts": 1754464160,
+    "end_ts": 1754475994
+  },
+  {
+    "fr24_id": "3b9a02be",
+    "flight_number": "PJC17",
+    "start_ts": 1754482599,
+    "end_ts": 1754495479
+  },
+  {
+    "fr24_id": "3b9a3916",
+    "flight_number": "XSR346",
+    "start_ts": 1754485901,
+    "end_ts": 1754497560
+  },
+  {
+    "fr24_id": "3b9a3d45",
+    "flight_number": "N285FW",
+    "start_ts": 1754486162,
+    "end_ts": 1754495149
+  },
+  {
+    "fr24_id": "3b9a4324",
+    "flight_number": "CRE824",
+    "start_ts": 1754486502,
+    "end_ts": 1754493459
+  },
+  {
+    "fr24_id": "3b97b338",
+    "flight_number": "HA36",
+    "start_ts": 1754427592,
+    "end_ts": 1754449653
+  },
+  {
+    "fr24_id": "3b97ef97",
+    "flight_number": "UA997",
+    "start_ts": 1754432722,
+    "end_ts": 1754470598
+  },
+  {
+    "fr24_id": "3b97f4d8",
+    "flight_number": "WN4332",
+    "start_ts": 1754433145,
+    "end_ts": 1754449105
+  },
+  {
+    "fr24_id": "3b9802ce",
+    "flight_number": "AS508",
+    "start_ts": 1754434309,
+    "end_ts": 1754454566
+  },
+  {
+    "fr24_id": "3b9834aa",
+    "flight_number": "Y43060",
+    "start_ts": 1754438604,
+    "end_ts": 1754450592
+  },
+  {
+    "fr24_id": "3b98447e",
+    "flight_number": "CI5239",
+    "start_ts": 1754440069,
+    "end_ts": 1754463022
+  },
+  {
+    "fr24_id": "3b984a66",
+    "flight_number": "WN1879",
+    "start_ts": 1754440630,
+    "end_ts": 1754449490
+  },
+  {
+    "fr24_id": "3b985e4d",
+    "flight_number": "WN657",
+    "start_ts": 1754442557,
+    "end_ts": 1754452702
+  },
+  {
+    "fr24_id": "3b990428",
+    "flight_number": "W8570",
+    "start_ts": 1754460859,
+    "end_ts": 1754470017
+  },
+  {
+    "fr24_id": "3b990da2",
+    "flight_number": "UA2102",
+    "start_ts": 1754461893,
+    "end_ts": 1754473618
+  },
+  {
+    "fr24_id": "3b99284f",
+    "flight_number": "SY4010",
+    "start_ts": 1754464703,
+    "end_ts": 1754479271
+  },
+  {
+    "fr24_id": "3b9a3990",
+    "flight_number": "WUP957",
+    "start_ts": 1754485928,
+    "end_ts": 1754494380
+  },
+  {
+    "fr24_id": "3b97dab0",
+    "flight_number": "LY25",
+    "start_ts": 1754430913,
+    "end_ts": 1754471650
+  },
+  {
+    "fr24_id": "3b97ec14",
+    "flight_number": "K4936",
+    "start_ts": 1754432434,
+    "end_ts": 1754461362
+  },
+  {
+    "fr24_id": "3b981f57",
+    "flight_number": "WN2486",
+    "start_ts": 1754436753,
+    "end_ts": 1754448087
+  },
+  {
+    "fr24_id": "3b984ac0",
+    "flight_number": "B62875",
+    "start_ts": 1754440670,
+    "end_ts": 1754450611
+  },
+  {
+    "fr24_id": "3b9855b7",
+    "flight_number": "BA172",
+    "start_ts": 1754441741,
+    "end_ts": 1754464728
+  },
+  {
+    "fr24_id": "3b9861ed",
+    "flight_number": "LXJ445",
+    "start_ts": 1754442926,
+    "end_ts": 1754458135
+  },
+  {
+    "fr24_id": "3b98cd21",
+    "flight_number": "UA427",
+    "start_ts": 1754454716,
+    "end_ts": 1754473265
+  },
+  {
+    "fr24_id": "3b98ce74",
+    "flight_number": "8C3222",
+    "start_ts": 1754454841,
+    "end_ts": 1754471105
+  },
+  {
+    "fr24_id": "3b98f3f5",
+    "flight_number": "BW605",
+    "start_ts": 1754459030,
+    "end_ts": 1754479455
+  },
+  {
+    "fr24_id": "3b98f599",
+    "flight_number": "Y43358",
+    "start_ts": 1754459219,
+    "end_ts": 1754475351
+  },
+  {
+    "fr24_id": "3b98ff2a",
+    "flight_number": "WS1103",
+    "start_ts": 1754460300,
+    "end_ts": 1754477167
+  },
+  {
+    "fr24_id": "3b9901ac",
+    "flight_number": "DL909",
+    "start_ts": 1754460586,
+    "end_ts": 1754474273
+  },
+  {
+    "fr24_id": "3b9931e8",
+    "flight_number": "SY3009",
+    "start_ts": 1754465681,
+    "end_ts": 1754473327
+  },
+  {
+    "fr24_id": "3b982be0",
+    "flight_number": "AA434",
+    "start_ts": 1754437852,
+    "end_ts": 1754448617
+  },
+  {
+    "fr24_id": "3b982bfc",
+    "flight_number": "EJA622",
+    "start_ts": 1754437859,
+    "end_ts": 1754457468
+  },
+  {
+    "fr24_id": "3b9850d7",
+    "flight_number": "NK1044",
+    "start_ts": 1754441260,
+    "end_ts": 1754450148
+  },
+  {
+    "fr24_id": "3b98afa7",
+    "flight_number": "B6359",
+    "start_ts": 1754451421,
+    "end_ts": 1754481172
+  },
+  {
+    "fr24_id": "3b98c2ad",
+    "flight_number": "DL632",
+    "start_ts": 1754453622,
+    "end_ts": 1754472105
+  },
+  {
+    "fr24_id": "3b98cf30",
+    "flight_number": "AA1587",
+    "start_ts": 1754454924,
+    "end_ts": 1754474012
+  },
+  {
+    "fr24_id": "3b98e99f",
+    "flight_number": "WN4255",
+    "start_ts": 1754457855,
+    "end_ts": 1754474854
+  },
+  {
+    "fr24_id": "3b98ecf9",
+    "flight_number": "AA2054",
+    "start_ts": 1754458243,
+    "end_ts": 1754475017
+  },
+  {
+    "fr24_id": "3b98f851",
+    "flight_number": "UA1367",
+    "start_ts": 1754459546,
+    "end_ts": 1754471398
+  },
+  {
+    "fr24_id": "3b99fe9f",
+    "flight_number": "N675SS",
+    "start_ts": 1754482342,
+    "end_ts": 1754493250
+  },
+  {
+    "fr24_id": "3b9a07ad",
+    "flight_number": "WN1638",
+    "start_ts": 1754482899,
+    "end_ts": 1754492003
+  },
+  {
+    "fr24_id": "3b980582",
+    "flight_number": "WN1148",
+    "start_ts": 1754434785,
+    "end_ts": 1754449199
+  },
+  {
+    "fr24_id": "3b982e78",
+    "flight_number": "DL2287",
+    "start_ts": 1754438082,
+    "end_ts": 1754448904
+  },
+  {
+    "fr24_id": "3b983bf7",
+    "flight_number": "SK944",
+    "start_ts": 1754439279,
+    "end_ts": 1754468487
+  },
+  {
+    "fr24_id": "3b984643",
+    "flight_number": "N680WP",
+    "start_ts": 1754440225,
+    "end_ts": 1754448628
+  },
+  {
+    "fr24_id": "3b98b552",
+    "flight_number": "BA242",
+    "start_ts": 1754452085,
+    "end_ts": 1754488147
+  },
+  {
+    "fr24_id": "3b98eca6",
+    "flight_number": "AC780",
+    "start_ts": 1754458227,
+    "end_ts": 1754477495
+  },
+  {
+    "fr24_id": "3b98ed46",
+    "flight_number": "BA274",
+    "start_ts": 1754458279,
+    "end_ts": 1754492844
+  },
+  {
+    "fr24_id": "3b990172",
+    "flight_number": "VB3118",
+    "start_ts": 1754460580,
+    "end_ts": 1754470787
+  },
+  {
+    "fr24_id": "3b99fadd",
+    "flight_number": "N831MT",
+    "start_ts": 1754482106,
+    "end_ts": 1754492419
+  },
+  {
+    "fr24_id": "3b9a093a",
+    "flight_number": "AC303",
+    "start_ts": 1754482998,
+    "end_ts": 1754501628
+  },
+  {
+    "fr24_id": "3b9a21a4",
+    "flight_number": "N434PJ",
+    "start_ts": 1754484487,
+    "end_ts": 1754494961
+  },
+  {
+    "fr24_id": "3b9a261d",
+    "flight_number": "EJA460",
+    "start_ts": 1754484767,
+    "end_ts": 1754491178
+  },
+  {
+    "fr24_id": "3b9a3c33",
+    "flight_number": "LXJ534",
+    "start_ts": 1754486098,
+    "end_ts": 1754492451
+  },
+  {
+    "fr24_id": "3b9a4819",
+    "flight_number": "N46HA",
+    "start_ts": 1754486788,
+    "end_ts": 1754496788
+  },
+  {
+    "fr24_id": "3b97cd80",
+    "flight_number": "LY27",
+    "start_ts": 1754429790,
+    "end_ts": 1754470089
+  },
+  {
+    "fr24_id": "3b983a68",
+    "flight_number": "LH467",
+    "start_ts": 1754439154,
+    "end_ts": 1754478094
+  },
+  {
+    "fr24_id": "3b985804",
+    "flight_number": "N118K",
+    "start_ts": 1754441945,
+    "end_ts": 1754449552
+  },
+  {
+    "fr24_id": "3b98581c",
+    "flight_number": "WN979",
+    "start_ts": 1754441958,
+    "end_ts": 1754450521
+  },
+  {
+    "fr24_id": "3b985ffb",
+    "flight_number": "G4978",
+    "start_ts": 1754442732,
+    "end_ts": 1754451743
+  },
+  {
+    "fr24_id": "3b98615e",
+    "flight_number": "IFA6427",
+    "start_ts": 1754442884,
+    "end_ts": 1754469085
+  },
+  {
+    "fr24_id": "3b9864f0",
+    "flight_number": "UA1924",
+    "start_ts": 1754443213,
+    "end_ts": 1754450903
+  },
+  {
+    "fr24_id": "3b98ce09",
+    "flight_number": "AA1984",
+    "start_ts": 1754454805,
+    "end_ts": 1754472859
+  },
+  {
+    "fr24_id": "3b98cf0b",
+    "flight_number": "UA1983",
+    "start_ts": 1754454925,
+    "end_ts": 1754471779
+  },
+  {
+    "fr24_id": "3b9928d9",
+    "flight_number": "VHLAL",
+    "start_ts": 1754464754,
+    "end_ts": 1754498329
+  },
+  {
+    "fr24_id": "3b992fe7",
+    "flight_number": "5X1070",
+    "start_ts": 1754465493,
+    "end_ts": 1754472122
+  },
+  {
+    "fr24_id": "3b9a529b",
+    "flight_number": "WUP665",
+    "start_ts": 1754487393,
+    "end_ts": 1754497424
+  },
+  {
+    "fr24_id": "3b95abae",
+    "flight_number": "CX812",
+    "start_ts": 1754393079,
+    "end_ts": 1754452100
+  },
+  {
+    "fr24_id": "3b97dee2",
+    "flight_number": "BW526",
+    "start_ts": 1754431284,
+    "end_ts": 1754454912
+  },
+  {
+    "fr24_id": "3b982769",
+    "flight_number": "N300MV",
+    "start_ts": 1754437442,
+    "end_ts": 1754449864
+  },
+  {
+    "fr24_id": "3b986269",
+    "flight_number": "UA2131",
+    "start_ts": 1754442968,
+    "end_ts": 1754451001
+  },
+  {
+    "fr24_id": "3b9862e0",
+    "flight_number": "EJA483",
+    "start_ts": 1754443014,
+    "end_ts": 1754448477
+  },
+  {
+    "fr24_id": "3b98e12d",
+    "flight_number": "PD318",
+    "start_ts": 1754456878,
+    "end_ts": 1754472866
+  },
+  {
+    "fr24_id": "3b991c91",
+    "flight_number": "VB868",
+    "start_ts": 1754463529,
+    "end_ts": 1754477443
+  },
+  {
+    "fr24_id": "3b9a0508",
+    "flight_number": "N105CD",
+    "start_ts": 1754482738,
+    "end_ts": 1754490770
+  },
+  {
+    "fr24_id": "3b9a09a0",
+    "flight_number": "EJA476",
+    "start_ts": 1754483056,
+    "end_ts": 1754493856
+  },
+  {
+    "fr24_id": "3b9a17b9",
+    "flight_number": "LXJ396",
+    "start_ts": 1754483891,
+    "end_ts": 1754493578
+  },
+  {
+    "fr24_id": "3b9a213b",
+    "flight_number": "UA1227",
+    "start_ts": 1754484465,
+    "end_ts": 1754492618
+  },
+  {
+    "fr24_id": "3b9a2204",
+    "flight_number": "N55G",
+    "start_ts": 1754484512,
+    "end_ts": 1754494171
+  },
+  {
+    "fr24_id": "3b9a4917",
+    "flight_number": "EJA463",
+    "start_ts": 1754486837,
+    "end_ts": 1754491464
+  },
+  {
+    "fr24_id": "3b9693be",
+    "flight_number": "SQ22",
+    "start_ts": 1754407557,
+    "end_ts": 1754475326
+  },
+  {
+    "fr24_id": "3b9807b0",
+    "flight_number": "DL991",
+    "start_ts": 1754434726,
+    "end_ts": 1754452100
+  },
+  {
+    "fr24_id": "3b984288",
+    "flight_number": "AA110",
+    "start_ts": 1754439878,
+    "end_ts": 1754472255
+  },
+  {
+    "fr24_id": "3b9847ec",
+    "flight_number": "WN967",
+    "start_ts": 1754440399,
+    "end_ts": 1754449693
+  },
+  {
+    "fr24_id": "3b98582d",
+    "flight_number": "OR511",
+    "start_ts": 1754441964,
+    "end_ts": 1754473776
+  },
+  {
+    "fr24_id": "3b9862e2",
+    "flight_number": "KE81",
+    "start_ts": 1754443014,
+    "end_ts": 1754494749
+  },
+  {
+    "fr24_id": "3b986899",
+    "flight_number": "WS1536",
+    "start_ts": 1754443580,
+    "end_ts": 1754453960
+  },
+  {
+    "fr24_id": "3b98dd07",
+    "flight_number": "AA276",
+    "start_ts": 1754456456,
+    "end_ts": 1754478378
+  },
+  {
+    "fr24_id": "3b98debb",
+    "flight_number": "UA1267",
+    "start_ts": 1754456628,
+    "end_ts": 1754474042
+  },
+  {
+    "fr24_id": "3b98edfb",
+    "flight_number": "UA8276",
+    "start_ts": 1754458371,
+    "end_ts": 1754472183
+  },
+  {
+    "fr24_id": "3b98ee75",
+    "flight_number": "AA761",
+    "start_ts": 1754458407,
+    "end_ts": 1754472388
+  },
+  {
+    "fr24_id": "3b9a3855",
+    "flight_number": "UA1353",
+    "start_ts": 1754485849,
+    "end_ts": 1754499438
+  },
+  {
+    "fr24_id": "3b98244d",
+    "flight_number": "AC1033",
+    "start_ts": 1754437187,
+    "end_ts": 1754453184
+  },
+  {
+    "fr24_id": "3b984690",
+    "flight_number": "QF7",
+    "start_ts": 1754440259,
+    "end_ts": 1754496706
+  },
+  {
+    "fr24_id": "3b9852ee",
+    "flight_number": "VS46",
+    "start_ts": 1754441473,
+    "end_ts": 1754465433
+  },
+  {
+    "fr24_id": "3b98bb9e",
+    "flight_number": "UA373",
+    "start_ts": 1754452794,
+    "end_ts": 1754471264
+  },
+  {
+    "fr24_id": "3b98bcc7",
+    "flight_number": "AA2199",
+    "start_ts": 1754452903,
+    "end_ts": 1754480075
+  },
+  {
+    "fr24_id": "3b98c9e9",
+    "flight_number": "UA1968",
+    "start_ts": 1754454337,
+    "end_ts": 1754471486
+  },
+  {
+    "fr24_id": "3b98f5c2",
+    "flight_number": "WN3396",
+    "start_ts": 1754459240,
+    "end_ts": 1754474141
+  },
+  {
+    "fr24_id": "3b990951",
+    "flight_number": "AM401",
+    "start_ts": 1754461399,
+    "end_ts": 1754479635
+  },
+  {
+    "fr24_id": "3b990d86",
+    "flight_number": "AA1271",
+    "start_ts": 1754461901,
+    "end_ts": 1754473327
+  },
+  {
+    "fr24_id": "3b99fa78",
+    "flight_number": "QE321",
+    "start_ts": 1754482083,
+    "end_ts": 1754516523
+  },
+  {
+    "fr24_id": "3b9a41bf",
+    "flight_number": "PRE50",
+    "start_ts": 1754486424,
+    "end_ts": 1754496907
+  },
+  {
+    "fr24_id": "3b975eb6",
+    "flight_number": "CX820",
+    "start_ts": 1754421136,
+    "end_ts": 1754476423
+  },
+  {
+    "fr24_id": "3b982cf5",
+    "flight_number": "AA457",
+    "start_ts": 1754437950,
+    "end_ts": 1754455903
+  },
+  {
+    "fr24_id": "3b9847fc",
+    "flight_number": "WN3017",
+    "start_ts": 1754441038,
+    "end_ts": 1754448301
+  },
+  {
+    "fr24_id": "3b985038",
+    "flight_number": "WN2633",
+    "start_ts": 1754441202,
+    "end_ts": 1754450851
+  },
+  {
+    "fr24_id": "3b98690f",
+    "flight_number": "WN461",
+    "start_ts": 1754443628,
+    "end_ts": 1754449489
+  },
+  {
+    "fr24_id": "3b98bce9",
+    "flight_number": "AA2464",
+    "start_ts": 1754452915,
+    "end_ts": 1754479976
+  },
+  {
+    "fr24_id": "3b99b23a",
+    "flight_number": "ASP574",
+    "start_ts": 1754476885,
+    "end_ts": 1754492116
+  },
+  {
+    "fr24_id": "3b99ce0d",
+    "flight_number": "WN2067",
+    "start_ts": 1754478982,
+    "end_ts": 1754492785
+  },
+  {
+    "fr24_id": "3b99f623",
+    "flight_number": "N951NB",
+    "start_ts": 1754481810,
+    "end_ts": 1754493014
+  },
+  {
+    "fr24_id": "3b9a0b8f",
+    "flight_number": "WN2061",
+    "start_ts": 1754483144,
+    "end_ts": 1754492310
+  },
+  {
+    "fr24_id": "3b9a0cc1",
+    "flight_number": "WN3182",
+    "start_ts": 1754483220,
+    "end_ts": 1754492678
+  },
+  {
+    "fr24_id": "3b9a1ff3",
+    "flight_number": "WN1058",
+    "start_ts": 1754484387,
+    "end_ts": 1754492032
+  },
+  {
+    "fr24_id": "3b9a33e6",
+    "flight_number": "WN391",
+    "start_ts": 1754485585,
+    "end_ts": 1754492620
+  },
+  {
+    "fr24_id": "3b983098",
+    "flight_number": "EJA695",
+    "start_ts": 1754438243,
+    "end_ts": 1754452128
+  },
+  {
+    "fr24_id": "3b984813",
+    "flight_number": "WS1576",
+    "start_ts": 1754440410,
+    "end_ts": 1754477452
+  },
+  {
+    "fr24_id": "3b985246",
+    "flight_number": "USC270",
+    "start_ts": 1754441413,
+    "end_ts": 1754450312
+  },
+  {
+    "fr24_id": "3b985572",
+    "flight_number": "AA740",
+    "start_ts": 1754441716,
+    "end_ts": 1754466644
+  },
+  {
+    "fr24_id": "3b98552c",
+    "flight_number": "AF635",
+    "start_ts": 1754441732,
+    "end_ts": 1754470055
+  },
+  {
+    "fr24_id": "3b985d53",
+    "flight_number": "WN3328",
+    "start_ts": 1754442460,
+    "end_ts": 1754451576
+  },
+  {
+    "fr24_id": "3b985d76",
+    "flight_number": "UA465",
+    "start_ts": 1754442471,
+    "end_ts": 1754450709
+  },
+  {
+    "fr24_id": "3b98dd61",
+    "flight_number": "AS36",
+    "start_ts": 1754456487,
+    "end_ts": 1754475338
+  },
+  {
+    "fr24_id": "3b99163f",
+    "flight_number": "KOW910",
+    "start_ts": 1754462855,
+    "end_ts": 1754480959
+  },
+  {
+    "fr24_id": "3b99d0a1",
+    "flight_number": "EJA554",
+    "start_ts": 1754479203,
+    "end_ts": 1754494031
+  },
+  {
+    "fr24_id": "3b9a067f",
+    "flight_number": "LXJ524",
+    "start_ts": 1754482831,
+    "end_ts": 1754494731
+  },
+  {
+    "fr24_id": "3b9a0beb",
+    "flight_number": "LXJ530",
+    "start_ts": 1754483164,
+    "end_ts": 1754492353
+  },
+  {
+    "fr24_id": "3b9a27fa",
+    "flight_number": "AC261",
+    "start_ts": 1754484876,
+    "end_ts": 1754494321
+  },
+  {
+    "fr24_id": "3b9a2a9c",
+    "flight_number": "LXJ303",
+    "start_ts": 1754485025,
+    "end_ts": 1754492740
+  },
+  {
+    "fr24_id": "3b9a3d1f",
+    "flight_number": "N55EA",
+    "start_ts": 1754486142,
+    "end_ts": 1754495623
+  },
+  {
+    "fr24_id": "3b984f84",
+    "flight_number": "F82615",
+    "start_ts": 1754441138,
+    "end_ts": 1754453565
+  },
+  {
+    "fr24_id": "3b98d83e",
+    "flight_number": "DL571",
+    "start_ts": 1754456000,
+    "end_ts": 1754476491
+  },
+  {
+    "fr24_id": "3b98f46d",
+    "flight_number": "DL561",
+    "start_ts": 1754459085,
+    "end_ts": 1754473553
+  },
+  {
+    "fr24_id": "3b98fc08",
+    "flight_number": "AC154",
+    "start_ts": 1754459971,
+    "end_ts": 1754473711
+  },
+  {
+    "fr24_id": "3b9906b7",
+    "flight_number": "UA1265",
+    "start_ts": 1754461117,
+    "end_ts": 1754479119
+  },
+  {
+    "fr24_id": "3b99ce78",
+    "flight_number": "EJA971",
+    "start_ts": 1754479012,
+    "end_ts": 1754495493
+  },
+  {
+    "fr24_id": "3b99daeb",
+    "flight_number": "5X2949",
+    "start_ts": 1754479941,
+    "end_ts": 1754494742
+  },
+  {
+    "fr24_id": "3b99f38d",
+    "flight_number": "WN2458",
+    "start_ts": 1754481651,
+    "end_ts": 1754491508
+  },
+  {
+    "fr24_id": "3b9a05dd",
+    "flight_number": "N680SF",
+    "start_ts": 1754482797,
+    "end_ts": 1754490825
+  },
+  {
+    "fr24_id": "3b9a2f48",
+    "flight_number": "EJA429",
+    "start_ts": 1754485330,
+    "end_ts": 1754492273
+  },
+  {
+    "fr24_id": "3b9a343f",
+    "flight_number": "JRE872",
+    "start_ts": 1754485606,
+    "end_ts": 1754496446
+  },
+  {
+    "fr24_id": "3b96f331",
+    "flight_number": "DL211",
+    "start_ts": 1754413647,
+    "end_ts": 1754472661
+  },
+  {
+    "fr24_id": "3b980567",
+    "flight_number": "AC338",
+    "start_ts": 1754434547,
+    "end_ts": 1754448965
+  },
+  {
+    "fr24_id": "3b986ee8",
+    "flight_number": "WN4412",
+    "start_ts": 1754444236,
+    "end_ts": 1754448051
+  },
+  {
+    "fr24_id": "3b98d401",
+    "flight_number": "5Y8701",
+    "start_ts": 1754455476,
+    "end_ts": 1754486683
+  },
+  {
+    "fr24_id": "3b98e40d",
+    "flight_number": "NK1870",
+    "start_ts": 1754457219,
+    "end_ts": 1754474079
+  },
+  {
+    "fr24_id": "3b98f0f7",
+    "flight_number": "B61377",
+    "start_ts": 1754458688,
+    "end_ts": 1754479036
+  },
+  {
+    "fr24_id": "3b98f18b",
+    "flight_number": "AS259",
+    "start_ts": 1754458768,
+    "end_ts": 1754480664
+  },
+  {
+    "fr24_id": "3b98f4ef",
+    "flight_number": "5X920",
+    "start_ts": 1754459149,
+    "end_ts": 1754471435
+  },
+  {
+    "fr24_id": "3b98fc83",
+    "flight_number": "XN1205",
+    "start_ts": 1754460018,
+    "end_ts": 1754472123
+  },
+  {
+    "fr24_id": "3b991d50",
+    "flight_number": "AM781",
+    "start_ts": 1754463589,
+    "end_ts": 1754476452
+  },
+  {
+    "fr24_id": "3b99db66",
+    "flight_number": "EJA559",
+    "start_ts": 1754479996,
+    "end_ts": 1754493294
+  },
+  {
+    "fr24_id": "3b9a180a",
+    "flight_number": "N18KW",
+    "start_ts": 1754483913,
+    "end_ts": 1754491883
+  },
+  {
+    "fr24_id": "3b9a20b2",
+    "flight_number": "LXJ544",
+    "start_ts": 1754484434,
+    "end_ts": 1754502064
+  },
+  {
+    "fr24_id": "3b9a330d",
+    "flight_number": "NJM616",
+    "start_ts": 1754485536,
+    "end_ts": 1754493629
+  },
+  {
+    "fr24_id": "3b9848c4",
+    "flight_number": "WN2007",
+    "start_ts": 1754440502,
+    "end_ts": 1754447134
+  },
+  {
+    "fr24_id": "3b984ceb",
+    "flight_number": "WN2222",
+    "start_ts": 1754440889,
+    "end_ts": 1754448425
+  },
+  {
+    "fr24_id": "3b9852f7",
+    "flight_number": "WN2327",
+    "start_ts": 1754441479,
+    "end_ts": 1754449335
+  },
+  {
+    "fr24_id": "3b9868d0",
+    "flight_number": "WN859",
+    "start_ts": 1754443601,
+    "end_ts": 1754449222
+  },
+  {
+    "fr24_id": "3b98b3cf",
+    "flight_number": "B6778",
+    "start_ts": 1754451905,
+    "end_ts": 1754472972
+  },
+  {
+    "fr24_id": "3b98de53",
+    "flight_number": "B698",
+    "start_ts": 1754456585,
+    "end_ts": 1754482407
+  },
+  {
+    "fr24_id": "3b98dfeb",
+    "flight_number": "AA3140",
+    "start_ts": 1754456753,
+    "end_ts": 1754472635
+  },
+  {
+    "fr24_id": "3b990671",
+    "flight_number": "UA1572",
+    "start_ts": 1754461078,
+    "end_ts": 1754475482
+  },
+  {
+    "fr24_id": "3b990ec1",
+    "flight_number": "AA3099",
+    "start_ts": 1754462069,
+    "end_ts": 1754472053
+  },
+  {
+    "fr24_id": "3b992389",
+    "flight_number": "5X1344",
+    "start_ts": 1754464220,
+    "end_ts": 1754472289
+  },
+  {
+    "fr24_id": "3b992ea5",
+    "flight_number": "5X988",
+    "start_ts": 1754465374,
+    "end_ts": 1754479805
+  },
+  {
+    "fr24_id": "3b9a3f7e",
+    "flight_number": "N422CP",
+    "start_ts": 1754486284,
+    "end_ts": 1754500259
+  },
+  {
+    "fr24_id": "3b9a4841",
+    "flight_number": "EJA914",
+    "start_ts": 1754486796,
+    "end_ts": 1754492993
+  },
+  {
+    "fr24_id": "3b97fa2d",
+    "flight_number": "LXJ328",
+    "start_ts": 1754433609,
+    "end_ts": 1754457292
+  },
+  {
+    "fr24_id": "3b98414a",
+    "flight_number": "W8950",
+    "start_ts": 1754439759,
+    "end_ts": 1754476813
+  },
+  {
+    "fr24_id": "3b98421b",
+    "flight_number": "PXT838",
+    "start_ts": 1754439838,
+    "end_ts": 1754450752
+  },
+  {
+    "fr24_id": "3b98c0cd",
+    "flight_number": "AA3166",
+    "start_ts": 1754453322,
+    "end_ts": 1754473729
+  },
+  {
+    "fr24_id": "3b98d85b",
+    "flight_number": "AS380",
+    "start_ts": 1754456020,
+    "end_ts": 1754471157
+  },
+  {
+    "fr24_id": "3b99015f",
+    "flight_number": "AI103",
+    "start_ts": 1754460568,
+    "end_ts": 1754494287
+  },
+  {
+    "fr24_id": "3b9918d4",
+    "flight_number": "NK1021",
+    "start_ts": 1754463126,
+    "end_ts": 1754473188
+  },
+  {
+    "fr24_id": "3b99215c",
+    "flight_number": "VB587",
+    "start_ts": 1754464004,
+    "end_ts": 1754478360
+  },
+  {
+    "fr24_id": "3b992a15",
+    "flight_number": "5X910",
+    "start_ts": 1754464879,
+    "end_ts": 1754478799
+  },
+  {
+    "fr24_id": "3b99ec96",
+    "flight_number": "UA1940",
+    "start_ts": 1754481195,
+    "end_ts": 1754493104
+  },
+  {
+    "fr24_id": "3b9a061e",
+    "flight_number": "JBA392",
+    "start_ts": 1754482812,
+    "end_ts": 1754497033
+  },
+  {
+    "fr24_id": "3b9a0968",
+    "flight_number": "FX853",
+    "start_ts": 1754483008,
+    "end_ts": 1754493088
+  },
+  {
+    "fr24_id": "3b9a0e97",
+    "flight_number": "PWR6",
+    "start_ts": 1754483329,
+    "end_ts": 1754495569
+  },
+  {
+    "fr24_id": "3b9a1bb2",
+    "flight_number": "N828ML",
+    "start_ts": 1754484127,
+    "end_ts": 1754491411
+  },
+  {
+    "fr24_id": "3b97ccfb",
+    "flight_number": "N50S",
+    "start_ts": 1754429742,
+    "end_ts": 1754448747
+  },
+  {
+    "fr24_id": "3b9828bc",
+    "flight_number": "WN3554",
+    "start_ts": 1754437562,
+    "end_ts": 1754448998
+  },
+  {
+    "fr24_id": "3b9839ca",
+    "flight_number": "NK1057",
+    "start_ts": 1754439088,
+    "end_ts": 1754451285
+  },
+  {
+    "fr24_id": "3b983b4f",
+    "flight_number": "Y48105",
+    "start_ts": 1754439226,
+    "end_ts": 1754449750
+  },
+  {
+    "fr24_id": "3b984fc5",
+    "flight_number": "AA2673",
+    "start_ts": 1754441160,
+    "end_ts": 1754449155
+  },
+  {
+    "fr24_id": "3b9850e2",
+    "flight_number": "EJA603",
+    "start_ts": 1754441265,
+    "end_ts": 1754449337
+  },
+  {
+    "fr24_id": "3b98c5cd",
+    "flight_number": "AA791",
+    "start_ts": 1754453884,
+    "end_ts": 1754477923
+  },
+  {
+    "fr24_id": "3b98fbf6",
+    "flight_number": "Y41773",
+    "start_ts": 1754459954,
+    "end_ts": 1754473744
+  },
+  {
+    "fr24_id": "3b991145",
+    "flight_number": "WS1992",
+    "start_ts": 1754462302,
+    "end_ts": 1754477216
+  },
+  {
+    "fr24_id": "3b992747",
+    "flight_number": "5X1190",
+    "start_ts": 1754464613,
+    "end_ts": 1754469736
+  },
+  {
+    "fr24_id": "3b99aea7",
+    "flight_number": "EJA616",
+    "start_ts": 1754476585,
+    "end_ts": 1754492123
+  },
+  {
+    "fr24_id": "3b99fab6",
+    "flight_number": "N312LG",
+    "start_ts": 1754482097,
+    "end_ts": 1754494228
+  },
+  {
+    "fr24_id": "3b9a000e",
+    "flight_number": "XSR301",
+    "start_ts": 1754482430,
+    "end_ts": 1754492711
+  },
+  {
+    "fr24_id": "3b9a1176",
+    "flight_number": "LXJ585",
+    "start_ts": 1754483507,
+    "end_ts": 1754496935
+  },
+  {
+    "fr24_id": "3b9a1562",
+    "flight_number": "N525WL",
+    "start_ts": 1754483750,
+    "end_ts": 1754491629
+  },
+  {
+    "fr24_id": "3b97b592",
+    "flight_number": "AV7392",
+    "start_ts": 1754427801,
+    "end_ts": 1754451177
+  },
+  {
+    "fr24_id": "3b97cfd8",
+    "flight_number": "XSR719",
+    "start_ts": 1754430002,
+    "end_ts": 1754451231
+  },
+  {
+    "fr24_id": "3b981cfb",
+    "flight_number": "UA2198",
+    "start_ts": 1754436540,
+    "end_ts": 1754451845
+  },
+  {
+    "fr24_id": "3b9833bf",
+    "flight_number": "DL2296",
+    "start_ts": 1754438516,
+    "end_ts": 1754449749
+  },
+  {
+    "fr24_id": "3b985344",
+    "flight_number": "AA1944",
+    "start_ts": 1754441513,
+    "end_ts": 1754449127
+  },
+  {
+    "fr24_id": "3b98a969",
+    "flight_number": "IB222",
+    "start_ts": 1754450640,
+    "end_ts": 1754488008
+  },
+  {
+    "fr24_id": "3b98ab10",
+    "flight_number": "WN754",
+    "start_ts": 1754450855,
+    "end_ts": 1754470008
+  },
+  {
+    "fr24_id": "3b991170",
+    "flight_number": "Y4700",
+    "start_ts": 1754462320,
+    "end_ts": 1754476776
+  },
+  {
+    "fr24_id": "3b992e7a",
+    "flight_number": "5X844",
+    "start_ts": 1754465338,
+    "end_ts": 1754477719
+  },
+  {
+    "fr24_id": "3b993031",
+    "flight_number": "FX1419",
+    "start_ts": 1754465512,
+    "end_ts": 1754480295
+  },
+  {
+    "fr24_id": "3b99e3e3",
+    "flight_number": "K988",
+    "start_ts": 1754480600,
+    "end_ts": 1754492609
+  },
+  {
+    "fr24_id": "3b9a11b0",
+    "flight_number": "N33BW",
+    "start_ts": 1754483519,
+    "end_ts": 1754491926
+  },
+  {
+    "fr24_id": "3b9a3d41",
+    "flight_number": "AA4657",
+    "start_ts": 1754486151,
+    "end_ts": 1754492890
+  },
+  {
+    "fr24_id": "3b9a4621",
+    "flight_number": "N32PM",
+    "start_ts": 1754486673,
+    "end_ts": 1754501031
+  },
+  {
+    "fr24_id": "3b97eb3d",
+    "flight_number": "UA1733",
+    "start_ts": 1754432363,
+    "end_ts": 1754448221
+  },
+  {
+    "fr24_id": "3b982c39",
+    "flight_number": "WN4298",
+    "start_ts": 1754437886,
+    "end_ts": 1754451964
+  },
+  {
+    "fr24_id": "3b9846c4",
+    "flight_number": "BA218",
+    "start_ts": 1754440285,
+    "end_ts": 1754471274
+  },
+  {
+    "fr24_id": "3b985765",
+    "flight_number": "AA5147",
+    "start_ts": 1754441885,
+    "end_ts": 1754448304
+  },
+  {
+    "fr24_id": "3b9868aa",
+    "flight_number": "FX1291",
+    "start_ts": 1754443589,
+    "end_ts": 1754454062
+  },
+  {
+    "fr24_id": "3b98b0a6",
+    "flight_number": "AA2701",
+    "start_ts": 1754451538,
+    "end_ts": 1754476625
+  },
+  {
+    "fr24_id": "3b98db3c",
+    "flight_number": "UA1995",
+    "start_ts": 1754456262,
+    "end_ts": 1754473236
+  },
+  {
+    "fr24_id": "3b98ec27",
+    "flight_number": "B6162",
+    "start_ts": 1754458150,
+    "end_ts": 1754482626
+  },
+  {
+    "fr24_id": "3b990c8d",
+    "flight_number": "G41318",
+    "start_ts": 1754461771,
+    "end_ts": 1754469052
+  },
+  {
+    "fr24_id": "3b9a0707",
+    "flight_number": "WN1161",
+    "start_ts": 1754482868,
+    "end_ts": 1754491682
+  },
+  {
+    "fr24_id": "3b9a30ff",
+    "flight_number": "DL2947",
+    "start_ts": 1754485423,
+    "end_ts": 1754493805
+  },
+  {
+    "fr24_id": "3b9a3600",
+    "flight_number": "KOW992",
+    "start_ts": 1754485709,
+    "end_ts": 1754495401
+  },
+  {
+    "fr24_id": "3b9a41c5",
+    "flight_number": "N87LC",
+    "start_ts": 1754486413,
+    "end_ts": 1754498560
+  },
+  {
+    "fr24_id": "3b9a5286",
+    "flight_number": "WN1267",
+    "start_ts": 1754487393,
+    "end_ts": 1754490610
+  },
+  {
+    "fr24_id": "3b96a5f3",
+    "flight_number": "VJT768",
+    "start_ts": 1754408654,
+    "end_ts": 1754451475
+  },
+  {
+    "fr24_id": "3b981a8d",
+    "flight_number": "DL2230",
+    "start_ts": 1754436334,
+    "end_ts": 1754448232
+  },
+  {
+    "fr24_id": "3b984555",
+    "flight_number": "DL1439",
+    "start_ts": 1754440137,
+    "end_ts": 1754450280
+  },
+  {
+    "fr24_id": "3b984597",
+    "flight_number": "HA1614",
+    "start_ts": 1754440164,
+    "end_ts": 1754452738
+  },
+  {
+    "fr24_id": "3b984c80",
+    "flight_number": "LH495",
+    "start_ts": 1754440839,
+    "end_ts": 1754467093
+  },
+  {
+    "fr24_id": "3b9851b6",
+    "flight_number": "N67WH",
+    "start_ts": 1754441346,
+    "end_ts": 1754450282
+  },
+  {
+    "fr24_id": "3b98996c",
+    "flight_number": "AM91",
+    "start_ts": 1754448800,
+    "end_ts": 1754502551
+  },
+  {
+    "fr24_id": "3b99c18b",
+    "flight_number": "AA1718",
+    "start_ts": 1754478083,
+    "end_ts": 1754491104
+  },
+  {
+    "fr24_id": "3b99cffc",
+    "flight_number": "FX657",
+    "start_ts": 1754479137,
+    "end_ts": 1754492758
+  },
+  {
+    "fr24_id": "3b9a0ecd",
+    "flight_number": "EJA957",
+    "start_ts": 1754483339,
+    "end_ts": 1754491177
+  },
+  {
+    "fr24_id": "3b9a1629",
+    "flight_number": "NK1359",
+    "start_ts": 1754483803,
+    "end_ts": 1754493773
+  },
+  {
+    "fr24_id": "3b9a2e78",
+    "flight_number": "WN2120",
+    "start_ts": 1754485272,
+    "end_ts": 1754491206
+  },
+  {
+    "fr24_id": "3b97c597",
+    "flight_number": "TIV709",
+    "start_ts": 1754429137,
+    "end_ts": 1754449509
+  },
+  {
+    "fr24_id": "3b9847c7",
+    "flight_number": "UA860",
+    "start_ts": 1754440381,
+    "end_ts": 1754474737
+  },
+  {
+    "fr24_id": "3b985bf4",
+    "flight_number": "5X1395",
+    "start_ts": 1754442317,
+    "end_ts": 1754450151
+  },
+  {
+    "fr24_id": "3b98b7e3",
+    "flight_number": "Y41902",
+    "start_ts": 1754452400,
+    "end_ts": 1754470294
+  },
+  {
+    "fr24_id": "3b98e68a",
+    "flight_number": "NK1683",
+    "start_ts": 1754457491,
+    "end_ts": 1754472454
+  },
+  {
+    "fr24_id": "3b98eac7",
+    "flight_number": "RCH1807",
+    "start_ts": 1754457995,
+    "end_ts": 1754486452
+  },
+  {
+    "fr24_id": "3b98f887",
+    "flight_number": "UA2334",
+    "start_ts": 1754459560,
+    "end_ts": 1754471651
+  },
+  {
+    "fr24_id": "3b991a18",
+    "flight_number": "AM619",
+    "start_ts": 1754463259,
+    "end_ts": 1754476413
+  },
+  {
+    "fr24_id": "3b991d9f",
+    "flight_number": "UA1605",
+    "start_ts": 1754463628,
+    "end_ts": 1754481680
+  },
+  {
+    "fr24_id": "3b99d6d7",
+    "flight_number": "N400LC",
+    "start_ts": 1754479656,
+    "end_ts": 1754492614
+  },
+  {
+    "fr24_id": "3b99f392",
+    "flight_number": "N765PG",
+    "start_ts": 1754481653,
+    "end_ts": 1754494510
+  },
+  {
+    "fr24_id": "3b9a0c81",
+    "flight_number": "WN257",
+    "start_ts": 1754483200,
+    "end_ts": 1754493594
+  },
+  {
+    "fr24_id": "3b9a3658",
+    "flight_number": "N804JM",
+    "start_ts": 1754485735,
+    "end_ts": 1754500923
+  },
+  {
+    "fr24_id": "3b9a50f4",
+    "flight_number": "WUP655",
+    "start_ts": 1754487284,
+    "end_ts": 1754493475
+  },
+  {
+    "fr24_id": "3b97d85f",
+    "flight_number": "AA2142",
+    "start_ts": 1754430730,
+    "end_ts": 1754449681
+  },
+  {
+    "fr24_id": "3b980eee",
+    "flight_number": "DL290",
+    "start_ts": 1754435476,
+    "end_ts": 1754476817
+  },
+  {
+    "fr24_id": "3b98238d",
+    "flight_number": "AF631",
+    "start_ts": 1754437128,
+    "end_ts": 1754469168
+  },
+  {
+    "fr24_id": "3b985f15",
+    "flight_number": "A8805B",
+    "start_ts": 1754442631,
+    "end_ts": 1754451423
+  },
+  {
+    "fr24_id": "3b98aabe",
+    "flight_number": "B62120",
+    "start_ts": 1754450819,
+    "end_ts": 1754481735
+  },
+  {
+    "fr24_id": "3b98c97f",
+    "flight_number": "WN2309",
+    "start_ts": 1754454275,
+    "end_ts": 1754470371
+  },
+  {
+    "fr24_id": "3b98e579",
+    "flight_number": "DL670",
+    "start_ts": 1754457379,
+    "end_ts": 1754473560
+  },
+  {
+    "fr24_id": "3b98e65d",
+    "flight_number": "AC126",
+    "start_ts": 1754457468,
+    "end_ts": 1754473275
+  },
+  {
+    "fr24_id": "3b98edef",
+    "flight_number": "Y41835",
+    "start_ts": 1754458362,
+    "end_ts": 1754471213
+  },
+  {
+    "fr24_id": "3b992b85",
+    "flight_number": "Y47459",
+    "start_ts": 1754465061,
+    "end_ts": 1754475523
+  },
+  {
+    "fr24_id": "3b9a2304",
+    "flight_number": "EJA927",
+    "start_ts": 1754484577,
+    "end_ts": 1754494290
+  },
+  {
+    "fr24_id": "3b9a2907",
+    "flight_number": "DL2844",
+    "start_ts": 1754484939,
+    "end_ts": 1754494044
+  },
+  {
+    "fr24_id": "3b9a409c",
+    "flight_number": "WUP491",
+    "start_ts": 1754486351,
+    "end_ts": 1754493480
+  },
+  {
+    "fr24_id": "3b97e55a",
+    "flight_number": "WS1597",
+    "start_ts": 1754431817,
+    "end_ts": 1754451062
+  },
+  {
+    "fr24_id": "3b982dd3",
+    "flight_number": "N132JC",
+    "start_ts": 1754440934,
+    "end_ts": 1754453853
+  },
+  {
+    "fr24_id": "3b98552b",
+    "flight_number": "UA590",
+    "start_ts": 1754441690,
+    "end_ts": 1754449059
+  },
+  {
+    "fr24_id": "3b98c1b3",
+    "flight_number": "VS156",
+    "start_ts": 1754453423,
+    "end_ts": 1754488710
+  },
+  {
+    "fr24_id": "3b98f41d",
+    "flight_number": "NK1674",
+    "start_ts": 1754459053,
+    "end_ts": 1754475571
+  },
+  {
+    "fr24_id": "3b98fb4e",
+    "flight_number": "B6746",
+    "start_ts": 1754459875,
+    "end_ts": 1754476426
+  },
+  {
+    "fr24_id": "3b99067b",
+    "flight_number": "DL722",
+    "start_ts": 1754461093,
+    "end_ts": 1754474946
+  },
+  {
+    "fr24_id": "3b9a085f",
+    "flight_number": "WN4207",
+    "start_ts": 1754482953,
+    "end_ts": 1754491433
+  },
+  {
+    "fr24_id": "3b9a1316",
+    "flight_number": "EJA677",
+    "start_ts": 1754483608,
+    "end_ts": 1754495095
+  },
+  {
+    "fr24_id": "3b9a46ba",
+    "flight_number": "EJA344",
+    "start_ts": 1754486712,
+    "end_ts": 1754494980
+  },
+  {
+    "fr24_id": "3b9a49c9",
+    "flight_number": "N48RR",
+    "start_ts": 1754486885,
+    "end_ts": 1754492977
+  },
+  {
+    "fr24_id": "3b975a92",
+    "flight_number": "VS25",
+    "start_ts": 1754420813,
+    "end_ts": 1754448451
+  },
+  {
+    "fr24_id": "3b980836",
+    "flight_number": "DL110",
+    "start_ts": 1754434774,
+    "end_ts": 1754481188
+  },
+  {
+    "fr24_id": "3b98338b",
+    "flight_number": "EJA513",
+    "start_ts": 1754438504,
+    "end_ts": 1754449256
+  },
+  {
+    "fr24_id": "3b983f9d",
+    "flight_number": "WN1979",
+    "start_ts": 1754439615,
+    "end_ts": 1754449238
+  },
+  {
+    "fr24_id": "3b9862be",
+    "flight_number": "UA2642",
+    "start_ts": 1754442994,
+    "end_ts": 1754450088
+  },
+  {
+    "fr24_id": "3b98a042",
+    "flight_number": "AS419",
+    "start_ts": 1754449542,
+    "end_ts": 1754470638
+  },
+  {
+    "fr24_id": "3b98d2c8",
+    "flight_number": "NK1835",
+    "start_ts": 1754455328,
+    "end_ts": 1754475946
+  },
+  {
+    "fr24_id": "3b98e893",
+    "flight_number": "NK1546",
+    "start_ts": 1754457733,
+    "end_ts": 1754473693
+  },
+  {
+    "fr24_id": "3b98f156",
+    "flight_number": "UA1841",
+    "start_ts": 1754458734,
+    "end_ts": 1754469755
+  },
+  {
+    "fr24_id": "3b99173b",
+    "flight_number": "DL430",
+    "start_ts": 1754462949,
+    "end_ts": 1754475788
+  },
+  {
+    "fr24_id": "3b9a1b64",
+    "flight_number": "PCH82M",
+    "start_ts": 1754484110,
+    "end_ts": 1754495442
+  },
+  {
+    "fr24_id": "3b9a2aae",
+    "flight_number": "N401SF",
+    "start_ts": 1754485034,
+    "end_ts": 1754491807
+  },
+  {
+    "fr24_id": "3b9a3eb3",
+    "flight_number": "EJA960",
+    "start_ts": 1754486230,
+    "end_ts": 1754492032
+  },
+  {
+    "fr24_id": "3b980425",
+    "flight_number": "FX1212",
+    "start_ts": 1754434526,
+    "end_ts": 1754451699
+  },
+  {
+    "fr24_id": "3b9835f6",
+    "flight_number": "N226SJ",
+    "start_ts": 1754438726,
+    "end_ts": 1754455458
+  },
+  {
+    "fr24_id": "3b983f1f",
+    "flight_number": "DL16",
+    "start_ts": 1754439578,
+    "end_ts": 1754465651
+  },
+  {
+    "fr24_id": "3b986b75",
+    "flight_number": "5X401",
+    "start_ts": 1754443876,
+    "end_ts": 1754451489
+  },
+  {
+    "fr24_id": "3b98b027",
+    "flight_number": "UA559",
+    "start_ts": 1754451480,
+    "end_ts": 1754473932
+  },
+  {
+    "fr24_id": "3b98be52",
+    "flight_number": "AV148",
+    "start_ts": 1754453078,
+    "end_ts": 1754472318
+  },
+  {
+    "fr24_id": "3b98bfeb",
+    "flight_number": "UA1577",
+    "start_ts": 1754453228,
+    "end_ts": 1754470020
+  },
+  {
+    "fr24_id": "3b98c180",
+    "flight_number": "GB3115",
+    "start_ts": 1754453404,
+    "end_ts": 1754470310
+  },
+  {
+    "fr24_id": "3b98c862",
+    "flight_number": "DL960",
+    "start_ts": 1754454164,
+    "end_ts": 1754473300
+  },
+  {
+    "fr24_id": "3b98d37c",
+    "flight_number": "AM25",
+    "start_ts": 1754455400,
+    "end_ts": 1754494998
+  },
+  {
+    "fr24_id": "3b990666",
+    "flight_number": "AV7393",
+    "start_ts": 1754461072,
+    "end_ts": 1754484726
+  },
+  {
+    "fr24_id": "3b9a097c",
+    "flight_number": "N322JC",
+    "start_ts": 1754483011,
+    "end_ts": 1754491856
+  },
+  {
+    "fr24_id": "3b9a1161",
+    "flight_number": "AA551",
+    "start_ts": 1754483506,
+    "end_ts": 1754493326
+  },
+  {
+    "fr24_id": "3b973c31",
+    "flight_number": "CX844",
+    "start_ts": 1754418597,
+    "end_ts": 1754478394
+  },
+  {
+    "fr24_id": "3b983a83",
+    "flight_number": "Y43125",
+    "start_ts": 1754439153,
+    "end_ts": 1754448264
+  },
+  {
+    "fr24_id": "3b983f81",
+    "flight_number": "CNS121",
+    "start_ts": 1754439600,
+    "end_ts": 1754450703
+  },
+  {
+    "fr24_id": "3b98427d",
+    "flight_number": "DL1387",
+    "start_ts": 1754439873,
+    "end_ts": 1754449897
+  },
+  {
+    "fr24_id": "3b98983c",
+    "flight_number": "DL158",
+    "start_ts": 1754448671,
+    "end_ts": 1754498516
+  },
+  {
+    "fr24_id": "3b98a8e2",
+    "flight_number": "B6916",
+    "start_ts": 1754450565,
+    "end_ts": 1754486489
+  },
+  {
+    "fr24_id": "3b98f6de",
+    "flight_number": "IB312",
+    "start_ts": 1754459366,
+    "end_ts": 1754495442
+  },
+  {
+    "fr24_id": "3b99010b",
+    "flight_number": "AC156",
+    "start_ts": 1754460512,
+    "end_ts": 1754473936
+  },
+  {
+    "fr24_id": "3b9910c3",
+    "flight_number": "Y47897",
+    "start_ts": 1754462247,
+    "end_ts": 1754474722
+  },
+  {
+    "fr24_id": "3b99207b",
+    "flight_number": "JX5",
+    "start_ts": 1754463906,
+    "end_ts": 1754510693
+  },
+  {
+    "fr24_id": "3b9a2d75",
+    "flight_number": "LXJ440",
+    "start_ts": 1754485201,
+    "end_ts": 1754502843
+  },
+  {
+    "fr24_id": "3b9a3046",
+    "flight_number": "LET3520",
+    "start_ts": 1754485379,
+    "end_ts": 1754492134
+  },
+  {
+    "fr24_id": "3b9a3881",
+    "flight_number": "HA1608",
+    "start_ts": 1754485860,
+    "end_ts": 1754497324
+  },
+  {
+    "fr24_id": "3b97eed1",
+    "flight_number": "AA1967",
+    "start_ts": 1754432678,
+    "end_ts": 1754450712
+  },
+  {
+    "fr24_id": "3b981250",
+    "flight_number": "DL749",
+    "start_ts": 1754435615,
+    "end_ts": 1754456077
+  },
+  {
+    "fr24_id": "3b9831de",
+    "flight_number": "DL258",
+    "start_ts": 1754438363,
+    "end_ts": 1754464046
+  },
+  {
+    "fr24_id": "3b985337",
+    "flight_number": "UA292",
+    "start_ts": 1754441501,
+    "end_ts": 1754453929
+  },
+  {
+    "fr24_id": "3b985403",
+    "flight_number": "N8608",
+    "start_ts": 1754441580,
+    "end_ts": 1754448369
+  },
+  {
+    "fr24_id": "3b9869c5",
+    "flight_number": "AA2083",
+    "start_ts": 1754443713,
+    "end_ts": 1754450064
+  },
+  {
+    "fr24_id": "3b98b7d0",
+    "flight_number": "UA2397",
+    "start_ts": 1754452434,
+    "end_ts": 1754470355
+  },
+  {
+    "fr24_id": "3b98f072",
+    "flight_number": "AA804",
+    "start_ts": 1754458631,
+    "end_ts": 1754475801
+  },
+  {
+    "fr24_id": "3b98f1cc",
+    "flight_number": "AA2585",
+    "start_ts": 1754458805,
+    "end_ts": 1754476742
+  },
+  {
+    "fr24_id": "3b9907ce",
+    "flight_number": "N34313",
+    "start_ts": 1754461239,
+    "end_ts": 1754476792
+  },
+  {
+    "fr24_id": "3b990fec",
+    "flight_number": "5X916",
+    "start_ts": 1754462152,
+    "end_ts": 1754477369
+  },
+  {
+    "fr24_id": "3b992d5a",
+    "flight_number": "5X64",
+    "start_ts": 1754465223,
+    "end_ts": 1754488445
+  },
+  {
+    "fr24_id": "3b992e20",
+    "flight_number": "FX1431",
+    "start_ts": 1754465298,
+    "end_ts": 1754473053
+  },
+  {
+    "fr24_id": "3b9804a7",
+    "flight_number": "BATT43",
+    "start_ts": 1754434470,
+    "end_ts": 1754448737
+  },
+  {
+    "fr24_id": "3b9804df",
+    "flight_number": "IB274",
+    "start_ts": 1754434513,
+    "end_ts": 1754467043
+  },
+  {
+    "fr24_id": "3b982213",
+    "flight_number": "UA27",
+    "start_ts": 1754436992,
+    "end_ts": 1754469138
+  },
+  {
+    "fr24_id": "3b9828cf",
+    "flight_number": "UA1391",
+    "start_ts": 1754437568,
+    "end_ts": 1754448052
+  },
+  {
+    "fr24_id": "3b982918",
+    "flight_number": "AA1293",
+    "start_ts": 1754437592,
+    "end_ts": 1754448004
+  },
+  {
+    "fr24_id": "3b98bf18",
+    "flight_number": "UA1288",
+    "start_ts": 1754453144,
+    "end_ts": 1754471657
+  },
+  {
+    "fr24_id": "3b98f47a",
+    "flight_number": "UA412",
+    "start_ts": 1754459101,
+    "end_ts": 1754474370
+  },
+  {
+    "fr24_id": "3b98fabe",
+    "flight_number": "PD410",
+    "start_ts": 1754459819,
+    "end_ts": 1754472484
+  },
+  {
+    "fr24_id": "3b990d04",
+    "flight_number": "UA1279",
+    "start_ts": 1754461832,
+    "end_ts": 1754476314
+  },
+  {
+    "fr24_id": "3b9934e6",
+    "flight_number": "AT206",
+    "start_ts": 1754465987,
+    "end_ts": 1754491571
+  },
+  {
+    "fr24_id": "3b9a19aa",
+    "flight_number": "N499DT",
+    "start_ts": 1754484004,
+    "end_ts": 1754496547
+  },
+  {
+    "fr24_id": "3b9a2cd5",
+    "flight_number": "WN3644",
+    "start_ts": 1754485163,
+    "end_ts": 1754493969
+  },
+  {
+    "fr24_id": "3b9a44c5",
+    "flight_number": "OKC942",
+    "start_ts": 1754486588,
+    "end_ts": 1754491877
+  },
+  {
+    "fr24_id": "3b9a4594",
+    "flight_number": "JRT51",
+    "start_ts": 1754486643,
+    "end_ts": 1754494794
+  },
+  {
+    "fr24_id": "3b97f2a0",
+    "flight_number": "VS86",
+    "start_ts": 1754432967,
+    "end_ts": 1754467558
+  },
+  {
+    "fr24_id": "3b983f38",
+    "flight_number": "WN690",
+    "start_ts": 1754439573,
+    "end_ts": 1754447843
+  },
+  {
+    "fr24_id": "3b986aa2",
+    "flight_number": "HA50",
+    "start_ts": 1754443798,
+    "end_ts": 1754476560
+  },
+  {
+    "fr24_id": "3b987308",
+    "flight_number": "OZ222",
+    "start_ts": 1754444658,
+    "end_ts": 1754495463
+  },
+  {
+    "fr24_id": "3b989372",
+    "flight_number": "RCH7037",
+    "start_ts": 1754448131,
+    "end_ts": 1754482115
+  },
+  {
+    "fr24_id": "3b98f69d",
+    "flight_number": "F931",
+    "start_ts": 1754459334,
+    "end_ts": 1754473955
+  },
+  {
+    "fr24_id": "3b990699",
+    "flight_number": "Y41871",
+    "start_ts": 1754461098,
+    "end_ts": 1754477091
+  },
+  {
+    "fr24_id": "3b990ba3",
+    "flight_number": "CM403",
+    "start_ts": 1754461699,
+    "end_ts": 1754478848
+  },
+  {
+    "fr24_id": "3b991f84",
+    "flight_number": "AV561",
+    "start_ts": 1754463818,
+    "end_ts": 1754484528
+  },
+  {
+    "fr24_id": "3b99ce61",
+    "flight_number": "N910GA",
+    "start_ts": 1754479004,
+    "end_ts": 1754495441
+  },
+  {
+    "fr24_id": "3b9a259e",
+    "flight_number": "5X2975",
+    "start_ts": 1754484741,
+    "end_ts": 1754493055
+  },
+  {
+    "fr24_id": "3b9a2c64",
+    "flight_number": "EJA550",
+    "start_ts": 1754485131,
+    "end_ts": 1754496963
+  },
+  {
+    "fr24_id": "3b9a3f79",
+    "flight_number": "CRE623",
+    "start_ts": 1754486281,
+    "end_ts": 1754496032
+  },
+  {
+    "fr24_id": "3b95f665",
+    "flight_number": "OZ224",
+    "start_ts": 1754398082,
+    "end_ts": 1754449966
+  },
+  {
+    "fr24_id": "3b975063",
+    "flight_number": "AF12",
+    "start_ts": 1754420101,
+    "end_ts": 1754449300
+  },
+  {
+    "fr24_id": "3b97b24d",
+    "flight_number": "EJA242",
+    "start_ts": 1754427513,
+    "end_ts": 1754449726
+  },
+  {
+    "fr24_id": "3b983b07",
+    "flight_number": "DL776",
+    "start_ts": 1754439193,
+    "end_ts": 1754450718
+  },
+  {
+    "fr24_id": "3b984195",
+    "flight_number": "NK1721",
+    "start_ts": 1754439790,
+    "end_ts": 1754453156
+  },
+  {
+    "fr24_id": "3b9841f2",
+    "flight_number": "KOW102",
+    "start_ts": 1754439823,
+    "end_ts": 1754459419
+  },
+  {
+    "fr24_id": "3b9851ec",
+    "flight_number": "RAX555",
+    "start_ts": 1754441368,
+    "end_ts": 1754448237
+  },
+  {
+    "fr24_id": "3b985641",
+    "flight_number": "WN957",
+    "start_ts": 1754441785,
+    "end_ts": 1754448530
+  },
+  {
+    "fr24_id": "3b98d35b",
+    "flight_number": "B666",
+    "start_ts": 1754455409,
+    "end_ts": 1754469612
+  },
+  {
+    "fr24_id": "3b98ead8",
+    "flight_number": "CX87",
+    "start_ts": 1754458009,
+    "end_ts": 1754486268
+  },
+  {
+    "fr24_id": "3b98fc1a",
+    "flight_number": "UA2234",
+    "start_ts": 1754459970,
+    "end_ts": 1754473265
+  },
+  {
+    "fr24_id": "3b990c82",
+    "flight_number": "UA1375",
+    "start_ts": 1754461770,
+    "end_ts": 1754479175
+  },
+  {
+    "fr24_id": "3b99b5e7",
+    "flight_number": "LXJ601",
+    "start_ts": 1754477331,
+    "end_ts": 1754496941
+  },
+  {
+    "fr24_id": "3b99f702",
+    "flight_number": "LXJ371",
+    "start_ts": 1754481868,
+    "end_ts": 1754493365
+  },
+  {
+    "fr24_id": "3b98493a",
+    "flight_number": "AA9787",
+    "start_ts": 1754440525,
+    "end_ts": 1754452714
+  },
+  {
+    "fr24_id": "3b985581",
+    "flight_number": "DL309",
+    "start_ts": 1754441733,
+    "end_ts": 1754473200
+  },
+  {
+    "fr24_id": "3b98646b",
+    "flight_number": "AA746",
+    "start_ts": 1754443163,
+    "end_ts": 1754469166
+  },
+  {
+    "fr24_id": "3b98d366",
+    "flight_number": "N0412",
+    "start_ts": 1754455450,
+    "end_ts": 1754496950
+  },
+  {
+    "fr24_id": "3b98da28",
+    "flight_number": "Y4771",
+    "start_ts": 1754456143,
+    "end_ts": 1754471701
+  },
+  {
+    "fr24_id": "3b98f041",
+    "flight_number": "DL2077",
+    "start_ts": 1754458611,
+    "end_ts": 1754472837
+  },
+  {
+    "fr24_id": "3b991623",
+    "flight_number": "UA2615",
+    "start_ts": 1754462851,
+    "end_ts": 1754475528
+  },
+  {
+    "fr24_id": "3b99afa8",
+    "flight_number": "XSR722",
+    "start_ts": 1754476664,
+    "end_ts": 1754500665
+  },
+  {
+    "fr24_id": "3b99e67a",
+    "flight_number": "N365L",
+    "start_ts": 1754480759,
+    "end_ts": 1754495088
+  },
+  {
+    "fr24_id": "3b9a01fb",
+    "flight_number": "JRE770",
+    "start_ts": 1754482565,
+    "end_ts": 1754492374
+  },
+  {
+    "fr24_id": "3b9a0c21",
+    "flight_number": "WN2695",
+    "start_ts": 1754483179,
+    "end_ts": 1754491174
+  },
+  {
+    "fr24_id": "3b9a1d35",
+    "flight_number": "N360HM",
+    "start_ts": 1754484216,
+    "end_ts": 1754495197
+  },
+  {
+    "fr24_id": "3b96e01b",
+    "flight_number": "BA275",
+    "start_ts": 1754412285,
+    "end_ts": 1754451486
+  },
+  {
+    "fr24_id": "3b981d00",
+    "flight_number": "AA1357",
+    "start_ts": 1754436542,
+    "end_ts": 1754448136
+  },
+  {
+    "fr24_id": "3b9826f4",
+    "flight_number": "DL66",
+    "start_ts": 1754437422,
+    "end_ts": 1754470083
+  },
+  {
+    "fr24_id": "3b983245",
+    "flight_number": "FX1261",
+    "start_ts": 1754438405,
+    "end_ts": 1754448219
+  },
+  {
+    "fr24_id": "3b984a27",
+    "flight_number": "WN8502",
+    "start_ts": 1754440606,
+    "end_ts": 1754447945
+  },
+  {
+    "fr24_id": "3b984e41",
+    "flight_number": "SY3035",
+    "start_ts": 1754441017,
+    "end_ts": 1754449868
+  },
+  {
+    "fr24_id": "3b98bd4b",
+    "flight_number": "AF173",
+    "start_ts": 1754452954,
+    "end_ts": 1754488736
+  },
+  {
+    "fr24_id": "3b98f558",
+    "flight_number": "DL1102",
+    "start_ts": 1754459193,
+    "end_ts": 1754474821
+  },
+  {
+    "fr24_id": "3b990875",
+    "flight_number": "UA494",
+    "start_ts": 1754461310,
+    "end_ts": 1754475494
+  },
+  {
+    "fr24_id": "3b990e63",
+    "flight_number": "N34309",
+    "start_ts": 1754461966,
+    "end_ts": 1754480002
+  },
+  {
+    "fr24_id": "3b9a08ff",
+    "flight_number": "N90TK",
+    "start_ts": 1754482986,
+    "end_ts": 1754495690
+  },
+  {
+    "fr24_id": "3b9a4517",
+    "flight_number": "N670CW",
+    "start_ts": 1754486614,
+    "end_ts": 1754491815
+  },
+  {
+    "fr24_id": "3b9a48ea",
+    "flight_number": "N525CR",
+    "start_ts": 1754486828,
+    "end_ts": 1754498495
+  },
+  {
+    "fr24_id": "3b95edcd",
+    "flight_number": "YP131",
+    "start_ts": 1754397510,
+    "end_ts": 1754448862
+  },
+  {
+    "fr24_id": "3b966097",
+    "flight_number": "N0411",
+    "start_ts": 1754404431,
+    "end_ts": 1754449973
+  },
+  {
+    "fr24_id": "3b9708c1",
+    "flight_number": "N0401",
+    "start_ts": 1754414944,
+    "end_ts": 1754448217
+  },
+  {
+    "fr24_id": "3b97cd03",
+    "flight_number": "AF159",
+    "start_ts": 1754429743,
+    "end_ts": 1754469997
+  },
+  {
+    "fr24_id": "3b97fade",
+    "flight_number": "EJA965",
+    "start_ts": 1754433671,
+    "end_ts": 1754448819
+  },
+  {
+    "fr24_id": "3b9802ef",
+    "flight_number": "EJA902",
+    "start_ts": 1754434321,
+    "end_ts": 1754451972
+  },
+  {
+    "fr24_id": "3b9845ad",
+    "flight_number": "WN208",
+    "start_ts": 1754440163,
+    "end_ts": 1754448503
+  },
+  {
+    "fr24_id": "3b985923",
+    "flight_number": "UA489",
+    "start_ts": 1754442057,
+    "end_ts": 1754451242
+  },
+  {
+    "fr24_id": "3b98963c",
+    "flight_number": "JL6",
+    "start_ts": 1754448449,
+    "end_ts": 1754494564
+  },
+  {
+    "fr24_id": "3b98cf94",
+    "flight_number": "AV20",
+    "start_ts": 1754454979,
+    "end_ts": 1754474653
+  },
+  {
+    "fr24_id": "3b98d613",
+    "flight_number": "UA1871",
+    "start_ts": 1754455710,
+    "end_ts": 1754474536
+  },
+  {
+    "fr24_id": "3b98f54e",
+    "flight_number": "UA1458",
+    "start_ts": 1754459190,
+    "end_ts": 1754474500
+  },
+  {
+    "fr24_id": "3b99782a",
+    "flight_number": "HA1689",
+    "start_ts": 1754471989,
+    "end_ts": 1754491565
+  },
+  {
+    "fr24_id": "3b9a1225",
+    "flight_number": "VJA655",
+    "start_ts": 1754483568,
+    "end_ts": 1754492864
+  },
+  {
+    "fr24_id": "3b9a29e5",
+    "flight_number": "N17ED",
+    "start_ts": 1754484984,
+    "end_ts": 1754493401
+  },
+  {
+    "fr24_id": "3b971db6",
+    "flight_number": "UA83",
+    "start_ts": 1754416381,
+    "end_ts": 1754472608
+  },
+  {
+    "fr24_id": "3b98188a",
+    "flight_number": "UA1700",
+    "start_ts": 1754436155,
+    "end_ts": 1754454121
+  },
+  {
+    "fr24_id": "3b982ac4",
+    "flight_number": "BF715",
+    "start_ts": 1754437773,
+    "end_ts": 1754475483
+  },
+  {
+    "fr24_id": "3b97ea52",
+    "flight_number": "LXJ757",
+    "start_ts": 1754438176,
+    "end_ts": 1754473224
+  },
+  {
+    "fr24_id": "3b985e90",
+    "flight_number": "Y41105",
+    "start_ts": 1754442591,
+    "end_ts": 1754452449
+  },
+  {
+    "fr24_id": "3b9895fc",
+    "flight_number": "B61024",
+    "start_ts": 1754448425,
+    "end_ts": 1754475198
+  },
+  {
+    "fr24_id": "3b98e776",
+    "flight_number": "WN2426",
+    "start_ts": 1754457602,
+    "end_ts": 1754469510
+  },
+  {
+    "fr24_id": "3b98f544",
+    "flight_number": "DL705",
+    "start_ts": 1754459195,
+    "end_ts": 1754474571
+  },
+  {
+    "fr24_id": "3b98f7e7",
+    "flight_number": "UA2624",
+    "start_ts": 1754459488,
+    "end_ts": 1754470261
+  },
+  {
+    "fr24_id": "3b992e60",
+    "flight_number": "TS603",
+    "start_ts": 1754465328,
+    "end_ts": 1754492645
+  },
+  {
+    "fr24_id": "3b9a1372",
+    "flight_number": "WN3441",
+    "start_ts": 1754483661,
+    "end_ts": 1754491255
+  },
+  {
+    "fr24_id": "3b9a44c3",
+    "flight_number": "N376MC",
+    "start_ts": 1754486590,
+    "end_ts": 1754493374
+  },
+  {
+    "fr24_id": "3b9a4a4c",
+    "flight_number": "EJA632",
+    "start_ts": 1754486906,
+    "end_ts": 1754493160
+  },
+  {
+    "fr24_id": "3b9a55c5",
+    "flight_number": "N845QS",
+    "start_ts": 1754487569,
+    "end_ts": 1754512826
+  },
+  {
+    "fr24_id": "3b98005c",
+    "flight_number": "AS1421",
+    "start_ts": 1754434121,
+    "end_ts": 1754448766
+  },
+  {
+    "fr24_id": "3b980ea7",
+    "flight_number": "N585JC",
+    "start_ts": 1754435323,
+    "end_ts": 1754476165
+  },
+  {
+    "fr24_id": "3b981083",
+    "flight_number": "N746CX",
+    "start_ts": 1754435458,
+    "end_ts": 1754447210
+  },
+  {
+    "fr24_id": "3b98218e",
+    "flight_number": "B6706",
+    "start_ts": 1754437016,
+    "end_ts": 1754449670
+  },
+  {
+    "fr24_id": "3b98a5f8",
+    "flight_number": "AS369",
+    "start_ts": 1754450207,
+    "end_ts": 1754469305
+  },
+  {
+    "fr24_id": "3b98ac1e",
+    "flight_number": "AA28",
+    "start_ts": 1754450980,
+    "end_ts": 1754485459
+  },
+  {
+    "fr24_id": "3b98c66f",
+    "flight_number": "UA2409",
+    "start_ts": 1754453953,
+    "end_ts": 1754472185
+  },
+  {
+    "fr24_id": "3b98fa28",
+    "flight_number": "UA2282",
+    "start_ts": 1754459749,
+    "end_ts": 1754476606
+  },
+  {
+    "fr24_id": "3b98fb8b",
+    "flight_number": "UA655",
+    "start_ts": 1754459912,
+    "end_ts": 1754476383
+  },
+  {
+    "fr24_id": "3b9908bf",
+    "flight_number": "UA483",
+    "start_ts": 1754461347,
+    "end_ts": 1754477129
+  },
+  {
+    "fr24_id": "3b9923bb",
+    "flight_number": "VB147",
+    "start_ts": 1754464237,
+    "end_ts": 1754478309
+  },
+  {
+    "fr24_id": "3b99fcc1",
+    "flight_number": "EJA572",
+    "start_ts": 1754482221,
+    "end_ts": 1754508114
+  },
+  {
+    "fr24_id": "3b9a0314",
+    "flight_number": "LXJ377",
+    "start_ts": 1754482622,
+    "end_ts": 1754494814
+  },
+  {
+    "fr24_id": "3b95adcd",
+    "flight_number": "PR126",
+    "start_ts": 1754393232,
+    "end_ts": 1754450599
+  },
+  {
+    "fr24_id": "3b9833ba",
+    "flight_number": "UA148",
+    "start_ts": 1754438559,
+    "end_ts": 1754472859
+  },
+  {
+    "fr24_id": "3b983dd8",
+    "flight_number": "AA40",
+    "start_ts": 1754439455,
+    "end_ts": 1754468573
+  },
+  {
+    "fr24_id": "3b98513d",
+    "flight_number": "UA255",
+    "start_ts": 1754441302,
+    "end_ts": 1754454163
+  },
+  {
+    "fr24_id": "3b98992c",
+    "flight_number": "IB2624",
+    "start_ts": 1754448784,
+    "end_ts": 1754488614
+  },
+  {
+    "fr24_id": "3b98ad33",
+    "flight_number": "HA1602",
+    "start_ts": 1754451118,
+    "end_ts": 1754483681
+  },
+  {
+    "fr24_id": "3b98d48e",
+    "flight_number": "AS1020",
+    "start_ts": 1754455557,
+    "end_ts": 1754472778
+  },
+  {
+    "fr24_id": "3b98de46",
+    "flight_number": "AM7",
+    "start_ts": 1754456581,
+    "end_ts": 1754492244
+  },
+  {
+    "fr24_id": "3b98eac0",
+    "flight_number": "UA2450",
+    "start_ts": 1754457993,
+    "end_ts": 1754473475
+  },
+  {
+    "fr24_id": "3b990d70",
+    "flight_number": "AA3314",
+    "start_ts": 1754461873,
+    "end_ts": 1754473904
+  },
+  {
+    "fr24_id": "3b9a0818",
+    "flight_number": "LXJ444",
+    "start_ts": 1754482927,
+    "end_ts": 1754493791
+  },
+  {
+    "fr24_id": "3b9a0ffd",
+    "flight_number": "WN2300",
+    "start_ts": 1754483415,
+    "end_ts": 1754493256
+  },
+  {
+    "fr24_id": "3b9a1e38",
+    "flight_number": "CGIPZ",
+    "start_ts": 1754484283,
+    "end_ts": 1754491391
+  },
+  {
+    "fr24_id": "3b9a3925",
+    "flight_number": "JNY18",
+    "start_ts": 1754485894,
+    "end_ts": 1754496552
+  },
+  {
+    "fr24_id": "3b9801bb",
+    "flight_number": "BA298",
+    "start_ts": 1754434230,
+    "end_ts": 1754465546
+  },
+  {
+    "fr24_id": "3b980639",
+    "flight_number": "FX1254",
+    "start_ts": 1754434603,
+    "end_ts": 1754447916
+  },
+  {
+    "fr24_id": "3b981c29",
+    "flight_number": "DL603",
+    "start_ts": 1754436468,
+    "end_ts": 1754451234
+  },
+  {
+    "fr24_id": "3b9832ac",
+    "flight_number": "LXJ359",
+    "start_ts": 1754438434,
+    "end_ts": 1754451258
+  },
+  {
+    "fr24_id": "3b9832ec",
+    "flight_number": "DL134",
+    "start_ts": 1754438451,
+    "end_ts": 1754465349
+  },
+  {
+    "fr24_id": "3b984f37",
+    "flight_number": "N688LB",
+    "start_ts": 1754441131,
+    "end_ts": 1754451063
+  },
+  {
+    "fr24_id": "3b9869aa",
+    "flight_number": "AA2238",
+    "start_ts": 1754443702,
+    "end_ts": 1754450339
+  },
+  {
+    "fr24_id": "3b98d067",
+    "flight_number": "AM400",
+    "start_ts": 1754455069,
+    "end_ts": 1754474304
+  },
+  {
+    "fr24_id": "3b98d37f",
+    "flight_number": "DL783",
+    "start_ts": 1754455412,
+    "end_ts": 1754471457
+  },
+  {
+    "fr24_id": "3b98dfdb",
+    "flight_number": "DL764",
+    "start_ts": 1754456752,
+    "end_ts": 1754472511
+  },
+  {
+    "fr24_id": "3b98ef3e",
+    "flight_number": "AS455",
+    "start_ts": 1754458493,
+    "end_ts": 1754476858
+  },
+  {
+    "fr24_id": "3b9901b2",
+    "flight_number": "JL5",
+    "start_ts": 1754460586,
+    "end_ts": 1754509701
+  },
+  {
+    "fr24_id": "3b975a15",
+    "flight_number": "IZ993",
+    "start_ts": 1754420777,
+    "end_ts": 1754472992
+  },
+  {
+    "fr24_id": "3b97dd37",
+    "flight_number": "N119DT",
+    "start_ts": 1754431130,
+    "end_ts": 1754448974
+  },
+  {
+    "fr24_id": "3b982b19",
+    "flight_number": "UA2654",
+    "start_ts": 1754437782,
+    "end_ts": 1754448946
+  },
+  {
+    "fr24_id": "3b983e58",
+    "flight_number": "Y41772",
+    "start_ts": 1754439497,
+    "end_ts": 1754453280
+  },
+  {
+    "fr24_id": "3b98579b",
+    "flight_number": "WN484",
+    "start_ts": 1754442020,
+    "end_ts": 1754449111
+  },
+  {
+    "fr24_id": "3b985dfe",
+    "flight_number": "AA258",
+    "start_ts": 1754442529,
+    "end_ts": 1754465026
+  },
+  {
+    "fr24_id": "3b9908de",
+    "flight_number": "PD656",
+    "start_ts": 1754461348,
+    "end_ts": 1754476641
+  },
+  {
+    "fr24_id": "3b991c41",
+    "flight_number": "5X223",
+    "start_ts": 1754463471,
+    "end_ts": 1754490717
+  },
+  {
+    "fr24_id": "3b992c1b",
+    "flight_number": "5X802",
+    "start_ts": 1754465095,
+    "end_ts": 1754474133
+  },
+  {
+    "fr24_id": "3b99fa61",
+    "flight_number": "WN3185",
+    "start_ts": 1754482079,
+    "end_ts": 1754494405
+  },
+  {
+    "fr24_id": "3b9a4ae3",
+    "flight_number": "WN3546",
+    "start_ts": 1754486940,
+    "end_ts": 1754493989
+  },
+  {
+    "fr24_id": "3b9697bf",
+    "flight_number": "UA927",
+    "start_ts": 1754407801,
+    "end_ts": 1754449269
+  },
+  {
+    "fr24_id": "3b980152",
+    "flight_number": "AS1396",
+    "start_ts": 1754434190,
+    "end_ts": 1754448988
+  },
+  {
+    "fr24_id": "3b985c93",
+    "flight_number": "KOW954",
+    "start_ts": 1754442392,
+    "end_ts": 1754448738
+  },
+  {
+    "fr24_id": "3b986a9f",
+    "flight_number": "N116AA",
+    "start_ts": 1754443803,
+    "end_ts": 1754451099
+  },
+  {
+    "fr24_id": "3b98a6f9",
+    "flight_number": "LY9",
+    "start_ts": 1754450318,
+    "end_ts": 1754491748
+  },
+  {
+    "fr24_id": "3b98b73a",
+    "flight_number": "UA552",
+    "start_ts": 1754452310,
+    "end_ts": 1754470782
+  },
+  {
+    "fr24_id": "3b98e35c",
+    "flight_number": "F93340",
+    "start_ts": 1754457118,
+    "end_ts": 1754470605
+  },
+  {
+    "fr24_id": "3b98f6bd",
+    "flight_number": "LH8223",
+    "start_ts": 1754459348,
+    "end_ts": 1754494518
+  },
+  {
+    "fr24_id": "3b98fd31",
+    "flight_number": "F94672",
+    "start_ts": 1754460080,
+    "end_ts": 1754477147
+  },
+  {
+    "fr24_id": "3b992b80",
+    "flight_number": "DL2834",
+    "start_ts": 1754465028,
+    "end_ts": 1754476670
+  },
+  {
+    "fr24_id": "3b99b92d",
+    "flight_number": "JRE774",
+    "start_ts": 1754477464,
+    "end_ts": 1754493427
+  },
+  {
+    "fr24_id": "3b99f6fa",
+    "flight_number": "EJA524",
+    "start_ts": 1754481865,
+    "end_ts": 1754493148
+  },
+  {
+    "fr24_id": "3b9a1343",
+    "flight_number": "LXJ380",
+    "start_ts": 1754483616,
+    "end_ts": 1754491656
+  },
+  {
+    "fr24_id": "3b971558",
+    "flight_number": "AF28",
+    "start_ts": 1754415823,
+    "end_ts": 1754456574
+  },
+  {
+    "fr24_id": "3b981e81",
+    "flight_number": "WN3529",
+    "start_ts": 1754436670,
+    "end_ts": 1754448524
+  },
+  {
+    "fr24_id": "3b98269f",
+    "flight_number": "UA1863",
+    "start_ts": 1754437373,
+    "end_ts": 1754454109
+  },
+  {
+    "fr24_id": "3b9833e6",
+    "flight_number": "DL2088",
+    "start_ts": 1754438531,
+    "end_ts": 1754454744
+  },
+  {
+    "fr24_id": "3b983d00",
+    "flight_number": "UA2726",
+    "start_ts": 1754439387,
+    "end_ts": 1754452025
+  },
+  {
+    "fr24_id": "3b983d9f",
+    "flight_number": "WS743",
+    "start_ts": 1754439431,
+    "end_ts": 1754452531
+  },
+  {
+    "fr24_id": "3b983e47",
+    "flight_number": "N100SC",
+    "start_ts": 1754439494,
+    "end_ts": 1754448142
+  },
+  {
+    "fr24_id": "3b98612e",
+    "flight_number": "NK1452",
+    "start_ts": 1754442848,
+    "end_ts": 1754452462
+  },
+  {
+    "fr24_id": "3b98b835",
+    "flight_number": "AV42",
+    "start_ts": 1754452431,
+    "end_ts": 1754471578
+  },
+  {
+    "fr24_id": "3b98f9b2",
+    "flight_number": "UA1924",
+    "start_ts": 1754459692,
+    "end_ts": 1754471267
+  },
+  {
+    "fr24_id": "3b98fffd",
+    "flight_number": "AA2799",
+    "start_ts": 1754460387,
+    "end_ts": 1754482533
+  },
+  {
+    "fr24_id": "3b990610",
+    "flight_number": "WN3118",
+    "start_ts": 1754461033,
+    "end_ts": 1754474582
+  },
+  {
+    "fr24_id": "3b990fab",
+    "flight_number": "VTM104",
+    "start_ts": 1754462134,
+    "end_ts": 1754471658
+  },
+  {
+    "fr24_id": "3b9a2d48",
+    "flight_number": "CITT95",
+    "start_ts": 1754485188,
+    "end_ts": 1754493062
+  },
+  {
+    "fr24_id": "3b98531b",
+    "flight_number": "WUP658",
+    "start_ts": 1754441492,
+    "end_ts": 1754449460
+  },
+  {
+    "fr24_id": "3b9865a4",
+    "flight_number": "WN1351",
+    "start_ts": 1754443293,
+    "end_ts": 1754448941
+  },
+  {
+    "fr24_id": "3b98c2dc",
+    "flight_number": "GB5169",
+    "start_ts": 1754453555,
+    "end_ts": 1754470869
+  },
+  {
+    "fr24_id": "3b98f4fc",
+    "flight_number": "Y47751",
+    "start_ts": 1754459180,
+    "end_ts": 1754472965
+  },
+  {
+    "fr24_id": "3b98fa41",
+    "flight_number": "UA1218",
+    "start_ts": 1754459758,
+    "end_ts": 1754471730
+  },
+  {
+    "fr24_id": "3b990452",
+    "flight_number": "F99517",
+    "start_ts": 1754460852,
+    "end_ts": 1754473231
+  },
+  {
+    "fr24_id": "3b9910b5",
+    "flight_number": "UA2312",
+    "start_ts": 1754462234,
+    "end_ts": 1754485429
+  },
+  {
+    "fr24_id": "3b99ebc5",
+    "flight_number": "W83339",
+    "start_ts": 1754481151,
+    "end_ts": 1754503453
+  },
+  {
+    "fr24_id": "3b9a112f",
+    "flight_number": "HA1606",
+    "start_ts": 1754483487,
+    "end_ts": 1754491799
+  },
+  {
+    "fr24_id": "3b9a3259",
+    "flight_number": "5Y3512",
+    "start_ts": 1754485498,
+    "end_ts": 1754517350
+  }
+]

@@ -1,0 +1,3295 @@
+[
+  {
+    "fr24_id": "3ba520e3",
+    "flight": "ADS350",
+    "callsign": "ADS350",
+    "aircraft_model": "CL35",
+    "aircraft_reg": "C-GTPJ",
+    "departure_icao": "KBFI",
+    "arrival_icao": "KVNY",
+    "departure_time_utc": "2025-08-09T00:49:55Z",
+    "arrival_time_utc": "2025-08-09T02:54:12Z",
+    "flight_duration_s": 7457,
+    "distance_calculated_km": 1542.05,
+    "great_circle_distance_km": 1513.83,
+    "phase_durations_s": {
+      "takeoff": 0,
+      "climb": 2880,
+      "cruise": 1080,
+      "descent": 3240,
+      "landing": 0
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 2080.0,
+      "cruise": 600.0,
+      "descent": 1080.0,
+      "landing": 0.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 6572.8,
+      "cruise": 1896.0,
+      "descent": 3412.8,
+      "landing": 0.0
+    },
+    "co2_total_kg": 11881.6,
+    "co2_per_passenger_kg": 79.21
+  },
+  {
+    "fr24_id": "3ba4fd45",
+    "flight": "WN1917",
+    "callsign": "SWA1917",
+    "aircraft_model": "B737",
+    "aircraft_reg": "N945WN",
+    "departure_icao": "KPHX",
+    "arrival_icao": "KBNA",
+    "departure_time_utc": "2025-08-09T00:22:21Z",
+    "arrival_time_utc": "2025-08-09T03:20:19Z",
+    "flight_duration_s": 10678,
+    "distance_calculated_km": 2382.02,
+    "great_circle_distance_km": 2330.61,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1261,
+      "cruise": 7203,
+      "descent": 1796,
+      "landing": 2165
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 184.0,
+      "climb": 1047.33,
+      "cruise": 4601.92,
+      "descent": 688.47,
+      "landing": 553.28
+    },
+    "co2_estimated_kg": {
+      "takeoff": 581.44,
+      "climb": 3309.56,
+      "cruise": 14542.07,
+      "descent": 2175.57,
+      "landing": 1748.36
+    },
+    "co2_total_kg": 22357.0,
+    "co2_per_passenger_kg": 159.69
+  },
+  {
+    "fr24_id": "3ba529c0",
+    "flight": "UA465",
+    "callsign": "UAL465",
+    "aircraft_model": "B739",
+    "aircraft_reg": "N35407",
+    "departure_icao": "KIAH",
+    "arrival_icao": "KIND",
+    "departure_time_utc": "2025-08-09T01:25:43Z",
+    "arrival_time_utc": "2025-08-09T03:19:31Z",
+    "flight_duration_s": 6828,
+    "distance_calculated_km": 1407.87,
+    "great_circle_distance_km": 1358.05,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1978,
+      "cruise": 3601,
+      "descent": 1081,
+      "landing": 1442
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 1428.56,
+      "cruise": 2000.56,
+      "descent": 360.33,
+      "landing": 320.44
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 4514.25,
+      "cruise": 6321.77,
+      "descent": 1138.64,
+      "landing": 1012.59
+    },
+    "co2_total_kg": 13492.85,
+    "co2_per_passenger_kg": 89.95
+  },
+  {
+    "fr24_id": "3ba4b687",
+    "flight": "UA1757",
+    "callsign": "UAL1757",
+    "aircraft_model": "B789",
+    "aircraft_reg": "N29961",
+    "departure_icao": "KIAD",
+    "arrival_icao": "KSFO",
+    "departure_time_utc": "2025-08-08T22:34:34Z",
+    "arrival_time_utc": "2025-08-09T03:24:39Z",
+    "flight_duration_s": 17405,
+    "distance_calculated_km": 3967.62,
+    "great_circle_distance_km": 3894.05,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 4139,
+      "cruise": 6481,
+      "descent": 6480,
+      "landing": 2204
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 2989.28,
+      "cruise": 3600.56,
+      "descent": 2160.0,
+      "landing": 489.78
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 9446.12,
+      "cruise": 11377.77,
+      "descent": 6825.6,
+      "landing": 1547.7
+    },
+    "co2_total_kg": 29702.79,
+    "co2_per_passenger_kg": 198.02
+  },
+  {
+    "fr24_id": "3ba51d78",
+    "flight": "WN541",
+    "callsign": "SWA541",
+    "aircraft_model": "B737",
+    "aircraft_reg": "N7879A",
+    "departure_icao": "KPHX",
+    "arrival_icao": "KMSP",
+    "departure_time_utc": "2025-08-09T01:19:34Z",
+    "arrival_time_utc": "2025-08-09T03:59:55Z",
+    "flight_duration_s": 9621,
+    "distance_calculated_km": 2172.65,
+    "great_circle_distance_km": 2051.78,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 2698,
+      "cruise": 3599,
+      "descent": 3243,
+      "landing": 2520
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 184.0,
+      "climb": 2240.84,
+      "cruise": 2299.36,
+      "descent": 1243.15,
+      "landing": 644.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 581.44,
+      "climb": 7081.05,
+      "cruise": 7265.98,
+      "descent": 3928.35,
+      "landing": 2035.04
+    },
+    "co2_total_kg": 20891.86,
+    "co2_per_passenger_kg": 149.23
+  },
+  {
+    "fr24_id": "3ba51ef2",
+    "flight": "LXJ339",
+    "callsign": "LXJ339",
+    "aircraft_model": "E545",
+    "aircraft_reg": "N339FX",
+    "departure_icao": "KLAX",
+    "arrival_icao": "KROC",
+    "departure_time_utc": "2025-08-09T00:40:36Z",
+    "arrival_time_utc": "2025-08-09T05:18:13Z",
+    "flight_duration_s": 16657,
+    "distance_calculated_km": 3730.34,
+    "great_circle_distance_km": 3656.43,
+    "phase_durations_s": {
+      "takeoff": 0,
+      "climb": 3958,
+      "cruise": 4320,
+      "descent": 8283,
+      "landing": 359
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 2858.56,
+      "cruise": 2400.0,
+      "descent": 2761.0,
+      "landing": 79.78
+    },
+    "co2_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 9033.05,
+      "cruise": 7584.0,
+      "descent": 8724.76,
+      "landing": 252.1
+    },
+    "co2_total_kg": 25593.91,
+    "co2_per_passenger_kg": 170.63
+  },
+  {
+    "fr24_id": "3ba535d5",
+    "flight": "WN1500",
+    "callsign": "SWA1500",
+    "aircraft_model": "B737",
+    "aircraft_reg": "N922WN",
+    "departure_icao": "KMDW",
+    "arrival_icao": "KONT",
+    "departure_time_utc": "2025-08-09T01:25:37Z",
+    "arrival_time_utc": "2025-08-09T05:12:03Z",
+    "flight_duration_s": 13586,
+    "distance_calculated_km": 2750.41,
+    "great_circle_distance_km": 2744.45,
+    "phase_durations_s": {
+      "takeoff": 0,
+      "climb": 2882,
+      "cruise": 7918,
+      "descent": 2880,
+      "landing": 0
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 2393.66,
+      "cruise": 5058.72,
+      "descent": 1104.0,
+      "landing": 0.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 7563.97,
+      "cruise": 15985.56,
+      "descent": 3488.64,
+      "landing": 0.0
+    },
+    "co2_total_kg": 27038.17,
+    "co2_per_passenger_kg": 193.13
+  },
+  {
+    "fr24_id": "3ba51c17",
+    "flight": "UA1615",
+    "callsign": "UAL1615",
+    "aircraft_model": "B738",
+    "aircraft_reg": "N54241",
+    "departure_icao": "KDEN",
+    "arrival_icao": "KCVG",
+    "departure_time_utc": "2025-08-09T00:55:58Z",
+    "arrival_time_utc": "2025-08-09T03:14:06Z",
+    "flight_duration_s": 8288,
+    "distance_calculated_km": 1796.74,
+    "great_circle_distance_km": 1721.61,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1980,
+      "cruise": 3241,
+      "descent": 2880,
+      "landing": 1439
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 200.0,
+      "climb": 1787.5,
+      "cruise": 2250.69,
+      "descent": 1200.0,
+      "landing": 399.72
+    },
+    "co2_estimated_kg": {
+      "takeoff": 632.0,
+      "climb": 5648.5,
+      "cruise": 7112.18,
+      "descent": 3792.0,
+      "landing": 1263.12
+    },
+    "co2_total_kg": 18447.8,
+    "co2_per_passenger_kg": 102.49
+  },
+  {
+    "fr24_id": "3ba51180",
+    "flight": "G73375",
+    "callsign": "GJS3375",
+    "aircraft_model": "CRJ7",
+    "aircraft_reg": "N553GJ",
+    "departure_icao": "KSEA",
+    "arrival_icao": "KSTL",
+    "departure_time_utc": "2025-08-09T00:52:55Z",
+    "arrival_time_utc": "2025-08-09T04:07:52Z",
+    "flight_duration_s": 11697,
+    "distance_calculated_km": 2774.86,
+    "great_circle_distance_km": 2750.53,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 4857,
+      "cruise": 2879,
+      "descent": 3600,
+      "landing": 2161
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 128.0,
+      "climb": 2806.27,
+      "cruise": 1279.56,
+      "descent": 960.0,
+      "landing": 384.18
+    },
+    "co2_estimated_kg": {
+      "takeoff": 404.48,
+      "climb": 8867.81,
+      "cruise": 4043.41,
+      "descent": 3033.6,
+      "landing": 1214.01
+    },
+    "co2_total_kg": 17563.31,
+    "co2_per_passenger_kg": 250.9
+  },
+  {
+    "fr24_id": "3ba525b3",
+    "flight": "BA218",
+    "callsign": "BAW21ML",
+    "aircraft_model": "A35K",
+    "aircraft_reg": "G-XWBF",
+    "departure_icao": "KDEN",
+    "arrival_icao": "EGLL",
+    "departure_time_utc": "2025-08-09T01:09:42Z",
+    "arrival_time_utc": "2025-08-09T09:56:22Z",
+    "flight_duration_s": 31600,
+    "distance_calculated_km": 7911.33,
+    "great_circle_distance_km": 7516.46,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1980,
+      "cruise": 25923,
+      "descent": 3238,
+      "landing": 1088
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 1430.0,
+      "cruise": 14401.67,
+      "descent": 1079.33,
+      "landing": 241.78
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 4518.8,
+      "cruise": 45509.28,
+      "descent": 3410.68,
+      "landing": 764.02
+    },
+    "co2_total_kg": 54708.38,
+    "co2_per_passenger_kg": 364.72
+  },
+  {
+    "fr24_id": "3ba50d55",
+    "flight": "WN3317",
+    "callsign": "SWA3317",
+    "aircraft_model": "B737",
+    "aircraft_reg": "N7738A",
+    "departure_icao": "KLAS",
+    "arrival_icao": "KSDF",
+    "departure_time_utc": "2025-08-09T01:12:10Z",
+    "arrival_time_utc": "2025-08-09T04:31:21Z",
+    "flight_duration_s": 11951,
+    "distance_calculated_km": 2707.26,
+    "great_circle_distance_km": 2612.4,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 2699,
+      "cruise": 3957,
+      "descent": 5043,
+      "landing": 3602
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 184.0,
+      "climb": 2241.67,
+      "cruise": 2528.08,
+      "descent": 1933.15,
+      "landing": 920.51
+    },
+    "co2_estimated_kg": {
+      "takeoff": 581.44,
+      "climb": 7083.68,
+      "cruise": 7988.73,
+      "descent": 6108.75,
+      "landing": 2908.81
+    },
+    "co2_total_kg": 24671.41,
+    "co2_per_passenger_kg": 176.22
+  },
+  {
+    "fr24_id": "3ba4a0ed",
+    "flight": "EJA178",
+    "callsign": "EJA178",
+    "aircraft_model": "GL7T",
+    "aircraft_reg": "N178QS",
+    "departure_icao": "KPBI",
+    "arrival_icao": "KLAS",
+    "departure_time_utc": "2025-08-08T23:44:55Z",
+    "arrival_time_utc": "2025-08-09T03:56:52Z",
+    "flight_duration_s": 15117,
+    "distance_calculated_km": 3551.53,
+    "great_circle_distance_km": 3472.39,
+    "phase_durations_s": {
+      "takeoff": 360,
+      "climb": 3598,
+      "cruise": 3601,
+      "descent": 7920,
+      "landing": 10808
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 320.0,
+      "climb": 2598.56,
+      "cruise": 2000.56,
+      "descent": 2640.0,
+      "landing": 2401.78
+    },
+    "co2_estimated_kg": {
+      "takeoff": 1011.2,
+      "climb": 8211.45,
+      "cruise": 6321.77,
+      "descent": 8342.4,
+      "landing": 7589.62
+    },
+    "co2_total_kg": 31476.44,
+    "co2_per_passenger_kg": 209.84
+  },
+  {
+    "fr24_id": "3ba51eec",
+    "flight": "UA1342",
+    "callsign": "UAL1342",
+    "aircraft_model": "B738",
+    "aircraft_reg": "N76533",
+    "departure_icao": "KIAH",
+    "arrival_icao": "KLGA",
+    "departure_time_utc": "2025-08-09T00:53:27Z",
+    "arrival_time_utc": "2025-08-09T03:55:02Z",
+    "flight_duration_s": 10895,
+    "distance_calculated_km": 2366.38,
+    "great_circle_distance_km": 2279.25,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1259,
+      "cruise": 6479,
+      "descent": 2521,
+      "landing": 721
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 200.0,
+      "climb": 1136.6,
+      "cruise": 4499.31,
+      "descent": 1050.42,
+      "landing": 200.28
+    },
+    "co2_estimated_kg": {
+      "takeoff": 632.0,
+      "climb": 3591.66,
+      "cruise": 14217.82,
+      "descent": 3319.33,
+      "landing": 632.88
+    },
+    "co2_total_kg": 22393.69,
+    "co2_per_passenger_kg": 124.41
+  },
+  {
+    "fr24_id": "3ba510a8",
+    "flight": "WN3839",
+    "callsign": "SWA3839",
+    "aircraft_model": "B737",
+    "aircraft_reg": "N205WN",
+    "departure_icao": "KOAK",
+    "arrival_icao": "KDAL",
+    "departure_time_utc": "2025-08-09T01:00:21Z",
+    "arrival_time_utc": "2025-08-09T04:06:31Z",
+    "flight_duration_s": 11170,
+    "distance_calculated_km": 2457.27,
+    "great_circle_distance_km": 2362.19,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 3420,
+      "cruise": 2836,
+      "descent": 4679,
+      "landing": 2522
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 184.0,
+      "climb": 2840.5,
+      "cruise": 1811.89,
+      "descent": 1793.62,
+      "landing": 644.51
+    },
+    "co2_estimated_kg": {
+      "takeoff": 581.44,
+      "climb": 8975.98,
+      "cruise": 5725.57,
+      "descent": 5667.84,
+      "landing": 2036.65
+    },
+    "co2_total_kg": 22987.48,
+    "co2_per_passenger_kg": 164.2
+  },
+  {
+    "fr24_id": "3ba4fbb8",
+    "flight": "WN1138",
+    "callsign": "SWA1138",
+    "aircraft_model": "B737",
+    "aircraft_reg": "N556WN",
+    "departure_icao": "KLAS",
+    "arrival_icao": "KMDW",
+    "departure_time_utc": "2025-08-09T00:38:28Z",
+    "arrival_time_utc": "2025-08-09T03:44:09Z",
+    "flight_duration_s": 11141,
+    "distance_calculated_km": 2478.63,
+    "great_circle_distance_km": 2447.29,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 3419,
+      "cruise": 3242,
+      "descent": 4318,
+      "landing": 11522
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 184.0,
+      "climb": 2839.67,
+      "cruise": 2071.28,
+      "descent": 1655.23,
+      "landing": 2944.51
+    },
+    "co2_estimated_kg": {
+      "takeoff": 581.44,
+      "climb": 8973.36,
+      "cruise": 6545.24,
+      "descent": 5230.53,
+      "landing": 9304.65
+    },
+    "co2_total_kg": 30635.22,
+    "co2_per_passenger_kg": 218.82
+  },
+  {
+    "fr24_id": "3ba51af5",
+    "flight": "WN2064",
+    "callsign": "SWA2064",
+    "aircraft_model": "B38M",
+    "aircraft_reg": "N8838Q",
+    "departure_icao": "KMDW",
+    "arrival_icao": "KSAT",
+    "departure_time_utc": "2025-08-09T01:01:27Z",
+    "arrival_time_utc": "2025-08-09T03:12:03Z",
+    "flight_duration_s": 7836,
+    "distance_calculated_km": 1696.72,
+    "great_circle_distance_km": 1668.41,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1260,
+      "cruise": 5040,
+      "descent": 1438,
+      "landing": 1441
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 176.0,
+      "climb": 1001.0,
+      "cruise": 3080.0,
+      "descent": 527.27,
+      "landing": 352.24
+    },
+    "co2_estimated_kg": {
+      "takeoff": 556.16,
+      "climb": 3163.16,
+      "cruise": 9732.8,
+      "descent": 1666.17,
+      "landing": 1113.08
+    },
+    "co2_total_kg": 16231.37,
+    "co2_per_passenger_kg": 85.43
+  },
+  {
+    "fr24_id": "3ba508d1",
+    "flight": "DL2413",
+    "callsign": "DAL2413",
+    "aircraft_model": "B738",
+    "aircraft_reg": "N375DA",
+    "departure_icao": "KSLC",
+    "arrival_icao": "KORD",
+    "departure_time_utc": "2025-08-09T00:14:08Z",
+    "arrival_time_utc": "2025-08-09T02:42:26Z",
+    "flight_duration_s": 8898,
+    "distance_calculated_km": 2066.74,
+    "great_circle_distance_km": 2013.16,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1981,
+      "cruise": 3239,
+      "descent": 3601,
+      "landing": 360
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 200.0,
+      "climb": 1788.4,
+      "cruise": 2249.31,
+      "descent": 1500.42,
+      "landing": 100.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 632.0,
+      "climb": 5651.34,
+      "cruise": 7107.82,
+      "descent": 4741.33,
+      "landing": 316.0
+    },
+    "co2_total_kg": 18448.49,
+    "co2_per_passenger_kg": 102.49
+  },
+  {
+    "fr24_id": "3ba4f0ee",
+    "flight": "WS1597",
+    "callsign": "WJA1597",
+    "aircraft_model": "B38M",
+    "aircraft_reg": "C-GLWS",
+    "departure_icao": "KATL",
+    "arrival_icao": "CYVR",
+    "departure_time_utc": "2025-08-08T23:58:38Z",
+    "arrival_time_utc": "2025-08-09T04:47:36Z",
+    "flight_duration_s": 17338,
+    "distance_calculated_km": 3705.42,
+    "great_circle_distance_km": 3617.07,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 3061,
+      "cruise": 10801,
+      "descent": 3235,
+      "landing": 2175
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 176.0,
+      "climb": 2431.79,
+      "cruise": 6600.61,
+      "descent": 1186.17,
+      "landing": 531.67
+    },
+    "co2_estimated_kg": {
+      "takeoff": 556.16,
+      "climb": 7684.46,
+      "cruise": 20857.93,
+      "descent": 3748.3,
+      "landing": 1680.08
+    },
+    "co2_total_kg": 34526.93,
+    "co2_per_passenger_kg": 181.72
+  },
+  {
+    "fr24_id": "3ba51a44",
+    "flight": "WN113",
+    "callsign": "SWA113",
+    "aircraft_model": "B38M",
+    "aircraft_reg": "N8879Q",
+    "departure_icao": "KBNA",
+    "arrival_icao": "KFLL",
+    "departure_time_utc": "2025-08-09T00:39:07Z",
+    "arrival_time_utc": "2025-08-09T02:30:03Z",
+    "flight_duration_s": 6656,
+    "distance_calculated_km": 1335.41,
+    "great_circle_distance_km": 1276.14,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1262,
+      "cruise": 3616,
+      "descent": 1440,
+      "landing": 0
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 176.0,
+      "climb": 1002.59,
+      "cruise": 2209.78,
+      "descent": 528.0,
+      "landing": 0.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 556.16,
+      "climb": 3168.18,
+      "cruise": 6982.9,
+      "descent": 1668.48,
+      "landing": 0.0
+    },
+    "co2_total_kg": 12375.72,
+    "co2_per_passenger_kg": 65.14
+  },
+  {
+    "fr24_id": "3ba51a1f",
+    "flight": "PD518",
+    "callsign": "POE518",
+    "aircraft_model": "E295",
+    "aircraft_reg": "C-GKYN",
+    "departure_icao": "KFLL",
+    "arrival_icao": "CYYZ",
+    "departure_time_utc": "2025-08-09T01:01:02Z",
+    "arrival_time_utc": "2025-08-09T03:39:21Z",
+    "flight_duration_s": 9499,
+    "distance_calculated_km": 2034.77,
+    "great_circle_distance_km": 1954.45,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1979,
+      "cruise": 3240,
+      "descent": 4320,
+      "landing": 1803
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 1429.28,
+      "cruise": 1800.0,
+      "descent": 1440.0,
+      "landing": 400.67
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 4516.52,
+      "cruise": 5688.0,
+      "descent": 4550.4,
+      "landing": 1266.12
+    },
+    "co2_total_kg": 16526.64,
+    "co2_per_passenger_kg": 110.18
+  },
+  {
+    "fr24_id": "3ba51ff3",
+    "flight": "WN362",
+    "callsign": "SWA362",
+    "aircraft_model": "B737",
+    "aircraft_reg": "N456WN",
+    "departure_icao": "KATL",
+    "arrival_icao": "KDAL",
+    "departure_time_utc": "2025-08-09T01:16:37Z",
+    "arrival_time_utc": "2025-08-09T02:54:22Z",
+    "flight_duration_s": 5865,
+    "distance_calculated_km": 1201.55,
+    "great_circle_distance_km": 1160.18,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1622,
+      "cruise": 1079,
+      "descent": 2520,
+      "landing": 2165
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 184.0,
+      "climb": 1347.16,
+      "cruise": 689.36,
+      "descent": 966.0,
+      "landing": 553.28
+    },
+    "co2_estimated_kg": {
+      "takeoff": 581.44,
+      "climb": 4257.03,
+      "cruise": 2178.38,
+      "descent": 3052.56,
+      "landing": 1748.36
+    },
+    "co2_total_kg": 11817.77,
+    "co2_per_passenger_kg": 84.41
+  },
+  {
+    "fr24_id": "3ba52506",
+    "flight": "WN2331",
+    "callsign": "SWA2331",
+    "aircraft_model": "B738",
+    "aircraft_reg": "N8660A",
+    "departure_icao": "KSTL",
+    "arrival_icao": "KRSW",
+    "departure_time_utc": "2025-08-09T01:00:40Z",
+    "arrival_time_utc": "2025-08-09T03:05:09Z",
+    "flight_duration_s": 7469,
+    "distance_calculated_km": 1581.05,
+    "great_circle_distance_km": 1574.29,
+    "phase_durations_s": {
+      "takeoff": 0,
+      "climb": 2519,
+      "cruise": 2881,
+      "descent": 1800,
+      "landing": 0
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 2274.1,
+      "cruise": 2000.69,
+      "descent": 750.0,
+      "landing": 0.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 7186.16,
+      "cruise": 6322.18,
+      "descent": 2370.0,
+      "landing": 0.0
+    },
+    "co2_total_kg": 15878.34,
+    "co2_per_passenger_kg": 88.21
+  },
+  {
+    "fr24_id": "3ba4eead",
+    "flight": "DM5805",
+    "callsign": "DWI5805",
+    "aircraft_model": "B38M",
+    "aircraft_reg": "HI1026",
+    "departure_icao": "CYYZ",
+    "arrival_icao": "MDPC",
+    "departure_time_utc": "2025-08-08T23:45:40Z",
+    "arrival_time_utc": "2025-08-09T03:38:50Z",
+    "flight_duration_s": 13990,
+    "distance_calculated_km": 3180.9,
+    "great_circle_distance_km": 2978,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 2700,
+      "cruise": 7921,
+      "descent": 2878,
+      "landing": 1801
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 176.0,
+      "climb": 2145.0,
+      "cruise": 4840.61,
+      "descent": 1055.27,
+      "landing": 440.24
+    },
+    "co2_estimated_kg": {
+      "takeoff": 556.16,
+      "climb": 6778.2,
+      "cruise": 15296.33,
+      "descent": 3334.65,
+      "landing": 1391.16
+    },
+    "co2_total_kg": 27356.5,
+    "co2_per_passenger_kg": 143.98
+  },
+  {
+    "fr24_id": "3ba51a80",
+    "flight": "EJA873",
+    "callsign": "EJA873",
+    "aircraft_model": "C700",
+    "aircraft_reg": "N873QS",
+    "departure_icao": "KMDW",
+    "arrival_icao": "KIAD",
+    "departure_time_utc": "2025-08-09T01:16:52Z",
+    "arrival_time_utc": "2025-08-09T02:33:41Z",
+    "flight_duration_s": 4609,
+    "distance_calculated_km": 933.01,
+    "great_circle_distance_km": 930.466,
+    "phase_durations_s": {
+      "takeoff": 0,
+      "climb": 1079,
+      "cruise": 1800,
+      "descent": 1800,
+      "landing": 359
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 779.28,
+      "cruise": 1000.0,
+      "descent": 600.0,
+      "landing": 79.78
+    },
+    "co2_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 2462.52,
+      "cruise": 3160.0,
+      "descent": 1896.0,
+      "landing": 252.1
+    },
+    "co2_total_kg": 7770.62,
+    "co2_per_passenger_kg": 51.8
+  },
+  {
+    "fr24_id": "3ba48c04",
+    "flight": "B68438",
+    "callsign": "JBU8438",
+    "aircraft_model": "A321",
+    "aircraft_reg": "N989JT",
+    "departure_icao": "KSAN",
+    "arrival_icao": "KBOS",
+    "departure_time_utc": "2025-08-08T21:05:08Z",
+    "arrival_time_utc": "2025-08-09T02:35:50Z",
+    "flight_duration_s": 19842,
+    "distance_calculated_km": 4469.5,
+    "great_circle_distance_km": 4163.36,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 2340,
+      "cruise": 14761,
+      "descent": 2518,
+      "landing": 1440
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 1690.0,
+      "cruise": 8200.56,
+      "descent": 839.33,
+      "landing": 320.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 5340.4,
+      "cruise": 25913.77,
+      "descent": 2652.28,
+      "landing": 1011.2
+    },
+    "co2_total_kg": 35423.25,
+    "co2_per_passenger_kg": 236.16
+  },
+  {
+    "fr24_id": "3ba2966a",
+    "flight": "PR118",
+    "callsign": "PAL118",
+    "aircraft_model": "A359",
+    "aircraft_reg": "RP-C3508",
+    "departure_icao": "RPLL",
+    "arrival_icao": "CYYZ",
+    "departure_time_utc": "2025-08-08T12:34:44Z",
+    "arrival_time_utc": "2025-08-09T02:54:26Z",
+    "flight_duration_s": 51582,
+    "distance_calculated_km": 13524.43,
+    "great_circle_distance_km": 13230.5,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 6290,
+      "cruise": 42489,
+      "descent": 2511,
+      "landing": 1810
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 4542.78,
+      "cruise": 23605.0,
+      "descent": 837.0,
+      "landing": 402.22
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 14355.18,
+      "cruise": 74591.8,
+      "descent": 2644.92,
+      "landing": 1271.02
+    },
+    "co2_total_kg": 93368.52,
+    "co2_per_passenger_kg": 622.46
+  },
+  {
+    "fr24_id": "3ba53a2c",
+    "flight": "5X795",
+    "callsign": "UPS795",
+    "aircraft_model": "B752",
+    "aircraft_reg": "N410UP",
+    "departure_icao": "KMFE",
+    "arrival_icao": "KSDF",
+    "departure_time_utc": "2025-08-09T01:39:20Z",
+    "arrival_time_utc": "2025-08-09T04:04:35Z",
+    "flight_duration_s": 8715,
+    "distance_calculated_km": 1841.93,
+    "great_circle_distance_km": 1773.93,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1261,
+      "cruise": 5401,
+      "descent": 1799,
+      "landing": 721
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 910.72,
+      "cruise": 3000.56,
+      "descent": 599.67,
+      "landing": 160.22
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 2877.88,
+      "cruise": 9481.77,
+      "descent": 1894.96,
+      "landing": 506.3
+    },
+    "co2_total_kg": 15266.51,
+    "co2_per_passenger_kg": 101.78
+  },
+  {
+    "fr24_id": "3ba4c736",
+    "flight": "AC1909",
+    "callsign": "ROU1909",
+    "aircraft_model": "A319",
+    "aircraft_reg": "C-GARO",
+    "departure_icao": "CYUL",
+    "arrival_icao": "CYYJ",
+    "departure_time_utc": "2025-08-08T22:41:19Z",
+    "arrival_time_utc": "2025-08-09T03:39:20Z",
+    "flight_duration_s": 17881,
+    "distance_calculated_km": 3806.28,
+    "great_circle_distance_km": 3724.5,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 4501,
+      "cruise": 8279,
+      "descent": 5038,
+      "landing": 1081
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 3250.72,
+      "cruise": 4599.44,
+      "descent": 1679.33,
+      "landing": 240.22
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 10272.28,
+      "cruise": 14534.23,
+      "descent": 5306.68,
+      "landing": 759.1
+    },
+    "co2_total_kg": 31377.89,
+    "co2_per_passenger_kg": 209.19
+  },
+  {
+    "fr24_id": "3ba5092c",
+    "flight": "F91609",
+    "callsign": "FFT1609",
+    "aircraft_model": "A20N",
+    "aircraft_reg": "N348FR",
+    "departure_icao": "KMKE",
+    "arrival_icao": "KDEN",
+    "departure_time_utc": "2025-08-09T01:00:30Z",
+    "arrival_time_utc": "2025-08-09T03:05:18Z",
+    "flight_duration_s": 7488,
+    "distance_calculated_km": 1485.31,
+    "great_circle_distance_km": 1440.88,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 3059,
+      "cruise": 1081,
+      "descent": 3594,
+      "landing": 4688
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 2209.28,
+      "cruise": 600.56,
+      "descent": 1198.0,
+      "landing": 1041.78
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 6981.32,
+      "cruise": 1897.77,
+      "descent": 3785.68,
+      "landing": 3292.02
+    },
+    "co2_total_kg": 16462.39,
+    "co2_per_passenger_kg": 109.75
+  },
+  {
+    "fr24_id": "3ba5388b",
+    "flight": "UA6971",
+    "callsign": "SKW6971",
+    "aircraft_model": "E75L",
+    "aircraft_reg": "N607UX",
+    "departure_icao": "KLAX",
+    "arrival_icao": "KDEN",
+    "departure_time_utc": "2025-08-09T01:35:50Z",
+    "arrival_time_utc": "2025-08-09T03:31:28Z",
+    "flight_duration_s": 6938,
+    "distance_calculated_km": 1447.38,
+    "great_circle_distance_km": 1386.61,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 3060,
+      "cruise": 720,
+      "descent": 2878,
+      "landing": 360
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 2210.0,
+      "cruise": 400.0,
+      "descent": 959.33,
+      "landing": 80.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 6983.6,
+      "cruise": 1264.0,
+      "descent": 3031.48,
+      "landing": 252.8
+    },
+    "co2_total_kg": 12037.48,
+    "co2_per_passenger_kg": 80.25
+  },
+  {
+    "fr24_id": "3ba533af",
+    "flight": "WN3454",
+    "callsign": "SWA3454",
+    "aircraft_model": "B737",
+    "aircraft_reg": "N431WN",
+    "departure_icao": "KLGA",
+    "arrival_icao": "KMCI",
+    "departure_time_utc": "2025-08-09T01:32:18Z",
+    "arrival_time_utc": "2025-08-09T03:59:28Z",
+    "flight_duration_s": 8830,
+    "distance_calculated_km": 1798.25,
+    "great_circle_distance_km": 1783.45,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 3061,
+      "cruise": 3959,
+      "descent": 1800,
+      "landing": 728
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 184.0,
+      "climb": 2542.33,
+      "cruise": 2529.36,
+      "descent": 690.0,
+      "landing": 186.04
+    },
+    "co2_estimated_kg": {
+      "takeoff": 581.44,
+      "climb": 8033.76,
+      "cruise": 7992.78,
+      "descent": 2180.4,
+      "landing": 587.89
+    },
+    "co2_total_kg": 19376.27,
+    "co2_per_passenger_kg": 138.4
+  },
+  {
+    "fr24_id": "3ba50be9",
+    "flight": "WN3166",
+    "callsign": "SWA3166",
+    "aircraft_model": "B738",
+    "aircraft_reg": "N8544Z",
+    "departure_icao": "KLAS",
+    "arrival_icao": "KIND",
+    "departure_time_utc": "2025-08-09T00:45:47Z",
+    "arrival_time_utc": "2025-08-09T03:58:21Z",
+    "flight_duration_s": 11554,
+    "distance_calculated_km": 2576.58,
+    "great_circle_distance_km": 2558.02,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 3418,
+      "cruise": 4323,
+      "descent": 3239,
+      "landing": 2164
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 200.0,
+      "climb": 3085.69,
+      "cruise": 3002.08,
+      "descent": 1349.58,
+      "landing": 601.11
+    },
+    "co2_estimated_kg": {
+      "takeoff": 632.0,
+      "climb": 9750.78,
+      "cruise": 9486.57,
+      "descent": 4264.67,
+      "landing": 1899.51
+    },
+    "co2_total_kg": 26033.53,
+    "co2_per_passenger_kg": 144.63
+  },
+  {
+    "fr24_id": "3ba4f96d",
+    "flight": "UA2627",
+    "callsign": "UAL2627",
+    "aircraft_model": "B738",
+    "aircraft_reg": "N77520",
+    "departure_icao": "KSEA",
+    "arrival_icao": "KORD",
+    "departure_time_utc": "2025-08-08T23:50:53Z",
+    "arrival_time_utc": "2025-08-09T03:18:53Z",
+    "flight_duration_s": 12480,
+    "distance_calculated_km": 2832.65,
+    "great_circle_distance_km": 2767.84,
+    "phase_durations_s": {
+      "takeoff": 360,
+      "climb": 2879,
+      "cruise": 5040,
+      "descent": 4320,
+      "landing": 720
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 400.0,
+      "climb": 2599.1,
+      "cruise": 3500.0,
+      "descent": 1800.0,
+      "landing": 200.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 1264.0,
+      "climb": 8213.16,
+      "cruise": 11060.0,
+      "descent": 5688.0,
+      "landing": 632.0
+    },
+    "co2_total_kg": 26857.16,
+    "co2_per_passenger_kg": 149.21
+  },
+  {
+    "fr24_id": "3ba2b3e0",
+    "flight": "YP131",
+    "callsign": "APZ131",
+    "aircraft_model": "B789",
+    "aircraft_reg": "HL8516",
+    "departure_icao": "RKSI",
+    "arrival_icao": "KEWR",
+    "departure_time_utc": "2025-08-08T12:51:05Z",
+    "arrival_time_utc": "2025-08-09T03:34:37Z",
+    "flight_duration_s": 53012,
+    "distance_calculated_km": 13533.83,
+    "great_circle_distance_km": 11100.4,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 6313,
+      "cruise": 33472,
+      "descent": 14034,
+      "landing": 1082
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 4559.39,
+      "cruise": 18595.56,
+      "descent": 4678.0,
+      "landing": 240.44
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 14407.67,
+      "cruise": 58761.97,
+      "descent": 14782.48,
+      "landing": 759.79
+    },
+    "co2_total_kg": 89217.51,
+    "co2_per_passenger_kg": 594.78
+  },
+  {
+    "fr24_id": "3ba51b86",
+    "flight": "AA40",
+    "callsign": "AAL40",
+    "aircraft_model": "B788",
+    "aircraft_reg": "N803AL",
+    "departure_icao": "KORD",
+    "arrival_icao": "LEBL",
+    "departure_time_utc": "2025-08-09T00:43:13Z",
+    "arrival_time_utc": "2025-08-09T08:45:19Z",
+    "flight_duration_s": 28926,
+    "distance_calculated_km": 7421.7,
+    "great_circle_distance_km": 7112.23,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 2004,
+      "cruise": 18699,
+      "descent": 8278,
+      "landing": 360
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 1447.33,
+      "cruise": 10388.33,
+      "descent": 2759.33,
+      "landing": 80.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 4573.56,
+      "cruise": 32827.12,
+      "descent": 8719.48,
+      "landing": 252.8
+    },
+    "co2_total_kg": 46878.56,
+    "co2_per_passenger_kg": 312.52
+  },
+  {
+    "fr24_id": "3ba50b38",
+    "flight": "BA2166",
+    "callsign": "BAW12TB",
+    "aircraft_model": "B772",
+    "aircraft_reg": "G-VIIX",
+    "departure_icao": "KTPA",
+    "arrival_icao": "EGKK",
+    "departure_time_utc": "2025-08-09T00:22:10Z",
+    "arrival_time_utc": "2025-08-09T08:19:03Z",
+    "flight_duration_s": 28613,
+    "distance_calculated_km": 7381.68,
+    "great_circle_distance_km": 7126.15,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 3059,
+      "cruise": 22320,
+      "descent": 2882,
+      "landing": 1439
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 2209.28,
+      "cruise": 12400.0,
+      "descent": 960.67,
+      "landing": 319.78
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 6981.32,
+      "cruise": 39184.0,
+      "descent": 3035.72,
+      "landing": 1010.5
+    },
+    "co2_total_kg": 50717.14,
+    "co2_per_passenger_kg": 338.11
+  },
+  {
+    "fr24_id": "3ba50144",
+    "flight": "SK930",
+    "callsign": "SAS930",
+    "aircraft_model": "A333",
+    "aircraft_reg": "LN-RKS",
+    "departure_icao": "KATL",
+    "arrival_icao": "EKCH",
+    "departure_time_utc": "2025-08-09T00:13:32Z",
+    "arrival_time_utc": "2025-08-09T08:27:09Z",
+    "flight_duration_s": 29617,
+    "distance_calculated_km": 7527.17,
+    "great_circle_distance_km": 7407.45,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 3781,
+      "cruise": 22317,
+      "descent": 3601,
+      "landing": 1080
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 2730.72,
+      "cruise": 12398.33,
+      "descent": 1200.33,
+      "landing": 240.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 8629.08,
+      "cruise": 39178.72,
+      "descent": 3793.04,
+      "landing": 758.4
+    },
+    "co2_total_kg": 52864.84,
+    "co2_per_passenger_kg": 352.43
+  },
+  {
+    "fr24_id": "3ba3b70f",
+    "flight": "BA275",
+    "callsign": "BAW2MW",
+    "aircraft_model": "A35K",
+    "aircraft_reg": "G-XWBA",
+    "departure_icao": "EGLL",
+    "arrival_icao": "KLAS",
+    "departure_time_utc": "2025-08-08T17:07:59Z",
+    "arrival_time_utc": "2025-08-09T03:11:00Z",
+    "flight_duration_s": 36181,
+    "distance_calculated_km": 8607.51,
+    "great_circle_distance_km": 8413.86,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 3783,
+      "cruise": 26999,
+      "descent": 5399,
+      "landing": 1450
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 2732.17,
+      "cruise": 14999.44,
+      "descent": 1799.67,
+      "landing": 322.22
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 8633.66,
+      "cruise": 47398.23,
+      "descent": 5686.96,
+      "landing": 1018.22
+    },
+    "co2_total_kg": 63242.67,
+    "co2_per_passenger_kg": 421.62
+  },
+  {
+    "fr24_id": "3ba4f7fd",
+    "flight": "WN2506",
+    "callsign": "SWA2506",
+    "aircraft_model": "B738",
+    "aircraft_reg": "N8648A",
+    "departure_icao": "KDEN",
+    "arrival_icao": "KLGB",
+    "departure_time_utc": "2025-08-09T00:53:38Z",
+    "arrival_time_utc": "2025-08-09T02:53:55Z",
+    "flight_duration_s": 7217,
+    "distance_calculated_km": 1397.91,
+    "great_circle_distance_km": 1373.66,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1620,
+      "cruise": 2520,
+      "descent": 2520,
+      "landing": 4730
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 200.0,
+      "climb": 1462.5,
+      "cruise": 1750.0,
+      "descent": 1050.0,
+      "landing": 1313.89
+    },
+    "co2_estimated_kg": {
+      "takeoff": 632.0,
+      "climb": 4621.5,
+      "cruise": 5530.0,
+      "descent": 3318.0,
+      "landing": 4151.89
+    },
+    "co2_total_kg": 18253.39,
+    "co2_per_passenger_kg": 101.41
+  },
+  {
+    "fr24_id": "3ba4fa44",
+    "flight": "WN595",
+    "callsign": "SWA595",
+    "aircraft_model": "B738",
+    "aircraft_reg": "N8631A",
+    "departure_icao": "KHOU",
+    "arrival_icao": "KOAK",
+    "departure_time_utc": "2025-08-08T23:49:26Z",
+    "arrival_time_utc": "2025-08-09T03:17:59Z",
+    "flight_duration_s": 12513,
+    "distance_calculated_km": 2666.17,
+    "great_circle_distance_km": 2641.67,
+    "phase_durations_s": {
+      "takeoff": 0,
+      "climb": 2518,
+      "cruise": 8281,
+      "descent": 1801,
+      "landing": 0
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 2273.19,
+      "cruise": 5750.69,
+      "descent": 750.42,
+      "landing": 0.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 7183.28,
+      "cruise": 18172.18,
+      "descent": 2371.33,
+      "landing": 0.0
+    },
+    "co2_total_kg": 27726.79,
+    "co2_per_passenger_kg": 154.04
+  },
+  {
+    "fr24_id": "3ba53749",
+    "flight": "WN2163",
+    "callsign": "SWA2163",
+    "aircraft_model": "B737",
+    "aircraft_reg": "N7864B",
+    "departure_icao": "KDAL",
+    "arrival_icao": "KECP",
+    "departure_time_utc": "2025-08-09T01:42:49Z",
+    "arrival_time_utc": "2025-08-09T03:08:15Z",
+    "flight_duration_s": 5126,
+    "distance_calculated_km": 1069.98,
+    "great_circle_distance_km": 1082.7,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1259,
+      "cruise": 1441,
+      "descent": 1800,
+      "landing": 1083
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 184.0,
+      "climb": 1045.67,
+      "cruise": 920.64,
+      "descent": 690.0,
+      "landing": 276.77
+    },
+    "co2_estimated_kg": {
+      "takeoff": 581.44,
+      "climb": 3304.32,
+      "cruise": 2909.22,
+      "descent": 2180.4,
+      "landing": 874.59
+    },
+    "co2_total_kg": 9849.97,
+    "co2_per_passenger_kg": 70.36
+  },
+  {
+    "fr24_id": "3ba50987",
+    "flight": "DL1492",
+    "callsign": "DAL1492",
+    "aircraft_model": "A319",
+    "aircraft_reg": "N370NB",
+    "departure_icao": "KSTL",
+    "arrival_icao": "KSLC",
+    "departure_time_utc": "2025-08-09T00:10:02Z",
+    "arrival_time_utc": "2025-08-09T02:49:25Z",
+    "flight_duration_s": 9563,
+    "distance_calculated_km": 1940.45,
+    "great_circle_distance_km": 1862,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1619,
+      "cruise": 3241,
+      "descent": 4320,
+      "landing": 361
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 1169.28,
+      "cruise": 1800.56,
+      "descent": 1440.0,
+      "landing": 80.22
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 3694.92,
+      "cruise": 5689.77,
+      "descent": 4550.4,
+      "landing": 253.5
+    },
+    "co2_total_kg": 14694.19,
+    "co2_per_passenger_kg": 97.96
+  },
+  {
+    "fr24_id": "3ba4caf0",
+    "flight": "PD448",
+    "callsign": "POE448",
+    "aircraft_model": "E295",
+    "aircraft_reg": "C-GKQT",
+    "departure_icao": "CYYJ",
+    "arrival_icao": "CYOW",
+    "departure_time_utc": "2025-08-08T22:44:08Z",
+    "arrival_time_utc": "2025-08-09T03:09:47Z",
+    "flight_duration_s": 15939,
+    "distance_calculated_km": 3622.83,
+    "great_circle_distance_km": 3593.04,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 6304,
+      "cruise": 4319,
+      "descent": 5397,
+      "landing": 719
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 4552.89,
+      "cruise": 2399.44,
+      "descent": 1799.0,
+      "landing": 159.78
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 14387.13,
+      "cruise": 7582.23,
+      "descent": 5684.84,
+      "landing": 504.9
+    },
+    "co2_total_kg": 28664.7,
+    "co2_per_passenger_kg": 191.1
+  },
+  {
+    "fr24_id": "3ba4ec93",
+    "flight": "WN4191",
+    "callsign": "SWA4191",
+    "aircraft_model": "B737",
+    "aircraft_reg": "N7823A",
+    "departure_icao": "KSAN",
+    "arrival_icao": "KMCI",
+    "departure_time_utc": "2025-08-09T00:00:42Z",
+    "arrival_time_utc": "2025-08-09T02:44:05Z",
+    "flight_duration_s": 9803,
+    "distance_calculated_km": 2258.24,
+    "great_circle_distance_km": 2145.79,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 3778,
+      "cruise": 2162,
+      "descent": 3600,
+      "landing": 2189
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 184.0,
+      "climb": 3137.84,
+      "cruise": 1381.28,
+      "descent": 1380.0,
+      "landing": 559.41
+    },
+    "co2_estimated_kg": {
+      "takeoff": 581.44,
+      "climb": 9915.57,
+      "cruise": 4364.84,
+      "descent": 4360.8,
+      "landing": 1767.74
+    },
+    "co2_total_kg": 20990.39,
+    "co2_per_passenger_kg": 149.93
+  },
+  {
+    "fr24_id": "3ba4e399",
+    "flight": "WN468",
+    "callsign": "SWA468",
+    "aircraft_model": "B737",
+    "aircraft_reg": "N7815L",
+    "departure_icao": "KLAS",
+    "arrival_icao": "KPIT",
+    "departure_time_utc": "2025-08-08T23:40:04Z",
+    "arrival_time_utc": "2025-08-09T03:25:31Z",
+    "flight_duration_s": 13527,
+    "distance_calculated_km": 3103.44,
+    "great_circle_distance_km": 3071.97,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 2699,
+      "cruise": 7557,
+      "descent": 2523,
+      "landing": 2193
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 184.0,
+      "climb": 2241.67,
+      "cruise": 4828.08,
+      "descent": 967.15,
+      "landing": 560.43
+    },
+    "co2_estimated_kg": {
+      "takeoff": 581.44,
+      "climb": 7083.68,
+      "cruise": 15256.73,
+      "descent": 3056.19,
+      "landing": 1770.96
+    },
+    "co2_total_kg": 27749.0,
+    "co2_per_passenger_kg": 198.21
+  },
+  {
+    "fr24_id": "3ba4a915",
+    "flight": "K4810",
+    "callsign": "CKS810",
+    "aircraft_model": "B744",
+    "aircraft_reg": "N710CK",
+    "departure_icao": "MMSM",
+    "arrival_icao": "PANC",
+    "departure_time_utc": "2025-08-08T22:05:08Z",
+    "arrival_time_utc": "2025-08-09T05:49:40Z",
+    "flight_duration_s": 27872,
+    "distance_calculated_km": 6159.45,
+    "great_circle_distance_km": 6053.26,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1978,
+      "cruise": 22324,
+      "descent": 3238,
+      "landing": 2160
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 1428.56,
+      "cruise": 12402.22,
+      "descent": 1079.33,
+      "landing": 480.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 4514.25,
+      "cruise": 39191.02,
+      "descent": 3410.68,
+      "landing": 1516.8
+    },
+    "co2_total_kg": 49138.35,
+    "co2_per_passenger_kg": 327.59
+  },
+  {
+    "fr24_id": "3ba48345",
+    "flight": "VJT749",
+    "callsign": "VJT749",
+    "aircraft_model": "GL7T",
+    "aircraft_reg": "9H-VIC",
+    "departure_icao": "KSAN",
+    "arrival_icao": "KBCT",
+    "departure_time_utc": "2025-08-08T22:20:44Z",
+    "arrival_time_utc": "2025-08-09T02:45:15Z",
+    "flight_duration_s": 15871,
+    "distance_calculated_km": 3682.97,
+    "great_circle_distance_km": 3642.18,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 4140,
+      "cruise": 3240,
+      "descent": 8636,
+      "landing": 6460
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 2990.0,
+      "cruise": 1800.0,
+      "descent": 2878.67,
+      "landing": 1435.56
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 9448.4,
+      "cruise": 5688.0,
+      "descent": 9096.6,
+      "landing": 4536.37
+    },
+    "co2_total_kg": 29274.97,
+    "co2_per_passenger_kg": 195.17
+  },
+  {
+    "fr24_id": "3ba4ea30",
+    "flight": "FX5045",
+    "callsign": "FDX5045",
+    "aircraft_model": "B77L",
+    "aircraft_reg": "N873FD",
+    "departure_icao": "KOAK",
+    "arrival_icao": "KMEM",
+    "departure_time_utc": "2025-08-08T23:33:24Z",
+    "arrival_time_utc": "2025-08-09T03:10:16Z",
+    "flight_duration_s": 13012,
+    "distance_calculated_km": 2996.64,
+    "great_circle_distance_km": 2893.29,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1262,
+      "cruise": 7919,
+      "descent": 3239,
+      "landing": 1081
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 911.44,
+      "cruise": 4399.44,
+      "descent": 1079.67,
+      "landing": 240.22
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 2880.15,
+      "cruise": 13902.23,
+      "descent": 3411.76,
+      "landing": 759.1
+    },
+    "co2_total_kg": 21458.84,
+    "co2_per_passenger_kg": 143.06
+  },
+  {
+    "fr24_id": "3ba4e67a",
+    "flight": "UA1152",
+    "callsign": "UAL1152",
+    "aircraft_model": "B737",
+    "aircraft_reg": "N24706",
+    "departure_icao": "KIAH",
+    "arrival_icao": "KJAC",
+    "departure_time_utc": "2025-08-08T23:24:38Z",
+    "arrival_time_utc": "2025-08-09T02:22:41Z",
+    "flight_duration_s": 10683,
+    "distance_calculated_km": 2069.73,
+    "great_circle_distance_km": 2035.48,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 2344,
+      "cruise": 4675,
+      "descent": 2880,
+      "landing": 720
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 184.0,
+      "climb": 1946.82,
+      "cruise": 2986.81,
+      "descent": 1104.0,
+      "landing": 184.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 581.44,
+      "climb": 6151.95,
+      "cruise": 9438.32,
+      "descent": 3488.64,
+      "landing": 581.44
+    },
+    "co2_total_kg": 20241.79,
+    "co2_per_passenger_kg": 144.58
+  },
+  {
+    "fr24_id": "3ba4e9e0",
+    "flight": "BY147",
+    "callsign": "TOM147",
+    "aircraft_model": "B789",
+    "aircraft_reg": "SE-RFZ",
+    "departure_icao": "MMUN",
+    "arrival_icao": "EGCC",
+    "departure_time_utc": "2025-08-08T23:16:38Z",
+    "arrival_time_utc": "2025-08-09T07:45:57Z",
+    "flight_duration_s": 30559,
+    "distance_calculated_km": 7941.28,
+    "great_circle_distance_km": 7804.9,
+    "phase_durations_s": {
+      "takeoff": 0,
+      "climb": 2541,
+      "cruise": 15467,
+      "descent": 12592,
+      "landing": 0
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 1835.17,
+      "cruise": 8592.78,
+      "descent": 4197.33,
+      "landing": 0.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 5799.14,
+      "cruise": 27153.18,
+      "descent": 13263.56,
+      "landing": 0.0
+    },
+    "co2_total_kg": 46215.88,
+    "co2_per_passenger_kg": 308.11
+  },
+  {
+    "fr24_id": "3ba4c4d9",
+    "flight": "AA192",
+    "callsign": "AAL192",
+    "aircraft_model": "B789",
+    "aircraft_reg": "N826AN",
+    "departure_icao": "KDFW",
+    "arrival_icao": "LEBL",
+    "departure_time_utc": "2025-08-08T23:01:20Z",
+    "arrival_time_utc": "2025-08-09T08:14:58Z",
+    "flight_duration_s": 33218,
+    "distance_calculated_km": 8606.74,
+    "great_circle_distance_km": 8361.35,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1625,
+      "cruise": 22299,
+      "descent": 9017,
+      "landing": 2522
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 1173.61,
+      "cruise": 12388.33,
+      "descent": 3005.67,
+      "landing": 560.44
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 3708.61,
+      "cruise": 39147.12,
+      "descent": 9497.92,
+      "landing": 1770.99
+    },
+    "co2_total_kg": 54630.24,
+    "co2_per_passenger_kg": 364.2
+  },
+  {
+    "fr24_id": "3ba46a82",
+    "flight": "B61523",
+    "callsign": "JBU1523",
+    "aircraft_model": "A321",
+    "aircraft_reg": "N923JB",
+    "departure_icao": "KJFK",
+    "arrival_icao": "KLAX",
+    "departure_time_utc": "2025-08-08T21:31:46Z",
+    "arrival_time_utc": "2025-08-09T02:42:58Z",
+    "flight_duration_s": 18672,
+    "distance_calculated_km": 4028.85,
+    "great_circle_distance_km": 3983.13,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 4856,
+      "cruise": 10082,
+      "descent": 3601,
+      "landing": 10072
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 3507.11,
+      "cruise": 5601.11,
+      "descent": 1200.33,
+      "landing": 2238.22
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 11082.47,
+      "cruise": 17699.51,
+      "descent": 3793.04,
+      "landing": 7072.78
+    },
+    "co2_total_kg": 40153.4,
+    "co2_per_passenger_kg": 267.69
+  },
+  {
+    "fr24_id": "3ba533f6",
+    "flight": "WN4140",
+    "callsign": "SWA4140",
+    "aircraft_model": "B737",
+    "aircraft_reg": "N227WN",
+    "departure_icao": "KPSP",
+    "arrival_icao": "KSMF",
+    "departure_time_utc": "2025-08-09T01:34:58Z",
+    "arrival_time_utc": "2025-08-09T02:44:36Z",
+    "flight_duration_s": 4178,
+    "distance_calculated_km": 758.84,
+    "great_circle_distance_km": 707.745,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 897,
+      "cruise": 1080,
+      "descent": 1803,
+      "landing": 1080
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 184.0,
+      "climb": 745.01,
+      "cruise": 690.0,
+      "descent": 691.15,
+      "landing": 276.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 581.44,
+      "climb": 2354.23,
+      "cruise": 2180.4,
+      "descent": 2184.03,
+      "landing": 872.16
+    },
+    "co2_total_kg": 8172.26,
+    "co2_per_passenger_kg": 58.37
+  },
+  {
+    "fr24_id": "3ba4fe54",
+    "flight": "SY8785",
+    "callsign": "SCX8785",
+    "aircraft_model": "B738",
+    "aircraft_reg": "N816SY",
+    "departure_icao": "MMSM",
+    "arrival_icao": "KMSP",
+    "departure_time_utc": "2025-08-09T00:10:12Z",
+    "arrival_time_utc": "2025-08-09T03:57:08Z",
+    "flight_duration_s": 13616,
+    "distance_calculated_km": 2872.66,
+    "great_circle_distance_km": 2837.06,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1259,
+      "cruise": 9360,
+      "descent": 2161,
+      "landing": 1439
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 200.0,
+      "climb": 1136.6,
+      "cruise": 6500.0,
+      "descent": 900.42,
+      "landing": 399.72
+    },
+    "co2_estimated_kg": {
+      "takeoff": 632.0,
+      "climb": 3591.66,
+      "cruise": 20540.0,
+      "descent": 2845.33,
+      "landing": 1263.12
+    },
+    "co2_total_kg": 28872.11,
+    "co2_per_passenger_kg": 160.4
+  },
+  {
+    "fr24_id": "3ba50baf",
+    "flight": "DL2260",
+    "callsign": "DAL2260",
+    "aircraft_model": "B738",
+    "aircraft_reg": "N3752",
+    "departure_icao": "KLAS",
+    "arrival_icao": "KAUS",
+    "departure_time_utc": "2025-08-09T00:28:51Z",
+    "arrival_time_utc": "2025-08-09T02:43:19Z",
+    "flight_duration_s": 8068,
+    "distance_calculated_km": 1797.55,
+    "great_circle_distance_km": 1752.92,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1622,
+      "cruise": 3958,
+      "descent": 2161,
+      "landing": 1799
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 200.0,
+      "climb": 1464.31,
+      "cruise": 2748.61,
+      "descent": 900.42,
+      "landing": 499.72
+    },
+    "co2_estimated_kg": {
+      "takeoff": 632.0,
+      "climb": 4627.22,
+      "cruise": 8685.61,
+      "descent": 2845.33,
+      "landing": 1579.12
+    },
+    "co2_total_kg": 18369.28,
+    "co2_per_passenger_kg": 102.05
+  },
+  {
+    "fr24_id": "3ba4f86b",
+    "flight": "WN2433",
+    "callsign": "SWA2433",
+    "aircraft_model": "B738",
+    "aircraft_reg": "N8558Z",
+    "departure_icao": "KBNA",
+    "arrival_icao": "KPHX",
+    "departure_time_utc": "2025-08-08T23:41:01Z",
+    "arrival_time_utc": "2025-08-09T02:51:51Z",
+    "flight_duration_s": 11450,
+    "distance_calculated_km": 2341.49,
+    "great_circle_distance_km": 2329.66,
+    "phase_durations_s": {
+      "takeoff": 0,
+      "climb": 1441,
+      "cruise": 5757,
+      "descent": 4318,
+      "landing": 0
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 1300.9,
+      "cruise": 3997.92,
+      "descent": 1799.17,
+      "landing": 0.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 4110.84,
+      "cruise": 12633.43,
+      "descent": 5685.38,
+      "landing": 0.0
+    },
+    "co2_total_kg": 22429.65,
+    "co2_per_passenger_kg": 124.61
+  },
+  {
+    "fr24_id": "3ba51c5b",
+    "flight": "WN2076",
+    "callsign": "SWA2076",
+    "aircraft_model": "B738",
+    "aircraft_reg": "N8529Z",
+    "departure_icao": "KCMH",
+    "arrival_icao": "KTPA",
+    "departure_time_utc": "2025-08-09T00:44:39Z",
+    "arrival_time_utc": "2025-08-09T02:34:11Z",
+    "flight_duration_s": 6572,
+    "distance_calculated_km": 1351.35,
+    "great_circle_distance_km": 1332.75,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1260,
+      "cruise": 3606,
+      "descent": 1440,
+      "landing": 354
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 200.0,
+      "climb": 1137.5,
+      "cruise": 2504.17,
+      "descent": 600.0,
+      "landing": 98.33
+    },
+    "co2_estimated_kg": {
+      "takeoff": 632.0,
+      "climb": 3594.5,
+      "cruise": 7913.18,
+      "descent": 1896.0,
+      "landing": 310.72
+    },
+    "co2_total_kg": 14346.4,
+    "co2_per_passenger_kg": 79.7
+  },
+  {
+    "fr24_id": "3ba4ff65",
+    "flight": "B6217",
+    "callsign": "JBU217",
+    "aircraft_model": "A320",
+    "aircraft_reg": "N661JB",
+    "departure_icao": "KPHL",
+    "arrival_icao": "KFLL",
+    "departure_time_utc": "2025-08-09T00:28:52Z",
+    "arrival_time_utc": "2025-08-09T02:45:55Z",
+    "flight_duration_s": 8223,
+    "distance_calculated_km": 1649.58,
+    "great_circle_distance_km": 1597.82,
+    "phase_durations_s": {
+      "takeoff": 0,
+      "climb": 2518,
+      "cruise": 3243,
+      "descent": 5398,
+      "landing": 0
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 2182.27,
+      "cruise": 2162.0,
+      "descent": 2159.2,
+      "landing": 0.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 6895.97,
+      "cruise": 6831.92,
+      "descent": 6823.07,
+      "landing": 0.0
+    },
+    "co2_total_kg": 20550.96,
+    "co2_per_passenger_kg": 114.17
+  },
+  {
+    "fr24_id": "3ba50b77",
+    "flight": "UA2726",
+    "callsign": "UAL2726",
+    "aircraft_model": "B737",
+    "aircraft_reg": "N13718",
+    "departure_icao": "KDFW",
+    "arrival_icao": "KEWR",
+    "departure_time_utc": "2025-08-09T00:29:42Z",
+    "arrival_time_utc": "2025-08-09T03:26:43Z",
+    "flight_duration_s": 10621,
+    "distance_calculated_km": 2304.7,
+    "great_circle_distance_km": 2208.38,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1260,
+      "cruise": 6121,
+      "descent": 2520,
+      "landing": 1439
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 184.0,
+      "climb": 1046.5,
+      "cruise": 3910.64,
+      "descent": 966.0,
+      "landing": 367.74
+    },
+    "co2_estimated_kg": {
+      "takeoff": 581.44,
+      "climb": 3306.94,
+      "cruise": 12357.62,
+      "descent": 3052.56,
+      "landing": 1162.06
+    },
+    "co2_total_kg": 20460.62,
+    "co2_per_passenger_kg": 146.15
+  },
+  {
+    "fr24_id": "3ba52303",
+    "flight": "FX9793",
+    "callsign": "FDX9793",
+    "aircraft_model": "B77L",
+    "aircraft_reg": "N892FD",
+    "departure_icao": "KMEM",
+    "arrival_icao": "KDOV",
+    "departure_time_utc": "2025-08-09T01:05:22Z",
+    "arrival_time_utc": "2025-08-09T02:50:13Z",
+    "flight_duration_s": 6291,
+    "distance_calculated_km": 1373.89,
+    "great_circle_distance_km": 1363.38,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1261,
+      "cruise": 1800,
+      "descent": 2520,
+      "landing": 1103
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 910.72,
+      "cruise": 1000.0,
+      "descent": 840.0,
+      "landing": 245.11
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 2877.88,
+      "cruise": 3160.0,
+      "descent": 2654.4,
+      "landing": 774.55
+    },
+    "co2_total_kg": 9972.43,
+    "co2_per_passenger_kg": 66.48
+  },
+  {
+    "fr24_id": "3ba52e0c",
+    "flight": "EJA740",
+    "callsign": "EJA740",
+    "aircraft_model": "CL35",
+    "aircraft_reg": "N740QS",
+    "departure_icao": "KHPN",
+    "arrival_icao": "KGMU",
+    "departure_time_utc": "2025-08-09T01:20:44Z",
+    "arrival_time_utc": "2025-08-09T02:49:02Z",
+    "flight_duration_s": 5298,
+    "distance_calculated_km": 1045.02,
+    "great_circle_distance_km": 1026.37,
+    "phase_durations_s": {
+      "takeoff": 361,
+      "climb": 1441,
+      "cruise": 1079,
+      "descent": 2160,
+      "landing": 720
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 320.89,
+      "climb": 1040.72,
+      "cruise": 599.44,
+      "descent": 720.0,
+      "landing": 160.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 1014.01,
+      "climb": 3288.68,
+      "cruise": 1894.23,
+      "descent": 2275.2,
+      "landing": 505.6
+    },
+    "co2_total_kg": 8977.72,
+    "co2_per_passenger_kg": 59.85
+  },
+  {
+    "fr24_id": "3ba511b6",
+    "flight": "DL1439",
+    "callsign": "DAL1439",
+    "aircraft_model": "B738",
+    "aircraft_reg": "N397DA",
+    "departure_icao": "KTPA",
+    "arrival_icao": "KBOS",
+    "departure_time_utc": "2025-08-09T00:30:39Z",
+    "arrival_time_utc": "2025-08-09T03:07:13Z",
+    "flight_duration_s": 9394,
+    "distance_calculated_km": 2050.74,
+    "great_circle_distance_km": 1905.61,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 2340,
+      "cruise": 5042,
+      "descent": 1439,
+      "landing": 364
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 200.0,
+      "climb": 2112.5,
+      "cruise": 3501.39,
+      "descent": 599.58,
+      "landing": 101.11
+    },
+    "co2_estimated_kg": {
+      "takeoff": 632.0,
+      "climb": 6675.5,
+      "cruise": 11064.39,
+      "descent": 1894.67,
+      "landing": 319.51
+    },
+    "co2_total_kg": 20586.07,
+    "co2_per_passenger_kg": 114.37
+  },
+  {
+    "fr24_id": "3ba5298e",
+    "flight": "TS434",
+    "callsign": "TSC434",
+    "aircraft_model": "A332",
+    "aircraft_reg": "C-GUFZ",
+    "departure_icao": "CYUL",
+    "arrival_icao": "LFML",
+    "departure_time_utc": "2025-08-09T01:17:27Z",
+    "arrival_time_utc": "2025-08-09T08:20:21Z",
+    "flight_duration_s": 25374,
+    "distance_calculated_km": 6305.91,
+    "great_circle_distance_km": 6023.39,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1619,
+      "cruise": 20883,
+      "descent": 2519,
+      "landing": 1088
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 1169.28,
+      "cruise": 11601.67,
+      "descent": 839.67,
+      "landing": 241.78
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 3694.92,
+      "cruise": 36661.28,
+      "descent": 2653.36,
+      "landing": 764.02
+    },
+    "co2_total_kg": 44279.18,
+    "co2_per_passenger_kg": 295.19
+  },
+  {
+    "fr24_id": "3ba52c87",
+    "flight": "SY8788",
+    "callsign": "SCX8788",
+    "aircraft_model": "B738",
+    "aircraft_reg": "N830SY",
+    "departure_icao": "MMTC",
+    "arrival_icao": "KMSP",
+    "departure_time_utc": "2025-08-09T01:17:28Z",
+    "arrival_time_utc": "2025-08-09T04:24:28Z",
+    "flight_duration_s": 11220,
+    "distance_calculated_km": 2388.79,
+    "great_circle_distance_km": 2329.67,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 900,
+      "cruise": 7560,
+      "descent": 2520,
+      "landing": 1444
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 200.0,
+      "climb": 812.5,
+      "cruise": 5250.0,
+      "descent": 1050.0,
+      "landing": 401.11
+    },
+    "co2_estimated_kg": {
+      "takeoff": 632.0,
+      "climb": 2567.5,
+      "cruise": 16590.0,
+      "descent": 3318.0,
+      "landing": 1267.51
+    },
+    "co2_total_kg": 24375.01,
+    "co2_per_passenger_kg": 135.42
+  },
+  {
+    "fr24_id": "3ba53194",
+    "flight": "5X937",
+    "callsign": "UPS937",
+    "aircraft_model": "B752",
+    "aircraft_reg": "N435UP",
+    "departure_icao": "KFAT",
+    "arrival_icao": "KSDF",
+    "departure_time_utc": "2025-08-09T01:23:26Z",
+    "arrival_time_utc": "2025-08-09T05:04:51Z",
+    "flight_duration_s": 13285,
+    "distance_calculated_km": 3096.06,
+    "great_circle_distance_km": 2993.22,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 2337,
+      "cruise": 8284,
+      "descent": 2519,
+      "landing": 720
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 1687.83,
+      "cruise": 4602.22,
+      "descent": 839.67,
+      "landing": 160.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 5333.54,
+      "cruise": 14543.02,
+      "descent": 2653.36,
+      "landing": 505.6
+    },
+    "co2_total_kg": 23541.12,
+    "co2_per_passenger_kg": 156.94
+  },
+  {
+    "fr24_id": "3ba50d1e",
+    "flight": "WN1433",
+    "callsign": "SWA1433",
+    "aircraft_model": "B38M",
+    "aircraft_reg": "N8786Q",
+    "departure_icao": "KSJC",
+    "arrival_icao": "KDEN",
+    "departure_time_utc": "2025-08-09T00:38:03Z",
+    "arrival_time_utc": "2025-08-09T02:41:34Z",
+    "flight_duration_s": 7411,
+    "distance_calculated_km": 1598.92,
+    "great_circle_distance_km": 1525.68,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 4139,
+      "cruise": 1080,
+      "descent": 2161,
+      "landing": 1444
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 176.0,
+      "climb": 3288.21,
+      "cruise": 660.0,
+      "descent": 792.37,
+      "landing": 352.98
+    },
+    "co2_estimated_kg": {
+      "takeoff": 556.16,
+      "climb": 10390.74,
+      "cruise": 2085.6,
+      "descent": 2503.89,
+      "landing": 1115.42
+    },
+    "co2_total_kg": 16651.81,
+    "co2_per_passenger_kg": 87.64
+  },
+  {
+    "fr24_id": "3ba52735",
+    "flight": "EJA793",
+    "callsign": "EJA793",
+    "aircraft_model": "CL35",
+    "aircraft_reg": "N793QS",
+    "departure_icao": "KTRK",
+    "arrival_icao": "KBJC",
+    "departure_time_utc": "2025-08-09T01:00:26Z",
+    "arrival_time_utc": "2025-08-09T02:46:49Z",
+    "flight_duration_s": 6383,
+    "distance_calculated_km": 1412.59,
+    "great_circle_distance_km": 1291.73,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1982,
+      "cruise": 720,
+      "descent": 3238,
+      "landing": 362
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 1431.44,
+      "cruise": 400.0,
+      "descent": 1079.33,
+      "landing": 80.44
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 4523.35,
+      "cruise": 1264.0,
+      "descent": 3410.68,
+      "landing": 254.19
+    },
+    "co2_total_kg": 9957.82,
+    "co2_per_passenger_kg": 66.39
+  },
+  {
+    "fr24_id": "3ba50397",
+    "flight": "LXJ568",
+    "callsign": "LXJ568",
+    "aircraft_model": "CL35",
+    "aircraft_reg": "N568FX",
+    "departure_icao": "KSUN",
+    "arrival_icao": "KBFI",
+    "departure_time_utc": "2025-08-09T01:31:52Z",
+    "arrival_time_utc": "2025-08-09T02:47:44Z",
+    "flight_duration_s": 4552,
+    "distance_calculated_km": 782.31,
+    "great_circle_distance_km": 769.574,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1259,
+      "cruise": 360,
+      "descent": 2487,
+      "landing": 5760
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 909.28,
+      "cruise": 200.0,
+      "descent": 829.0,
+      "landing": 1280.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 2873.32,
+      "cruise": 632.0,
+      "descent": 2619.64,
+      "landing": 4044.8
+    },
+    "co2_total_kg": 10675.36,
+    "co2_per_passenger_kg": 71.17
+  },
+  {
+    "fr24_id": "3ba4e4db",
+    "flight": "WN528",
+    "callsign": "SWA528",
+    "aircraft_model": "B737",
+    "aircraft_reg": "N451WN",
+    "departure_icao": "KMDW",
+    "arrival_icao": "KPHX",
+    "departure_time_utc": "2025-08-08T23:40:31Z",
+    "arrival_time_utc": "2025-08-09T02:54:39Z",
+    "flight_duration_s": 11648,
+    "distance_calculated_km": 2376.86,
+    "great_circle_distance_km": 2322.99,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 5219,
+      "cruise": 2882,
+      "descent": 3237,
+      "landing": 1808
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 184.0,
+      "climb": 4334.67,
+      "cruise": 1841.28,
+      "descent": 1240.85,
+      "landing": 462.04
+    },
+    "co2_estimated_kg": {
+      "takeoff": 581.44,
+      "climb": 13697.56,
+      "cruise": 5818.44,
+      "descent": 3921.09,
+      "landing": 1460.05
+    },
+    "co2_total_kg": 25478.58,
+    "co2_per_passenger_kg": 181.99
+  },
+  {
+    "fr24_id": "3ba51790",
+    "flight": "WN3937",
+    "callsign": "SWA3937",
+    "aircraft_model": "B738",
+    "aircraft_reg": "N8307K",
+    "departure_icao": "KOMA",
+    "arrival_icao": "KPHX",
+    "departure_time_utc": "2025-08-09T00:53:48Z",
+    "arrival_time_utc": "2025-08-09T03:20:32Z",
+    "flight_duration_s": 8804,
+    "distance_calculated_km": 1703.74,
+    "great_circle_distance_km": 1667.91,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 541,
+      "cruise": 5038,
+      "descent": 2878,
+      "landing": 1451
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 200.0,
+      "climb": 488.4,
+      "cruise": 3498.61,
+      "descent": 1199.17,
+      "landing": 403.06
+    },
+    "co2_estimated_kg": {
+      "takeoff": 632.0,
+      "climb": 1543.34,
+      "cruise": 11055.61,
+      "descent": 3789.38,
+      "landing": 1273.67
+    },
+    "co2_total_kg": 18294.0,
+    "co2_per_passenger_kg": 101.63
+  },
+  {
+    "fr24_id": "3ba5385d",
+    "flight": "G4927",
+    "callsign": "AAY927",
+    "aircraft_model": "A319",
+    "aircraft_reg": "N322NV",
+    "departure_icao": "KSPI",
+    "arrival_icao": "KPGD",
+    "departure_time_utc": "2025-08-09T01:26:40Z",
+    "arrival_time_utc": "2025-08-09T03:31:26Z",
+    "flight_duration_s": 7486,
+    "distance_calculated_km": 1601.85,
+    "great_circle_distance_km": 1599.43,
+    "phase_durations_s": {
+      "takeoff": 0,
+      "climb": 2881,
+      "cruise": 2880,
+      "descent": 1440,
+      "landing": 0
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 2080.72,
+      "cruise": 1600.0,
+      "descent": 480.0,
+      "landing": 0.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 6575.08,
+      "cruise": 5056.0,
+      "descent": 1516.8,
+      "landing": 0.0
+    },
+    "co2_total_kg": 13147.88,
+    "co2_per_passenger_kg": 87.65
+  },
+  {
+    "fr24_id": "3ba5260e",
+    "flight": "UA1301",
+    "callsign": "UAL1301",
+    "aircraft_model": "B737",
+    "aircraft_reg": "N14731",
+    "departure_icao": "KORD",
+    "arrival_icao": "KICT",
+    "departure_time_utc": "2025-08-09T01:34:12Z",
+    "arrival_time_utc": "2025-08-09T02:57:39Z",
+    "flight_duration_s": 5007,
+    "distance_calculated_km": 955.02,
+    "great_circle_distance_km": 945.432,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 899,
+      "cruise": 1799,
+      "descent": 1800,
+      "landing": 2180
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 184.0,
+      "climb": 746.67,
+      "cruise": 1149.36,
+      "descent": 690.0,
+      "landing": 557.11
+    },
+    "co2_estimated_kg": {
+      "takeoff": 581.44,
+      "climb": 2359.48,
+      "cruise": 3631.98,
+      "descent": 2180.4,
+      "landing": 1760.47
+    },
+    "co2_total_kg": 10513.77,
+    "co2_per_passenger_kg": 75.1
+  },
+  {
+    "fr24_id": "3ba4fa26",
+    "flight": "UA1076",
+    "callsign": "UAL1076",
+    "aircraft_model": "B38M",
+    "aircraft_reg": "N37313",
+    "departure_icao": "KIAH",
+    "arrival_icao": "KBOS",
+    "departure_time_utc": "2025-08-09T00:13:15Z",
+    "arrival_time_utc": "2025-08-09T03:42:36Z",
+    "flight_duration_s": 12561,
+    "distance_calculated_km": 2725.61,
+    "great_circle_distance_km": 2568.97,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1620,
+      "cruise": 9000,
+      "descent": 1799,
+      "landing": 1440
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 176.0,
+      "climb": 1287.0,
+      "cruise": 5500.0,
+      "descent": 659.63,
+      "landing": 352.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 556.16,
+      "climb": 4066.92,
+      "cruise": 17380.0,
+      "descent": 2084.43,
+      "landing": 1112.32
+    },
+    "co2_total_kg": 25199.83,
+    "co2_per_passenger_kg": 132.63
+  },
+  {
+    "fr24_id": "3ba505f5",
+    "flight": "WN1691",
+    "callsign": "SWA1691",
+    "aircraft_model": "B38M",
+    "aircraft_reg": "N8925Q",
+    "departure_icao": "KMDW",
+    "arrival_icao": "KFLL",
+    "departure_time_utc": "2025-08-09T00:35:04Z",
+    "arrival_time_utc": "2025-08-09T03:05:33Z",
+    "flight_duration_s": 9029,
+    "distance_calculated_km": 1918.9,
+    "great_circle_distance_km": 1877.54,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 3059,
+      "cruise": 3242,
+      "descent": 2159,
+      "landing": 2161
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 176.0,
+      "climb": 2430.21,
+      "cruise": 1981.22,
+      "descent": 791.63,
+      "landing": 528.24
+    },
+    "co2_estimated_kg": {
+      "takeoff": 556.16,
+      "climb": 7679.46,
+      "cruise": 6260.66,
+      "descent": 2501.55,
+      "landing": 1669.24
+    },
+    "co2_total_kg": 18667.07,
+    "co2_per_passenger_kg": 98.25
+  },
+  {
+    "fr24_id": "3ba4fa59",
+    "flight": "RKJ917",
+    "callsign": "RKJ917",
+    "aircraft_model": "C750",
+    "aircraft_reg": "N917PG",
+    "departure_icao": "KAPA",
+    "arrival_icao": "KAVP",
+    "departure_time_utc": "2025-08-08T23:51:21Z",
+    "arrival_time_utc": "2025-08-09T02:45:32Z",
+    "flight_duration_s": 10451,
+    "distance_calculated_km": 2505.96,
+    "great_circle_distance_km": 2467.62,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 3418,
+      "cruise": 2163,
+      "descent": 3956,
+      "landing": 721
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 2468.56,
+      "cruise": 1201.67,
+      "descent": 1318.67,
+      "landing": 160.22
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 7800.65,
+      "cruise": 3797.28,
+      "descent": 4167.0,
+      "landing": 506.3
+    },
+    "co2_total_kg": 16776.83,
+    "co2_per_passenger_kg": 111.85
+  },
+  {
+    "fr24_id": "3ba538c6",
+    "flight": "FX1202",
+    "callsign": "FDX1202",
+    "aircraft_model": "B77L",
+    "aircraft_reg": "N857FD",
+    "departure_icao": "KEWR",
+    "arrival_icao": "KMEM",
+    "departure_time_utc": "2025-08-09T01:42:38Z",
+    "arrival_time_utc": "2025-08-09T03:42:59Z",
+    "flight_duration_s": 7221,
+    "distance_calculated_km": 1540.08,
+    "great_circle_distance_km": 1519.88,
+    "phase_durations_s": {
+      "takeoff": 0,
+      "climb": 1080,
+      "cruise": 4320,
+      "descent": 1439,
+      "landing": 0
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 780.0,
+      "cruise": 2400.0,
+      "descent": 479.67,
+      "landing": 0.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 2464.8,
+      "cruise": 7584.0,
+      "descent": 1515.76,
+      "landing": 0.0
+    },
+    "co2_total_kg": 11564.56,
+    "co2_per_passenger_kg": 77.1
+  },
+  {
+    "fr24_id": "3ba5200c",
+    "flight": "SY8263",
+    "callsign": "SCX8263",
+    "aircraft_model": "B738",
+    "aircraft_reg": "N827SY",
+    "departure_icao": "KLIT",
+    "arrival_icao": "KIFP",
+    "departure_time_utc": "2025-08-09T00:41:57Z",
+    "arrival_time_utc": "2025-08-09T03:32:21Z",
+    "flight_duration_s": 10224,
+    "distance_calculated_km": 2057.94,
+    "great_circle_distance_km": 2033.35,
+    "phase_durations_s": {
+      "takeoff": 0,
+      "climb": 2521,
+      "cruise": 4678,
+      "descent": 2846,
+      "landing": 0
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 2275.9,
+      "cruise": 3248.61,
+      "descent": 1185.83,
+      "landing": 0.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 7191.84,
+      "cruise": 10265.61,
+      "descent": 3747.22,
+      "landing": 0.0
+    },
+    "co2_total_kg": 21204.67,
+    "co2_per_passenger_kg": 117.8
+  },
+  {
+    "fr24_id": "3ba5086d",
+    "flight": "AF33",
+    "callsign": "AFR33J",
+    "aircraft_model": "B772",
+    "aircraft_reg": "F-GSPM",
+    "departure_icao": "KATL",
+    "arrival_icao": "LFPG",
+    "departure_time_utc": "2025-08-09T00:30:48Z",
+    "arrival_time_utc": "2025-08-09T08:22:58Z",
+    "flight_duration_s": 28330,
+    "distance_calculated_km": 7204.7,
+    "great_circle_distance_km": 7075.82,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1979,
+      "cruise": 23401,
+      "descent": 2521,
+      "landing": 720
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 1429.28,
+      "cruise": 13000.56,
+      "descent": 840.33,
+      "landing": 160.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 4516.52,
+      "cruise": 41081.77,
+      "descent": 2655.44,
+      "landing": 505.6
+    },
+    "co2_total_kg": 49264.93,
+    "co2_per_passenger_kg": 328.43
+  },
+  {
+    "fr24_id": "3ba50d77",
+    "flight": "AA732",
+    "callsign": "AAL732",
+    "aircraft_model": "B772",
+    "aircraft_reg": "N798AN",
+    "departure_icao": "KCLT",
+    "arrival_icao": "EGLL",
+    "departure_time_utc": "2025-08-09T00:42:52Z",
+    "arrival_time_utc": "2025-08-09T08:01:38Z",
+    "flight_duration_s": 26326,
+    "distance_calculated_km": 6559.07,
+    "great_circle_distance_km": 6424.07,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 2700,
+      "cruise": 21240,
+      "descent": 2162,
+      "landing": 1810
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 1950.0,
+      "cruise": 11800.0,
+      "descent": 720.67,
+      "landing": 402.22
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 6162.0,
+      "cruise": 37288.0,
+      "descent": 2277.32,
+      "landing": 1271.02
+    },
+    "co2_total_kg": 47503.94,
+    "co2_per_passenger_kg": 316.69
+  },
+  {
+    "fr24_id": "3ba5251b",
+    "flight": "WN957",
+    "callsign": "SWA957",
+    "aircraft_model": "B738",
+    "aircraft_reg": "N8630B",
+    "departure_icao": "KAUS",
+    "arrival_icao": "KELP",
+    "departure_time_utc": "2025-08-09T01:21:25Z",
+    "arrival_time_utc": "2025-08-09T02:32:16Z",
+    "flight_duration_s": 4251,
+    "distance_calculated_km": 854.46,
+    "great_circle_distance_km": 851.742,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1260,
+      "cruise": 722,
+      "descent": 1798,
+      "landing": 360
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 200.0,
+      "climb": 1137.5,
+      "cruise": 501.39,
+      "descent": 749.17,
+      "landing": 100.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 632.0,
+      "climb": 3594.5,
+      "cruise": 1584.39,
+      "descent": 2367.38,
+      "landing": 316.0
+    },
+    "co2_total_kg": 8494.27,
+    "co2_per_passenger_kg": 47.19
+  },
+  {
+    "fr24_id": "3ba52571",
+    "flight": "WN2770",
+    "callsign": "SWA2770",
+    "aircraft_model": "B737",
+    "aircraft_reg": "N250WN",
+    "departure_icao": "KSAT",
+    "arrival_icao": "KPHX",
+    "departure_time_utc": "2025-08-09T01:32:46Z",
+    "arrival_time_utc": "2025-08-09T03:30:11Z",
+    "flight_duration_s": 7045,
+    "distance_calculated_km": 1393.31,
+    "great_circle_distance_km": 1355.35,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1261,
+      "cruise": 4320,
+      "descent": 1439,
+      "landing": 2174
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 184.0,
+      "climb": 1047.33,
+      "cruise": 2760.0,
+      "descent": 551.62,
+      "landing": 555.58
+    },
+    "co2_estimated_kg": {
+      "takeoff": 581.44,
+      "climb": 3309.56,
+      "cruise": 8721.6,
+      "descent": 1743.12,
+      "landing": 1755.63
+    },
+    "co2_total_kg": 16111.35,
+    "co2_per_passenger_kg": 115.08
+  },
+  {
+    "fr24_id": "3ba523c8",
+    "flight": "WN2404",
+    "callsign": "SWA2404",
+    "aircraft_model": "B738",
+    "aircraft_reg": "N8665D",
+    "departure_icao": "KDEN",
+    "arrival_icao": "KATL",
+    "departure_time_utc": "2025-08-09T01:25:45Z",
+    "arrival_time_utc": "2025-08-09T03:52:37Z",
+    "flight_duration_s": 8812,
+    "distance_calculated_km": 1943.05,
+    "great_circle_distance_km": 1929.88,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 3058,
+      "cruise": 1800,
+      "descent": 3601,
+      "landing": 360
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 200.0,
+      "climb": 2760.69,
+      "cruise": 1250.0,
+      "descent": 1500.42,
+      "landing": 100.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 632.0,
+      "climb": 8723.78,
+      "cruise": 3950.0,
+      "descent": 4741.33,
+      "landing": 316.0
+    },
+    "co2_total_kg": 18363.11,
+    "co2_per_passenger_kg": 102.02
+  },
+  {
+    "fr24_id": "3ba53a99",
+    "flight": "5X1027",
+    "callsign": "UPS1027",
+    "aircraft_model": "B752",
+    "aircraft_reg": "N452UP",
+    "departure_icao": "KBDL",
+    "arrival_icao": "KSDF",
+    "departure_time_utc": "2025-08-09T01:42:05Z",
+    "arrival_time_utc": "2025-08-09T03:23:43Z",
+    "flight_duration_s": 6098,
+    "distance_calculated_km": 1265.48,
+    "great_circle_distance_km": 1189.04,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 899,
+      "cruise": 3241,
+      "descent": 1440,
+      "landing": 723
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 649.28,
+      "cruise": 1800.56,
+      "descent": 480.0,
+      "landing": 160.67
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 2051.72,
+      "cruise": 5689.77,
+      "descent": 1516.8,
+      "landing": 507.72
+    },
+    "co2_total_kg": 10271.61,
+    "co2_per_passenger_kg": 68.48
+  },
+  {
+    "fr24_id": "3ba51097",
+    "flight": "Y43240",
+    "callsign": "VOI3240",
+    "aircraft_model": "A20N",
+    "aircraft_reg": "XA-VRW",
+    "departure_icao": "MMTJ",
+    "arrival_icao": "MMEP",
+    "departure_time_utc": "2025-08-09T00:30:07Z",
+    "arrival_time_utc": "2025-08-09T02:54:09Z",
+    "flight_duration_s": 8642,
+    "distance_calculated_km": 1799.78,
+    "great_circle_distance_km": 1721.23,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1260,
+      "cruise": 4321,
+      "descent": 2879,
+      "landing": 719
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 910.0,
+      "cruise": 2400.56,
+      "descent": 959.67,
+      "landing": 159.78
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 2875.6,
+      "cruise": 7585.77,
+      "descent": 3032.56,
+      "landing": 504.9
+    },
+    "co2_total_kg": 14504.43,
+    "co2_per_passenger_kg": 96.7
+  },
+  {
+    "fr24_id": "3ba524b6",
+    "flight": "UA3908",
+    "callsign": "UAL3908",
+    "aircraft_model": "B789",
+    "aircraft_reg": "N29978",
+    "departure_icao": "KORD",
+    "arrival_icao": "KEWR",
+    "departure_time_utc": "2025-08-09T01:25:17Z",
+    "arrival_time_utc": "2025-08-09T02:59:22Z",
+    "flight_duration_s": 5645,
+    "distance_calculated_km": 1189.5,
+    "great_circle_distance_km": 1158.01,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 901,
+      "cruise": 360,
+      "descent": 3960,
+      "landing": 1079
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 650.72,
+      "cruise": 200.0,
+      "descent": 1320.0,
+      "landing": 239.78
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 2056.28,
+      "cruise": 632.0,
+      "descent": 4171.2,
+      "landing": 757.7
+    },
+    "co2_total_kg": 8122.78,
+    "co2_per_passenger_kg": 54.15
+  },
+  {
+    "fr24_id": "3ba58510",
+    "flight": null,
+    "callsign": "UNKNOWN",
+    "aircraft_model": "default",
+    "aircraft_reg": null,
+    "departure_icao": null,
+    "arrival_icao": null,
+    "departure_time_utc": null,
+    "arrival_time_utc": null,
+    "flight_duration_s": null,
+    "distance_calculated_km": 218.5,
+    "great_circle_distance_km": null,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 179,
+      "cruise": 360,
+      "descent": 360,
+      "landing": 1442
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 129.28,
+      "cruise": 200.0,
+      "descent": 120.0,
+      "landing": 320.44
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 408.52,
+      "cruise": 632.0,
+      "descent": 379.2,
+      "landing": 1012.59
+    },
+    "co2_total_kg": 2937.91,
+    "co2_per_passenger_kg": 19.59
+  },
+  {
+    "fr24_id": "3ba51d86",
+    "flight": "WN1873",
+    "callsign": "SWA1873",
+    "aircraft_model": "B737",
+    "aircraft_reg": "N944WN",
+    "departure_icao": "KAUS",
+    "arrival_icao": "KTPA",
+    "departure_time_utc": "2025-08-09T01:01:43Z",
+    "arrival_time_utc": "2025-08-09T03:05:52Z",
+    "flight_duration_s": 7449,
+    "distance_calculated_km": 1570.18,
+    "great_circle_distance_km": 1492.82,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1980,
+      "cruise": 1800,
+      "descent": 3240,
+      "landing": 1443
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 184.0,
+      "climb": 1644.5,
+      "cruise": 1150.0,
+      "descent": 1242.0,
+      "landing": 368.77
+    },
+    "co2_estimated_kg": {
+      "takeoff": 581.44,
+      "climb": 5196.62,
+      "cruise": 3634.0,
+      "descent": 3924.72,
+      "landing": 1165.31
+    },
+    "co2_total_kg": 14502.09,
+    "co2_per_passenger_kg": 103.59
+  },
+  {
+    "fr24_id": "3ba52c3d",
+    "flight": "NK1068",
+    "callsign": "NKS1068",
+    "aircraft_model": "A20N",
+    "aircraft_reg": "N973NK",
+    "departure_icao": "KMSY",
+    "arrival_icao": "KMCO",
+    "departure_time_utc": "2025-08-09T01:15:25Z",
+    "arrival_time_utc": "2025-08-09T02:43:11Z",
+    "flight_duration_s": 5266,
+    "distance_calculated_km": 998.4,
+    "great_circle_distance_km": 885.969,
+    "phase_durations_s": {
+      "takeoff": 0,
+      "climb": 1081,
+      "cruise": 2159,
+      "descent": 1440,
+      "landing": 0
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 780.72,
+      "cruise": 1199.44,
+      "descent": 480.0,
+      "landing": 0.0
+    },
+    "co2_estimated_kg": {
+      "takeoff": 0.0,
+      "climb": 2467.08,
+      "cruise": 3790.23,
+      "descent": 1516.8,
+      "landing": 0.0
+    },
+    "co2_total_kg": 7774.11,
+    "co2_per_passenger_kg": 51.83
+  },
+  {
+    "fr24_id": "3ba535f1",
+    "flight": "DL1107",
+    "callsign": "DAL1107",
+    "aircraft_model": "B752",
+    "aircraft_reg": "N694DL",
+    "departure_icao": "KATL",
+    "arrival_icao": "KFLL",
+    "departure_time_utc": "2025-08-09T01:34:01Z",
+    "arrival_time_utc": "2025-08-09T02:59:03Z",
+    "flight_duration_s": 5102,
+    "distance_calculated_km": 1009.52,
+    "great_circle_distance_km": 935.569,
+    "phase_durations_s": {
+      "takeoff": 180,
+      "climb": 1259,
+      "cruise": 1440,
+      "descent": 2161,
+      "landing": 723
+    },
+    "fuel_estimated_kg": {
+      "takeoff": 160.0,
+      "climb": 909.28,
+      "cruise": 800.0,
+      "descent": 720.33,
+      "landing": 160.67
+    },
+    "co2_estimated_kg": {
+      "takeoff": 505.6,
+      "climb": 2873.32,
+      "cruise": 2528.0,
+      "descent": 2276.24,
+      "landing": 507.72
+    },
+    "co2_total_kg": 8690.88,
+    "co2_per_passenger_kg": 57.94
+  }
+]
