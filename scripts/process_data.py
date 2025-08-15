@@ -3,6 +3,7 @@ import logging
 import argparse
 from pathlib import Path
 from datetime import datetime, timezone
+from typing import Optional
 from geopy.distance import geodesic
 from tqdm import tqdm
 import config
@@ -77,7 +78,7 @@ def estimate_co2_by_passenger(fuel_kg, model="default"):
     return round(co2_total / seats, 2)
 
 
-def process_run_data(run_dir: Path, target_flight_id: str = None):
+def process_run_data(run_dir: Path, target_flight_id: Optional[str] = None):
     """
     Processes raw data. If target_flight_id is given, only processes that flight.
     """
