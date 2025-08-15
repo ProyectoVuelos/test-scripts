@@ -11,15 +11,12 @@ import config
 
 
 def get_flight_ids_for_day(airport_list, target_date_str):
-    """
-    Fetches all unique, landed flight IDs from a list of airports for a single specific date.
-    """
+    """Fetches all unique, landed flight IDs from a list of airports for a single specific date."""
     flight_ids_for_day = set()
     start_of_day_utc = datetime.strptime(target_date_str, "%Y-%m-%d").replace(
         tzinfo=timezone.utc
     )
     end_of_day_utc = start_of_day_utc + timedelta(days=1) - timedelta(seconds=1)
-
     pbar = tqdm(airport_list, desc=f"✈️  Seeding Day: {target_date_str}", leave=False)
     for airport_icao in pbar:
         pbar.set_postfix_str(f"Querying {airport_icao}")
@@ -39,15 +36,12 @@ def get_flight_ids_for_day(airport_list, target_date_str):
                 )
                 r.raise_for_status()
                 data = r.json()
-
                 flights_on_page = data.get("data", [])
                 if not flights_on_page:
                     break
-
                 for flight in flights_on_page:
                     if flight.get("status", {}).get("text", "").lower() == "landed":
                         flight_ids_for_day.add(flight.get("fr24_id"))
-
                 page += 1
                 time.sleep(0.5)
             except requests.RequestException as e:
@@ -55,8 +49,7 @@ def get_flight_ids_for_day(airport_list, target_date_str):
                     f"Could not fetch flights for {airport_icao} on page {page}: {e}"
                 )
                 break
-
-    return flight_ids_for_day
+    return list(flight_ids_for_day)
 
 
 def get_data_for_flight_id(flight_id):
@@ -70,7 +63,6 @@ def get_data_for_flight_id(flight_id):
         positions_data = pos_r.json().get("data", [])
         if not positions_data or len(positions_data) < config.MINIMUM_DATA_POINTS:
             return None
-
         summary_params = {"flight": flight_id}
         sum_r = requests.get(
             config.SUMMARY_URL, headers=config.HEADERS, params=summary_params
@@ -84,7 +76,6 @@ def get_data_for_flight_id(flight_id):
 
 
 def main():
-    """Main function to run the data acquisition process for the entire last week."""
     config.setup_logging()
     run_timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     run_output_dir = config.BASE_OUTPUT_DIR / f"run_{run_timestamp}"
@@ -96,7 +87,7 @@ def main():
     last_week_monday = last_week_sunday - timedelta(days=6)
     dates_to_process = [last_week_monday + timedelta(days=i) for i in range(7)]
     logging.info(
-        f"Targeting last week for data acquisition: {last_week_monday.strftime('%Y-%m-%d')} to {last_week_sunday.strftime('%Y-%m-%d')}"
+        f"Targeting last week: {last_week_monday.strftime('%Y-%m-%d')} to {last_week_sunday.strftime('%Y-%m-%d')}"
     )
 
     if not config.AIRPORTS_FILE.exists():
@@ -105,36 +96,37 @@ def main():
     with open(config.AIRPORTS_FILE, "r") as f:
         airport_list = [line.strip() for line in f if line.strip()]
 
-    all_unique_flight_ids = set()
+    all_candidate_ids = set()
+    flights_to_process = []
+
+    candidate_dir = run_output_dir / "candidates"
+    candidate_dir.mkdir(exist_ok=True)
+
     for day in dates_to_process:
         date_str = day.strftime("%Y-%m-%d")
         ids_for_day = get_flight_ids_for_day(airport_list, date_str)
-        all_unique_flight_ids.update(ids_for_day)
         logging.info(f"Found {len(ids_for_day)} completed flights for {date_str}.")
 
-    unique_flight_ids_list = list(all_unique_flight_ids)
-    if not unique_flight_ids_list:
-        logging.warning("No completed flight IDs were found for last week. Exiting.")
-        return
+        with open(
+            candidate_dir / f"candidates_{day.strftime('%Y%m%d')}.json", "w"
+        ) as f:
+            json.dump(ids_for_day, f)
+
+        all_candidate_ids.update(ids_for_day)
+
+        if len(ids_for_day) > config.FLIGHTS_PER_DAY:
+            daily_sample = random.sample(ids_for_day, k=config.FLIGHTS_PER_DAY)
+            flights_to_process.extend(daily_sample)
+        else:
+            flights_to_process.extend(ids_for_day)
 
     logging.info(
-        f"Found a total of {len(unique_flight_ids_list)} unique and completed flight IDs for the entire week."
+        f"Found a total of {len(all_candidate_ids)} candidates. Created a balanced sample of {len(flights_to_process)} flights for the initial run."
     )
-
-    if len(unique_flight_ids_list) > config.MAX_FLIGHTS_TO_PROCESS:
-        logging.info(
-            f"Selecting a random sample of {config.MAX_FLIGHTS_TO_PROCESS} flights from the total pool."
-        )
-        flights_to_process = random.sample(
-            unique_flight_ids_list, k=config.MAX_FLIGHTS_TO_PROCESS
-        )
-    else:
-        logging.info("Processing all found flights as the total is within the limit.")
-        flights_to_process = unique_flight_ids_list
 
     estimated_cost = len(flights_to_process) * 540
     logging.info(
-        f"Processing {len(flights_to_process)} flights. Estimated cost: ~{estimated_cost:,} credits."
+        f"Processing initial sample. Estimated cost: ~{estimated_cost:,} credits."
     )
 
     all_flight_data = []
@@ -154,7 +146,7 @@ def main():
                 all_flight_data.append(result)
 
     if not all_flight_data:
-        logging.warning("No complete flight data was acquired. Exiting.")
+        logging.warning("No complete flight data was acquired.")
         return
 
     flight_details_map, all_summaries = {}, []
@@ -183,16 +175,14 @@ def main():
     details_map_path = run_output_dir / f"flight_details_map_{date_range_str}.json"
     with open(details_map_path, "w", encoding="utf-8") as f:
         json.dump(flight_details_map, f, indent=2)
-    logging.info(f"Saved flight details map to {details_map_path}")
 
     summaries_dir = run_output_dir / "summaries"
     summaries_dir.mkdir(parents=True, exist_ok=True)
     summary_file_path = summaries_dir / f"flights_summary_{date_range_str}.json"
     with open(summary_file_path, "w", encoding="utf-8") as f:
         json.dump(all_summaries, f, indent=2)
-    logging.info(f"Saved {len(all_summaries)} summaries to {summary_file_path}")
 
-    logging.info("✅ Data acquisition finished successfully.")
+    logging.info("✅ Initial data acquisition finished successfully.")
 
 
 if __name__ == "__main__":

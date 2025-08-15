@@ -19,14 +19,11 @@ FLIGHTS_URL = "https://fr24api.flightradar24.com/api/flights/"
 SUMMARY_URL = "https://fr24api.flightradar24.com/api/flight-summary/full"
 POSITIONS_URL = "https://fr24api.flightradar24.com/api/historic/flight-positions/full"
 
-# --- New settings for airport-based acquisition ---
+TOTAL_FLIGHTS_TO_PROCESS = 1200
+FLIGHTS_PER_DAY = 170
+
 AIRPORTS_FILE = Path("data/airports.txt")
-MAX_FLIGHTS_TO_PROCESS = 1200
-
-# --- Processing Parameters ---
 MINIMUM_DATA_POINTS = 5
-
-# --- File Paths ---
 BASE_OUTPUT_DIR = Path("data/flights")
 LOG_DIR = Path("logs")
 
@@ -44,8 +41,5 @@ def setup_logging():
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s [%(levelname)s] %(message)s",
-        handlers=[
-            logging.FileHandler(LOG_DIR / "logs.log"),
-            logging.StreamHandler(),
-        ],
+        handlers=[logging.FileHandler(LOG_DIR / "logs.log"), logging.StreamHandler()],
     )
