@@ -4,7 +4,7 @@ from pathlib import Path
 import pandas as pd
 
 SAMPLE_SIZE = 5000
-OUTPUT_FILE = Path("data/flights_to_track.csv")
+OUTPUT_FILE = Path("flights_to_track.csv")
 
 IATA_TO_ICAO_MAP = {
     "AA": "AAL",
